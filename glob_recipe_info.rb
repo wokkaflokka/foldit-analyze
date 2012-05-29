@@ -5,7 +5,7 @@
 # Takes the following parameters:
 #  1) Location of the 'all.macro' file (for MacOS, it is within the .app structure)
 
-require 'foldit_helpers'
+require 'lib/foldit_helpers'
 include Foldit
 
 macro_file = ARGV[0].chomp("\n")
