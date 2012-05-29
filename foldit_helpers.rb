@@ -14,10 +14,11 @@ module Foldit
     # Ensure we loaded the right file...
     verify_macro_file(recipes)
     # Write the info out as YAML
-    names   = find_name(recipes.select{|r|is_scriptable(r)})
-    parents = find_parent(recipes.select{|r|is_scriptable(r)})
-    node    = find_recipe_url(recipes.select{|r|is_scriptable(r)})
-    print_rec_info(names, parents, node, location)
+    names    = find_name(recipes.select{|r|is_scriptable(r)})
+    parents  = find_parent(recipes.select{|r|is_scriptable(r)})
+    nodes    = find_recipe_url(recipes.select{|r|is_scriptable(r)})
+    pids     = find_player(recipes.select{|r|is_scriptable(r)})
+    print_rec_info(names, parents, nodes, pids, location)
   end
 
   def find_code(recipes)
@@ -34,6 +35,10 @@ module Foldit
 
   def find_recipe_url(recipes)
     process_array(find_block(recipes, 'mid', 'mrid'))
+  end
+
+  def find_player(recipes)
+    process_array(find_block(recipes, 'player_id', 'script'))
   end
 
   def find_block(recipes, start, close)
@@ -104,12 +109,13 @@ module Foldit
     end
   end
 
-  def print_rec_info(names, parents, nids, bucket)
+  def print_rec_info(names, parents, nids, pids, bucket)
     File.open("#{bucket}/recipe_info.yaml", "w") { |f|
       names.each_with_index do |n,i|
         f.puts("'#{n}':")
         f.puts("\t'parent': #{parents[i]}")
         f.puts("\t'nid': #{nids[i]}")
+        f.puts("\t'pid': #{pids[i]}")
         f.puts
       end
     }
