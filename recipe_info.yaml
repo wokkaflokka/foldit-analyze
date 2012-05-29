@@ -1,115 +1,115 @@
 'Co bind struct correct':
-	'parent': 0
-	'nid': 31591
-	'pid': 235191
+    'parent': '0'
+    'nid'   : '31591'
+    'pid'   : '235191'
 
 'autogen structure code':
-	'parent': 0
-	'nid': 31590
-	'pid': 235191
+    'parent': '0'
+    'nid'   : '31590'
+    'pid'   : '235191'
 
 'Rav3n_pl GAB v2.0.5':
-	'parent': 0
-	'nid': 41091
-	'pid': 174969
+    'parent': '0'
+    'nid'   : '41091'
+    'pid'   : '174969'
 
 'Loop rebuild  2.0':
-	'parent': 6760
-	'nid': 6985
-	'pid': 3010
+    'parent': '6760'
+    'nid'   : '6985'
+    'pid'   : '3010'
 
 'tlaloc Make Denovo 3.00':
-	'parent': 0
-	'nid': 3658
-	'pid': 57765
+    'parent': '0'
+    'nid'   : '3658'
+    'pid'   : '57765'
 
 'V2 Rav3n_pl Total FuzeR v1.1':
-	'parent': 0
-	'nid': 30998
-	'pid': 102459
+    'parent': '0'
+    'nid'   : '30998'
+    'pid'   : '102459'
 
 'tlaloc Mutate All 3.04':
-	'parent': 0
-	'nid': 8811
-	'pid': 57765
+    'parent': '0'
+    'nid'   : '8811'
+    'pid'   : '57765'
 
 'QuakeR 2.51':
-	'parent': 6285
-	'nid': 15698
-	'pid': 174969
+    'parent': '6285'
+    'nid'   : '15698'
+    'pid'   : '174969'
 
 'Rav3n_pl GAB v0.6 loss':
-	'parent': 0
-	'nid': 34931
-	'pid': 174969
+    'parent': '0'
+    'nid'   : '34931'
+    'pid'   : '174969'
 
 'Rav3n_pl Total FuzeR v2.0.1':
-	'parent': 0
-	'nid': 41095
-	'pid': 174969
+    'parent': '0'
+    'nid'   : '41095'
+    'pid'   : '174969'
 
 'tlaloc Repeat Settle 3.00':
-	'parent': 0
-	'nid': 3643
-	'pid': 57765
+    'parent': '0'
+    'nid'   : '3643'
+    'pid'   : '57765'
 
 'Quake  shearing':
-	'parent': 19705
-	'nid': 34602
-	'pid': 33153
+    'parent': '19705'
+    'nid'   : '34602'
+    'pid'   : '33153'
 
 'tlaloc Hydrophobe 3.00':
-	'parent': 0
-	'nid': 4063
-	'pid': 57765
+    'parent': '0'
+    'nid'   : '4063'
+    'pid'   : '57765'
 
 'Rav3n_pl GAB v0.4.1 stability':
-	'parent': 32216
-	'nid': 33872
-	'pid': 174969
+    'parent': '32216'
+    'nid'   : '33872'
+    'pid'   : '174969'
 
 'Kuwaga Repeat Settle 0.93':
-	'parent': 32311
-	'nid': 32363
-	'pid': 306994
+    'parent': '32311'
+    'nid'   : '32363'
+    'pid'   : '306994'
 
 'Rav3n_pl GAB BiS Flu':
-	'parent': 0
-	'nid': 41034
-	'pid': 174969
+    'parent': '0'
+    'nid'   : '41034'
+    'pid'   : '174969'
 
 'Zero Length Bands v 1.0.3 -- Brow42':
-	'parent': 0
-	'nid': 37147
-	'pid': 269484
+    'parent': '0'
+    'nid'   : '37147'
+    'pid'   : '269484'
 
 'Rav3n_pl Hydro PulleR v2':
-	'parent': 0
-	'nid': 37303
-	'pid': 174969
+    'parent': '0'
+    'nid'   : '37303'
+    'pid'   : '174969'
 
 'GA Bands 1.8':
-	'parent': 13923
-	'nid': 14267
-	'pid': 174969
+    'parent': '13923'
+    'nid'   : '14267'
+    'pid'   : '174969'
 
 'Rav Compress 2.2.1 for Symmetry -- Brow42':
-	'parent': 41614
-	'nid': 41615
-	'pid': 269484
+    'parent': '41614'
+    'nid'   : '41615'
+    'pid'   : '269484'
 
 'tlaloc Band Explorer 1.03':
-	'parent': 0
-	'nid': 37146
-	'pid': 57765
+    'parent': '0'
+    'nid'   : '37146'
+    'pid'   : '57765'
 
 'GA Bands 2.5  H-1-5':
-	'parent': 28974
-	'nid': 29337
-	'pid': 174969
+    'parent': '28974'
+    'nid'   : '29337'
+    'pid'   : '174969'
 
 'Blue Fuse v1.1':
-	'parent': 2016
-	'nid': 2052
-	'pid': 72605
+    'parent': '2016'
+    'nid'   : '2052'
+    'pid'   : '72605'
 

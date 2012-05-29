@@ -90,9 +90,9 @@ module Foldit
     File.open("#{bucket}/recipe_info.yaml", "w") { |f|
       names.each_with_index do |n,i|
         f.puts("'#{n}':")
-        f.puts("\t'parent': #{parents[i]}")
-        f.puts("\t'nid': #{nids[i]}")
-        f.puts("\t'pid': #{pids[i]}")
+        f.puts("    'parent': '#{parents[i]}'")
+        f.puts("    'nid'   : '#{nids[i]}'")
+        f.puts("    'pid'   : '#{pids[i]}'")
         f.puts
       end
     }
