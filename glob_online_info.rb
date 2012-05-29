@@ -38,28 +38,21 @@ analysis = {}
 puts "Looking for recipe YAML in #{INFO_STORE}"
 recipes = load_yaml("#{INFO_STORE}/#{RECIPE_INFO}")
 recipes.each do |k,v|
-  pnt = recipe(v['parent'])
-  unt = player(v['pid'])
-  nnt = recipe(v['nid'])
-  puts "Looking for resources here:\n\t#{pnt}\n\t#{unt}\n\t#{nnt}"
   analysis[k] = {'parent' => '', 'self' => '', 'user' => ''}
   unless v['parent'] == '0'
-    p = get(pnt)
+    p = get(recipe(v['parent']))
     analysis[k]['parent'] = p.body
     puts "Parent returned status: #{p.status}"
   end
-  s = get(nnt)
-  u = get(unt)
-  analysis[k]['self'] = s.body
-  puts "Recipe returned statius: #{s.status}"
-  analysis[k]['user'] = u.body
+  s = get(recipe(v['nid']))
+  u = get(player(v['pid']))
+  puts "Recipe returned status: #{s.status}"
   puts "User returned status: #{u.status}"
+  analysis[k]['self'] = s.body
+  analysis[k]['user'] = u.body
 end
 
 puts "Saving our scraped data in #{INFO_STORE}"
-
-puts analysis.keys
-puts analysis[analysis.keys.first]['self']
 
 i = 0
 analysis.each do |k,v|
