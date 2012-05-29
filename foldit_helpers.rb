@@ -58,30 +58,6 @@ module Foldit
       container << r[s..(e-1)].join('\\n ')[0..-3]
     end
     return container
-#
-# The method below works, but the one above is much easier
-#
-=begin
-      sleep 1000
-      code = ''
-      until r_string.empty?
-        # Read through each entry until we find the script code...
-        d = r_string.match(delim)
-        break if d.nil?
-        if d.pre_match.include?("\"#{start}\\")
-          code = d.post_match
-          break
-        end
-        r_string = d.post_match
-      end
-      if code.empty?
-        puts "Failed to find script code for recipe #{r_string.inspect}"
-      else
-        # Removes a leading quote at the beginning of the match
-        pm = code.match(delim).pre_match[2..-1]
-        container << pm.split("\\\"\\n \\\"#{close}").first
-      end
-=end
   end
 
   def print_scripts(scripts, names, bucket)
@@ -91,7 +67,8 @@ module Foldit
       begin
         fname = names[i].downcase.strip.gsub(' ','').gsub('_','-').gsub('.','-')
         file = File.open("#{bucket}/#{fname}.lua","w")
-        code = s.split(d) # break on line delimiter
+        # break on line delimiter
+        code = s.split(d)
         code.each do |line|
           # Remove escape sequences
           temp = line.gsub("\\\\\\",'')
