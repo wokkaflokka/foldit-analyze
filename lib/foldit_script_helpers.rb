@@ -88,7 +88,7 @@ end
 
 def total_number_matches data, rgx
   res = process_regex(data, rgx)
-  (res.empty?) ? "-1" : res.size
+  (res.empty?) ? -1 : res.size
 end
 
 def process_regex(string, rgx)
