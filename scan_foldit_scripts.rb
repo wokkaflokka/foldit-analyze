@@ -1,45 +1,36 @@
 #!/usr/bin/env ruby
 
-def count_lines file
-  `wc -l #{file} | awk '{print $1}'`
+require 'lib/foldit_script_helpers'
+
+def process_script_file(code)
+  FolditScript.new(
+    :nl => count_lines(code),
+    :hf => funcs_and_libraries(code),
+    :il => long_runtime(code),
+    :ig => is_genetic(code),
+    :rs => has_recursion(code),
+    :cs => checks_score(code),
+    :st => checks_state(code),
+    :cp => checks_protein(code),
+    :rv => reverts_progress(code),
+    :ub => profile_builtins(code)
+  ).to_hash
 end
 
-def library_rgx
-  Regexp.new("library|function", Regexp::IGNORECASE)
+FILE_STORE = ARGV[0]
+RESULTS    = ARGV[1] || './results.log'
+
+memo = []
+Dir.entries(FILE_STORE).map {|n| "#{FILE_STORE}/#{n}"}.reject {|f| File.directory?(f) }.each do |f|
+  memo << { :file => f, :res => process_script_file(File.read(f)) }
 end
 
-def long_runtime_rgx
-  Regexp.new("long|forever|hours|slow|overnight|complex|advanced", Regexp::IGNORECASE)
+File.open(RESULTS,'w') do |f|
+  memo.each do |hash|
+    f.write("------------------------------------------------\n")
+    f.write("File: #{hash[:file]}\n")
+    f.write("Analysis: #{hash[:res].inspect}\n")
+    f.write("#")
+  end
 end
-
-def short_runtime_rgx
-  Regexp.new("short|quick|simple|fast|immediate|speed", Regexp::IGNORECASE)
-end
-
-def genetic_regex
-  Regexp.new(['genetic', 'train', 'optimize', 'learn', 'herd', 'breed', 'mutate'].join('|'), Regexp::IGNORECASE)
-end
-
-def score_rgx
-  Regexp.new(['best score', 'bestScore', 'best_score', 'more points', 'improve', 'scoreBefore', 'score_before'].join('|'), Regexp::IGNORECASE)
-end
-
-def recursion_rgx
-  Regexp.new(['recursive', 'recursion', 'recurse'].join('|'), Regexp::IGNORECASE)
-end
-
-def foldit_funcs
-["AreConditionsMet", "GetEnergyScore", "GetExplorationMultiplier", "GetScore", "GetSegmentEnergyScore", "GetSegmentEnergySubscore", "Restore", "Add", "AddBetweenSegments", "AddToBandEndpoint", "Delete", "DeleteAll", "Disable", "DisableAll", "Enable", "EnableAll", "GetCount", "GetGoalLength", "GetLength", "GetStrength", "IsEnabled", "SetGoalLength", "SetStrength", "GetClashImportance", "GetShakeAccuracy", "GetWiggleAccuracy", "SetClashImportance", "SetShakeAccuracy", "SetWiggleAccuracy", "GetHeat", "IsContact", "AddButton", "AddCheckbox", "AddLabel", "AddSlider", "AddTextbox", "CreateDialog", "Show", "Freeze", "FreezeAll", "FreezeSelected", "IsFrozen", "Unfreeze", "UnfreezeAll", "GetDescription", "GetExpirationTime", "GetName", "GetPuzzleID", "StartOver", "Save", "CompareNumbers", "GetRandomSeed", "ReportStatus", "SectionEnd", "SectionStart", "SetRotamer", "LoadSecondaryStructure", "Quickload", "Quicksave", "SaveSecondaryStructure", "GetGroupRank", "GetGroupScore", "GetRank", "GetScoreType", "Deselect", "DeselectAll", "IsSelected", "Select", "SelectAll", "SelectRange", "GetAminoAcid", "GetAtomCount", "GetDistance", "GetNote", "GetSecondaryStructure", "IsHydrophobic", "IsMutable", "LocalWiggleAll", "LocalWiggleSelected", "MutateSidechainsAll", "MutateSidechainsSelected", "RebuildSelected", "SetAminoAcid", "SetAminoAcidSelected", "SetNote", "SetSecondaryStructure", "SetSecondaryStructureSelected", "ShakeSidechainsAll", "ShakeSidechainsSelected", "WiggleAll", "WiggleSelected", "AlignGuide", "CenterViewport", "GetTrackName", "GetGroupID", "GetGroupName", "GetPlayerID"]
-end
-
-def foldit_check_state
-  ['AreConditionsMet','GetEnergyScore','GetScore','GetSegmentEnergyScore','GetSegmentEnergySubscore', "GetClashImportance", "GetShakeAccuracy", "GetWiggleAccuracy", "GetGoalLength", "ReportStatus", "GetHeat", "GetStrength", "GetAtomCount"]
-end
-
-def foldit_revert
-  ["StartOver", "Restore"]
-end
-
-def foldit_anl_protein
-  ["IsHydrophobic", "IsMutable", "IsContact", "IsFrozen", "IsSelected"]
-end
+exit(0)

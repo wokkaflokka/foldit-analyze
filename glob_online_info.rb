@@ -1,7 +1,6 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 require 'rubygems'
-require 'nokogiri'
 require 'excon'
 require 'yaml'
 

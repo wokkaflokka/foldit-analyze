@@ -23,7 +23,9 @@ def search_with_scope(artifact, context, &blk)
 end
 
 def search_for_text(artifact, text)
-  artifact.search("//*[contains(text(),'#{text}')]")
+  artifact.search("//*[contains(
+translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+                 'abcdefghijklmnopqrstuvwxyz'), '#{text}')]")
 end
 
 def glob_rating_data(html)
@@ -98,7 +100,7 @@ end
 FILES_DIR  = ARGV[0]
 OUTPUT_LOG = ARGV[1] || './recipe-scan-log.log'
 exit(-1) unless File.exist?(FILES_DIR) and File.directory?(FILES_DIR)
-files = Dir.entries(FILES_DIR).reject {|f| File.directory?(f) }.map {|n| "#{FILES_DIR}/#{n}"}
+files = Dir.entries(FILES_DIR).map {|n| "#{FILES_DIR}/#{n}"}.reject {|f| File.directory?(f) }
 `rm -f #{OUTPUT_LOG}` if File.exist?(OUTPUT_LOG)
 
 process_html_files(files) do |html|
