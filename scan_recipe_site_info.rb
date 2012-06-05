@@ -93,7 +93,7 @@ def log_processing_results(data)
     f.write("Rating: #{data[:rating].inspect}\n")
     f.write("Context: #{data[:aux].inspect}\n")
     f.write("Expressed: #{data[:human].inspect}\n")
-    f.write("#")
+    f.write("#\n")
   end
 end
 

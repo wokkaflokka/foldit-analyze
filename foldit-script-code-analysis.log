@@ -1,70 +1,92 @@
 ------------------------------------------------
 File: tmp/autogenstructurecode.lua
 Analysis: {:linecount=>107, :useslibrary=>6, :longruntime=>{:shortmatches=>-1, :longmatches=>1}, :genetic=>1, :recursion=>-1, :smartscore=>-1, :smartstate=>-1, :protein=>-1, :reverts=>7, :builtinusage=>{"Restore"=>7, "Save"=>2, "Deselect"=>3, "Select"=>6}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/bluefusev1-1.lua
 Analysis: {:linecount=>18, :useslibrary=>-1, :longruntime=>{:shortmatches=>-1, :longmatches=>-1}, :genetic=>-1, :recursion=>-1, :smartscore=>-1, :smartstate=>-1, :protein=>-1, :reverts=>2, :builtinusage=>{"Restore"=>2, "Select"=>1}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/cobindstructcorrect.lua
 Analysis: {:linecount=>55, :useslibrary=>4, :longruntime=>{:shortmatches=>-1, :longmatches=>-1}, :genetic=>-1, :recursion=>-1, :smartscore=>-1, :smartstate=>-1, :protein=>-1, :reverts=>3, :builtinusage=>{"Restore"=>3, "Deselect"=>7, "Select"=>14}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/gabands1-8.lua
 Analysis: {:linecount=>747, :useslibrary=>40, :longruntime=>{:shortmatches=>24, :longmatches=>2}, :genetic=>121, :recursion=>-1, :smartscore=>18, :smartstate=>-1, :protein=>-1, :reverts=>6, :builtinusage=>{"Restore"=>6, "Add"=>2, "Delete"=>6, "Disable"=>5, "DisableAll"=>4, "Enable"=>3, "Save"=>18, "Quickload"=>11, "Quicksave"=>8, "Select"=>7}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/gabands2-5h-1-5.lua
 Analysis: {:linecount=>777, :useslibrary=>40, :longruntime=>{:shortmatches=>19, :longmatches=>2}, :genetic=>131, :recursion=>-1, :smartscore=>18, :smartstate=>-1, :protein=>-1, :reverts=>3, :builtinusage=>{"Restore"=>3, "Add"=>2, "Delete"=>6, "Disable"=>5, "DisableAll"=>4, "Enable"=>3, "Save"=>18, "Quickload"=>7, "Quicksave"=>7, "Select"=>7}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/kuwagarepeatsettle0-93.lua
 Analysis: {:linecount=>191, :useslibrary=>6, :longruntime=>{:shortmatches=>1, :longmatches=>1}, :genetic=>6, :recursion=>-1, :smartscore=>2, :smartstate=>-1, :protein=>-1, :reverts=>3, :builtinusage=>{"Restore"=>3, "Enable"=>1, "Freeze"=>8, "Unfreeze"=>4, "Save"=>1, "Quicksave"=>1, "Deselect"=>6, "Select"=>10}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/looprebuild2-0.lua
 Analysis: {:linecount=>549, :useslibrary=>12, :longruntime=>{:shortmatches=>14, :longmatches=>5}, :genetic=>-1, :recursion=>-1, :smartscore=>33, :smartstate=>-1, :protein=>-1, :reverts=>12, :builtinusage=>{"Restore"=>12, "Add"=>1, "Disable"=>3, "Enable"=>3, "Freeze"=>1, "Save"=>10, "Quickload"=>5, "Quicksave"=>8, "Deselect"=>4, "Select"=>13}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/quaker2-51.lua
 Analysis: {:linecount=>265, :useslibrary=>22, :longruntime=>{:shortmatches=>10, :longmatches=>-1}, :genetic=>2, :recursion=>3, :smartscore=>4, :smartstate=>-1, :protein=>-1, :reverts=>3, :builtinusage=>{"Restore"=>3, "Add"=>1, "Delete"=>2, "Freeze"=>1, "Unfreeze"=>1, "Save"=>11, "Quickload"=>5, "Quicksave"=>4, "Deselect"=>1, "Select"=>3}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/quakeshearing.lua
 Analysis: {:linecount=>259, :useslibrary=>16, :longruntime=>{:shortmatches=>11, :longmatches=>-1}, :genetic=>-1, :recursion=>1, :smartscore=>4, :smartstate=>-1, :protein=>-1, :reverts=>2, :builtinusage=>{"Restore"=>2, "Add"=>1, "Delete"=>2, "Freeze"=>1, "Unfreeze"=>1, "Save"=>15, "Quickload"=>3, "Quicksave"=>5, "Deselect"=>1, "Select"=>4}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/rav3n-plgabbisflu.lua
 Analysis: {:linecount=>519, :useslibrary=>28, :longruntime=>{:shortmatches=>14, :longmatches=>-1}, :genetic=>82, :recursion=>-1, :smartscore=>7, :smartstate=>2, :protein=>1, :reverts=>2, :builtinusage=>{"GetEnergyScore"=>1, "GetScore"=>1, "Restore"=>2, "Add"=>8, "Delete"=>3, "DeleteAll"=>3, "Disable"=>1, "GetCount"=>3, "SetStrength"=>1, "SetClashImportance"=>1, "Save"=>28, "GetRandomSeed"=>1, "Quickload"=>6, "Quicksave"=>6, "Select"=>9, "SelectAll"=>3, "GetAminoAcid"=>1, "GetSecondaryStructure"=>1, "IsMutable"=>1, "MutateSidechainsSelected"=>2, "ShakeSidechainsSelected"=>1, "WiggleAll"=>3}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/rav3n-plgabv0-4-1stability.lua
 Analysis: {:linecount=>490, :useslibrary=>33, :longruntime=>{:shortmatches=>14, :longmatches=>-1}, :genetic=>64, :recursion=>-1, :smartscore=>6, :smartstate=>-1, :protein=>-1, :reverts=>2, :builtinusage=>{"Restore"=>2, "Add"=>6, "Delete"=>3, "Disable"=>1, "Save"=>12, "Quickload"=>6, "Quicksave"=>6, "Select"=>3}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/rav3n-plgabv0-6loss.lua
 Analysis: {:linecount=>581, :useslibrary=>36, :longruntime=>{:shortmatches=>14, :longmatches=>-1}, :genetic=>75, :recursion=>-1, :smartscore=>7, :smartstate=>-1, :protein=>-1, :reverts=>2, :builtinusage=>{"Restore"=>2, "Add"=>7, "Delete"=>3, "Disable"=>1, "Save"=>13, "Quickload"=>6, "Quicksave"=>6, "Select"=>3}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/rav3n-plgabv2-0-5.lua
 Analysis: {:linecount=>559, :useslibrary=>29, :longruntime=>{:shortmatches=>14, :longmatches=>-1}, :genetic=>85, :recursion=>-1, :smartscore=>8, :smartstate=>4, :protein=>1, :reverts=>2, :builtinusage=>{"GetEnergyScore"=>2, "GetScore"=>2, "Restore"=>2, "Add"=>8, "AddBetweenSegments"=>1, "Delete"=>3, "DeleteAll"=>3, "Disable"=>1, "GetCount"=>5, "SetGoalLength"=>1, "SetStrength"=>1, "SetClashImportance"=>1, "Save"=>28, "GetRandomSeed"=>1, "Quickload"=>6, "Quicksave"=>6, "Select"=>9, "SelectAll"=>3, "GetAminoAcid"=>2, "GetDistance"=>2, "GetSecondaryStructure"=>3, "IsMutable"=>1, "MutateSidechainsSelected"=>2, "ShakeSidechainsSelected"=>1, "WiggleAll"=>3}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/rav3n-plhydropullerv2.lua
 Analysis: {:linecount=>268, :useslibrary=>21, :longruntime=>{:shortmatches=>11, :longmatches=>-1}, :genetic=>-1, :recursion=>1, :smartscore=>3, :smartstate=>2, :protein=>1, :reverts=>3, :builtinusage=>{"GetEnergyScore"=>1, "GetScore"=>1, "Restore"=>3, "Add"=>1, "AddBetweenSegments"=>1, "Delete"=>2, "DeleteAll"=>1, "GetCount"=>7, "SetGoalLength"=>1, "SetStrength"=>1, "SetClashImportance"=>1, "Save"=>20, "GetRandomSeed"=>1, "Quickload"=>2, "Quicksave"=>3, "SaveSecondaryStructure"=>1, "Select"=>10, "SelectAll"=>4, "GetDistance"=>2, "GetSecondaryStructure"=>2, "IsHydrophobic"=>1, "SetSecondaryStructure"=>1, "SetSecondaryStructureSelected"=>1, "ShakeSidechainsSelected"=>1, "WiggleAll"=>4}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/rav3n-pltotalfuzerv2-0-1.lua
 Analysis: {:linecount=>128, :useslibrary=>8, :longruntime=>{:shortmatches=>4, :longmatches=>-1}, :genetic=>-1, :recursion=>-1, :smartscore=>5, :smartstate=>2, :protein=>-1, :reverts=>1, :builtinusage=>{"GetEnergyScore"=>1, "GetScore"=>1, "Restore"=>1, "GetCount"=>1, "SetClashImportance"=>1, "Show"=>3, "Save"=>9, "Quickload"=>2, "Quicksave"=>2, "Select"=>4, "SelectAll"=>1, "ShakeSidechainsSelected"=>2, "WiggleAll"=>2}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/ravcompress2-2-1forsymmetry--brow42.lua
 Analysis: {:linecount=>715, :useslibrary=>87, :longruntime=>{:shortmatches=>21, :longmatches=>2}, :genetic=>2, :recursion=>1, :smartscore=>6, :smartstate=>5, :protein=>3, :reverts=>9, :builtinusage=>{"AreConditionsMet"=>1, "GetEnergyScore"=>1, "GetExplorationMultiplier"=>1, "GetScore"=>1, "GetSegmentEnergyScore"=>1, "GetSegmentEnergySubscore"=>1, "Restore"=>8, "Add"=>7, "AddBetweenSegments"=>2, "AddToBandEndpoint"=>1, "Delete"=>12, "DeleteAll"=>1, "Disable"=>8, "DisableAll"=>2, "Enable"=>8, "EnableAll"=>1, "GetCount"=>10, "GetLength"=>1, "SetGoalLength"=>3, "SetStrength"=>2, "SetClashImportance"=>1, "AddButton"=>1, "AddLabel"=>1, "CreateDialog"=>1, "Show"=>1, "Freeze"=>6, "FreezeAll"=>1, "FreezeSelected"=>1, "Unfreeze"=>2, "UnfreezeAll"=>1, "GetName"=>1, "StartOver"=>1, "Save"=>29, "SetRotamer"=>1, "LoadSecondaryStructure"=>1, "Quickload"=>8, "Quicksave"=>9, "SaveSecondaryStructure"=>1, "Deselect"=>4, "DeselectAll"=>1, "IsSelected"=>2, "Select"=>28, "SelectAll"=>2, "SelectRange"=>1, "GetAminoAcid"=>1, "GetDistance"=>1, "GetSecondaryStructure"=>1, "IsHydrophobic"=>1, "LocalWiggleSelected"=>1, "MutateSidechainsSelected"=>1, "RebuildSelected"=>1, "SetAminoAcid"=>1, "SetSecondaryStructure"=>1, "ShakeSidechainsSelected"=>1, "WiggleAll"=>3, "WiggleSelected"=>1}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/tlalocbandexplorer1-03.lua
 Analysis: {:linecount=>55, :useslibrary=>-1, :longruntime=>{:shortmatches=>-1, :longmatches=>-1}, :genetic=>-1, :recursion=>-1, :smartscore=>-1, :smartstate=>3, :protein=>-1, :reverts=>-1, :builtinusage=>{"Add"=>22, "AddBetweenSegments"=>3, "Disable"=>3, "GetCount"=>4, "SetGoalLength"=>1, "SetStrength"=>1, "AddButton"=>4, "AddCheckbox"=>1, "AddSlider"=>11, "CreateDialog"=>2, "Show"=>2, "GetAtomCount"=>3}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/tlalochydrophobe3-00.lua
 Analysis: {:linecount=>1574, :useslibrary=>133, :longruntime=>{:shortmatches=>30, :longmatches=>2}, :genetic=>13, :recursion=>-1, :smartscore=>24, :smartstate=>13, :protein=>13, :reverts=>27, :builtinusage=>{"GetScore"=>13, "Restore"=>27, "Add"=>22, "AddBetweenSegments"=>10, "Delete"=>23, "Disable"=>18, "Enable"=>17, "SetStrength"=>9, "Freeze"=>26, "FreezeAll"=>12, "Unfreeze"=>13, "UnfreezeAll"=>9, "Save"=>101, "Quickload"=>15, "Quicksave"=>15, "GetRank"=>29, "Deselect"=>13, "DeselectAll"=>8, "Select"=>46, "SelectAll"=>20, "IsHydrophobic"=>13, "WiggleAll"=>8}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/tlalocmakedenovo3-00.lua
 Analysis: {:linecount=>1475, :useslibrary=>129, :longruntime=>{:shortmatches=>28, :longmatches=>2}, :genetic=>13, :recursion=>-1, :smartscore=>11, :smartstate=>38, :protein=>13, :reverts=>26, :builtinusage=>{"GetScore"=>38, "Restore"=>26, "Add"=>21, "AddBetweenSegments"=>9, "Delete"=>22, "Disable"=>18, "Enable"=>17, "SetStrength"=>7, "Freeze"=>26, "FreezeAll"=>12, "Unfreeze"=>13, "UnfreezeAll"=>9, "Save"=>92, "Quickload"=>14, "Quicksave"=>14, "Deselect"=>13, "DeselectAll"=>8, "Select"=>46, "SelectAll"=>20, "IsHydrophobic"=>13, "WiggleAll"=>9}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/tlalocmutateall3-04.lua
 Analysis: {:linecount=>1583, :useslibrary=>133, :longruntime=>{:shortmatches=>30, :longmatches=>2}, :genetic=>14, :recursion=>-1, :smartscore=>24, :smartstate=>41, :protein=>13, :reverts=>27, :builtinusage=>{"GetScore"=>41, "Restore"=>27, "Add"=>22, "AddBetweenSegments"=>10, "Delete"=>23, "Disable"=>18, "Enable"=>17, "SetStrength"=>9, "Freeze"=>26, "FreezeAll"=>12, "Unfreeze"=>13, "UnfreezeAll"=>9, "Save"=>101, "Quickload"=>15, "Quicksave"=>15, "Deselect"=>13, "DeselectAll"=>8, "Select"=>46, "SelectAll"=>20, "IsHydrophobic"=>13, "WiggleAll"=>8}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/tlalocrepeatsettle3-00.lua
 Analysis: {:linecount=>1475, :useslibrary=>129, :longruntime=>{:shortmatches=>28, :longmatches=>2}, :genetic=>13, :recursion=>-1, :smartscore=>11, :smartstate=>38, :protein=>13, :reverts=>26, :builtinusage=>{"GetScore"=>38, "Restore"=>26, "Add"=>21, "AddBetweenSegments"=>9, "Delete"=>22, "Disable"=>18, "Enable"=>17, "SetStrength"=>7, "Freeze"=>26, "FreezeAll"=>12, "Unfreeze"=>13, "UnfreezeAll"=>9, "Save"=>92, "Quickload"=>14, "Quicksave"=>14, "Deselect"=>13, "DeselectAll"=>8, "Select"=>46, "SelectAll"=>20, "IsHydrophobic"=>13, "WiggleAll"=>9}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/v2rav3n-pltotalfuzerv1-1.lua
 Analysis: {:linecount=>214, :useslibrary=>15, :longruntime=>{:shortmatches=>1, :longmatches=>-1}, :genetic=>-1, :recursion=>-1, :smartscore=>5, :smartstate=>1, :protein=>-1, :reverts=>1, :builtinusage=>{"GetEnergyScore"=>1, "Restore"=>1, "GetCount"=>1, "SetClashImportance"=>3, "Show"=>3, "Save"=>5, "Quicksave"=>1, "Select"=>2, "SelectAll"=>1, "ShakeSidechainsAll"=>3, "WiggleAll"=>5}}
-#------------------------------------------------
+#
+------------------------------------------------
 File: tmp/zerolengthbandsv1-0-3--brow42.lua
 Analysis: {:linecount=>348, :useslibrary=>28, :longruntime=>{:shortmatches=>2, :longmatches=>1}, :genetic=>-1, :recursion=>1, :smartscore=>-1, :smartstate=>3, :protein=>-1, :reverts=>-1, :builtinusage=>{"GetSegmentEnergySubscore"=>1, "Add"=>41, "GetCount"=>2, "SetGoalLength"=>1, "SetStrength"=>1, "AddButton"=>6, "AddCheckbox"=>5, "AddLabel"=>10, "AddSlider"=>5, "AddTextbox"=>6, "CreateDialog"=>2, "Show"=>3, "Freeze"=>2, "Unfreeze"=>1, "Save"=>2, "GetRandomSeed"=>1, "Select"=>1, "GetAminoAcid"=>2, "GetAtomCount"=>2, "GetDistance"=>2, "GetSecondaryStructure"=>2}}
 #

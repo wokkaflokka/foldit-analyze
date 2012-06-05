@@ -30,7 +30,7 @@ File.open(RESULTS,'w') do |f|
     f.write("------------------------------------------------\n")
     f.write("File: #{hash[:file]}\n")
     f.write("Analysis: #{hash[:res].inspect}\n")
-    f.write("#")
+    f.write("#\n")
   end
 end
 exit(0)
