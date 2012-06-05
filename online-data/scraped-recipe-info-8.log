@@ -1,2 +1,876 @@
-Quake  shearing =>
-{"self"=>"<!doctype HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"  xmlns:fb=\"http://www.facebook.com/2008/fbml\">\r\n\r\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t<title>Quake  shearing | Foldit</title>\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<link rel=\"shortcut icon\" href=\"/portal/files/favicon.ico\" type=\"image/x-icon\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/portal/files/css/css_597c4a2962db0903889164c0fb8e0024.css\" />\n\t<script type=\"text/javascript\" src=\"/portal/files/js/js_9de760852a52d14a92cbd21c500edde2.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings, { \"basePath\": \"/portal/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Rating: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Vote saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Vote removed.\" }, \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\": 1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip\" }, \"extra_voting_forms\": { \"only_one_vote\": 1, \"login_page\": \"portal/user/login\", \"base_path\": \"/portal/\" } });\n//--><!]]>\n</script>\n</head>\r\n\r\n<body>\r\n<center>\r\n<table id=\"main-table\">\r\n\t<tr>\r\n\t\t<td id=\"header\" colspan=\"7\">\r\n\r\n\t\t\t<!-- transparent link to the main page -->\r\n\t\t\t<a href=\"/portal/\"><div style=\"float: left; width: 235px; height: 100px; cursor: pointer;\"></div></a>\r\n\r\n\t\t\t<!-- <div style=\"float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">04:32:16 GMT</div> -->\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">04:32:16 GMT</span>\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\"></span>\r\n\r\n\t\t\t<table id=\"actions\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t<!-- Want to play? <a href=\"/portal/user/register\">Register</a> to get an account &mdash; it's free. -->\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\r\n\t\t\t<table id=\"navigation\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td colspan=1></td>\r\n\t\t\t\t\t<td><a href=\"/portal/puzzles\">Puzzles</a>&nbsp;<a href=\"/comm/puzzles_rss\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Puzzles Feed\" alt=\"Puzzles Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/groups\">Groups</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/players\">Players</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/\">Home</a></td> -->\r\n\t\t\t\t\t<!--<td><div class=\"nav-link-new\"><div class=\"nav-link-new-shadow\">NEW<div class=\"nav-link-new-label\">NEW</div></div>\r\n\t\t\t\t\t<a href=\"/portal/blog\">Blog</a></div></td>-->\r\n\t\t\t\t\t<td><a href=\"/portal/recipes\">Recipes</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/contest\">Contests</a></td>\r\n\t\t\t\t<tr>\r\n\t\t\t\t</tr>\r\n\t\t\t\t\t<td><a href=\"/portal/blog\">Blog</a>&nbsp;<a href=\"/portal/blog/feed\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Blog Feed\" alt=\"Blog Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/feedback\">Feedback</a>&nbsp;</td>\r\n\t\t\t\t\t<td><a href=\"/portal/forum/5\">Forum</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/info/videos\">Videos</a></td> -->\r\n\t\t\t\t\t<td>\r\n\t\t\t\t\t\t<a href=\"http://foldit.wikia.com/\">Wiki</a>\r\n\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\t\t\t<a href=\"/portal/info/faq\">FAQ</a>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td><a href=\"/portal/info/science\">About</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/about\">Credits</a></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t\r\n\t\t</td>\r\n\t</tr>\r\n\t\r\n\t <tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\r\n\t\t\t\t\t<td id=\"column-middle\" colspan=\"3\">\r\n\t\t\t\t\t\t<div id=\"main-content-area\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"page-name\"></div><div style=\"clear: both\"></div>\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"real_tabs\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div class=\"rp-page-content\">\r\n\t\t\t\t\t\t    <div class=\"content\">\r\n\t\t\t\t\t\t\t<style>\n.fivestar-widget { text-align: left; }\n#byline {color: grey; font-size: 9pt;}\n#description { font-size: 12pt; margin-left: 24pt;}\n#rating {font-size:10pt; margin-top: 0px; padding: 2px; width: 400px;}\n#rating label {font-weight: bold; display: none;}\n#rating { font-size: 9pt !important; line-height: 1.4;}\n.panel li { margin-bottom: 6px; }\n\n</style>\n<div class=\"view-content\">\n<div id=\"node-2000034602\" class=\"node clear-block\">\n<!-- <h2>Quake  shearing</h2> -->\n\n<div class=\"content\">\n<table class=\"macro-main\">\n<tr><td class=\"macro-left\">\n\n<table style=\"margin-top: 15px\">\n   <span><a href=\"/portal/recipes\">Back to Recipes Homepage</a></span>\n\n   <tr>\n   <td>\n   <img src=\"/portal/site_files/theme/recipe.png\" alt=\"recipe picture\"/>\n   </td>\n   <td>\n   <div style=\"margin-left: 5px; margin-top: 10px;  font-size:10pt;\">\n\n   <div class=\"node-name\">\n   Recipe: Quake  shearing   </div>\n   <div style=\"font-size:10pt; margin-top: 6px; padding-left: 2px;\">\n   <span style=\"font-weight: bold; color: #666;\">Created by </span>\n   <a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a>   </div>\n   <div id=\"rating\">\n<div class=\"fivestar-static-form-item\"><div class=\"form-item\">\n <div class=\"fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clear-block\"><div class=\"star star-1 star-odd star-first\"><span class=\"on\">4.714285</span></div><div class=\"star star-2 star-even\"><span class=\"on\"></span></div><div class=\"star star-3 star-odd\"><span class=\"on\"></span></div><div class=\"star star-4 star-even\"><span class=\"on\"></span></div><div class=\"star star-5 star-odd star-last\"><span class=\"on\" style=\"width: 71.4285%\"></span></div></div>\n <div class=\"description\"><div class=\"fivestar-summary fivestar-summary-combo\"><span class=\"user-rating\">Your rating: <span>None</span></span> <span class=\"average-rating\">Average: <span>4.7</span></span> <span class=\"total-votes\">(<span>14</span> votes)</span></div></div>\n</div>\n</div>   </div>\n\n   </div>\n   </td>\n   </tr>\n</table>\n\n<h1>Profile</h1>\n\n   <table class=\"drupal-info\">\n   <tr>\n   <th>Name:</th>\n   <td>Quake  shearing</td>\n   </tr>\n   <tr>\n   <th>ID:</th>\n   <td>34602</td>\n   </tr>\n   <tr>\n   <th>Created on:</th>\n   <td>\nSun, 10/30/2011 - 03:57   </td>\n   </tr>\n   <tr>\n   <th>Updated on:</th>\n   <td>Wed, 11/02/2011 - 22:32</td>\n   </tr>\n   <tr>\n   <th>Description:</th>\n   <td><p>Quake by slice along the axes of the part of protein with shearing effects</p></td>\n   </tr>\n   </table>\n\n<!--\n<div id=\"byline\">\nID: 34602 | Updated on Wed, 11/02/2011 - 22:32 | Created on Sun, 10/30/2011 - 10:57</div>\n-->\n\n<!--\n<div id=\"description\">\n<p>Quake by slice along the axes of the part of protein with shearing effects</p></div>\n-->\n<pre>\n</pre>\n\n<h1>Best For</h1>\n<div class=\"best-for-list\"><table></table></div><br/>\n\n<h1>Comments</h1>\n<div id=\"forum-comments\">\n  <a id=\"comment-13866\"></a>\n\n    <div id=\"comment-13866\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Sun, 10/30/2011 - 12:08\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000034602#comment-13866\">#1</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/33153\" title=\"View user profile.\"><img src=\"http://fold.it:80/portal/files/pictures/picture-33153.jpg\" alt=\"marie_s&#039;s picture\" title=\"marie_s&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 4 hours 59 min ago.\" title=\"User offline. Last seen 4 hours 59 min ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 05/18/2008        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> None        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          for middle or end of game        </div>\n      \n      <div class=\"content\">\n        <p>Can give some points.<br />\nA couple of hours, not overnight.<br />\nFrom 1 slice to 10 sclices x 2 times.<br />\nif stopped, restore best score by ctrl 3.</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000034602%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000034602%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x13866\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u13866\">\n            <input id=\"u13866\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d13866\">\n            <input id=\"d13866\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"13866\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F13866\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div><a id=\"comment-13892\"></a>\n\n    <div id=\"comment-13892\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Wed, 11/02/2011 - 00:09\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000034602#comment-13892\">#2</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/355392' title=''>Alexis.Sherman <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/355392\" title=\"View user profile.\"><img src=\"/portal/files/theme/system-users-smaller.png\" alt=\"Alexis.Sherman&#039;s picture\" title=\"Alexis.Sherman&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 26 weeks 4 days ago.\" title=\"User offline. Last seen 26 weeks 4 days ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 10/22/2011        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> <a href=\"/portal/node/34667\">Street Smarts</a>        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          very helpful        </div>\n      \n      <div class=\"content\">\n        <p>Helped my score improve drastically (+100 points) when I ran it when I was stuck.<br />\nTakes a long time, so run it when you are going to do something else.</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000034602%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000034602%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x13892\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u13892\">\n            <input id=\"u13892\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d13892\">\n            <input id=\"d13892\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"13892\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F13892\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div><a id=\"comment-13900\"></a>\n\n    <div id=\"comment-13900\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Wed, 11/02/2011 - 23:18\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000034602#comment-13900\">#3</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/355663' title=''>DarkTigrou <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/355663\" title=\"View user profile.\"><img src=\"/portal/files/theme/system-users-smaller.png\" alt=\"DarkTigrou&#039;s picture\" title=\"DarkTigrou&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 24 weeks 7 hours ago.\" title=\"User offline. Last seen 24 weeks 7 hours ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 10/23/2011        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> <a href=\"/portal/node/61909\">L&#039;Alliance Francophone</a>        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          Good recipe!        </div>\n      \n      <div class=\"content\">\n        <p>Thanks for this great recipe!<br />\nMore than 50 points gained in a complete run in middle game. I was stuck, it improved my folding.</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000034602%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000034602%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x13900\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u13900\">\n            <input id=\"u13900\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d13900\">\n            <input id=\"d13900\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"13900\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F13900\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div><a id=\"comment-13985\"></a>\n\n    <div id=\"comment-13985\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Wed, 11/09/2011 - 23:24\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000034602#comment-13985\">#4</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/275043' title=''>SimplySue <span class=\"schl schl-ev\">30</span> <span class=\"schl schl-so\">86</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/275043\" title=\"View user profile.\"><img src=\"http://fold.it:80/portal/files/pictures/picture-275043.jpg\" alt=\"SimplySue&#039;s picture\" title=\"SimplySue&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 26 min 45 sec ago.\" title=\"User offline. Last seen 26 min 45 sec ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 09/19/2011        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> <a href=\"/portal/node/987632\">Anthropic Dreams</a>        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          Very good!        </div>\n      \n      <div class=\"content\">\n        <p>Got a move on a \"stuck\" protein that nothing else would budge in the right direction. Thanks for posting it!</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000034602%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000034602%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x13985\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u13985\">\n            <input id=\"u13985\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d13985\">\n            <input id=\"d13985\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"13985\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F13985\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div><a id=\"comment-14665\"></a>\n\n    <div id=\"comment-14665\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Fri, 12/30/2011 - 17:00\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000034602#comment-14665\">#5</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/296620' title=''>timpdelaney <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">187</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/296620\" title=\"View user profile.\"><img src=\"/portal/files/theme/system-users-smaller.png\" alt=\"timpdelaney&#039;s picture\" title=\"timpdelaney&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 12 weeks 4 days ago.\" title=\"User offline. Last seen 12 weeks 4 days ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 09/20/2011        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> None        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          Wow, what a great recipe!        </div>\n      \n      <div class=\"content\">\n        <p>Marie, you did a great job modifying the Quake Shearing predecessors!  This is my \"go to\" recipe when I need significant results.  Thank you for posting it!!</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000034602%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000034602%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x14665\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u14665\">\n            <input id=\"u14665\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d14665\">\n            <input id=\"d14665\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"14665\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F14665\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div>  </div>\n\n</td>\n<td class=\"macro-right\" style=\"\">\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-center\"> </div>\n  <div style=\"clear:both; text-align: center;\">\n  <div style=\"width: 120px; margin: auto; font-size: 9pt; font-weight: bold; margin-bottom: 10px;\">\n  Want to try?\n  </div>\n<div style=\"margin:auto; border: 1px solid grey; width: 120px; height: 32px; background-color: grey; text-align: center; font-weight:bold; line-height:32px; color: white;\">Add to Cookbook!</div>\n\n<div style=\"text-align: center; width: 120px; margin: auto; margin-top: 10px;\">\n  To download recipes to your cookbook, you need to have the game client running.\n    \n</div>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Parent</div>\n  <div style=\"font-size: 9pt;\">\n\n<ul<li><a href=\"/portal/recipe/19705\">Rav3n_pl Quake Slice  v1.3</a><br/>by <a href='/portal/user/174969' title=''>Rav3n_pl <span class=\"schl schl-ev\">74</span> <span class=\"schl schl-so\">29</span></a></li></ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Children</div>\n  <div style=\"font-size: 9pt;\">\n\n<ul><li><a href=\"/portal/recipe/34611\">Quake  shearing edit</a>, <a href=\"/portal/recipe/34649\">Quake  shearing gh</a><br/>by <a href='/portal/user/252636' title=''>lolbaer <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/34887\">Quake  shearing design</a>, <a href=\"/portal/recipe/34995\">Quake shearing design</a><br/>by <a href='/portal/user/202811' title=''>Ch&nbsp;Garnier <span class=\"schl schl-ev\">64</span> <span class=\"schl schl-so\">37</span></a></li><li><a href=\"/portal/recipe/34920\">Quake  shearing</a><br/>by <a href='/portal/user/360760' title=''>christioanchauvin <span class=\"schl schl-ev\">52</span> <span class=\"schl schl-so\">20</span></a></li><li><a href=\"/portal/recipe/35410\">Quake  shearing mild</a><br/>by <a href='/portal/user/359569' title=''>pvc78 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">22</span></a></li><li><a href=\"/portal/recipe/36057\">Quake  shearing RJ</a><br/>by <a href='/portal/user/268846' title=''>jeshyr <span class=\"schl schl-ev\">149</span> <span class=\"schl schl-so\">3163</span></a></li><li><a href=\"/portal/recipe/36104\">temp - Quake  shearing</a><br/>by <a href='/portal/user/370132' title=''>j_johnso <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">2881</span></a></li><li><a href=\"/portal/recipe/36123\">hci_Quake _shearing</a><br/>by <a href='/portal/user/290768' title=''>bamh <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">92</span></a></li><li><a href=\"/portal/recipe/37124\">Quake  shearing longer</a><br/>by <a href='/portal/user/4489' title=''>versat82 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">193</span></a></li><li><a href=\"/portal/recipe/37392\">quake long run</a><br/>by <a href='/portal/user/379515' title=''>sirus20x6 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">3580</span></a></li><li><a href=\"/portal/recipe/37442\">(quake) Quake  shearing</a><br/>by <a href='/portal/user/261726' title=''>mottiger <span class=\"schl schl-ev\">24</span> <span class=\"schl schl-so\">19</span></a></li><li><a href=\"/portal/recipe/37934\">my Quake  shearing</a><br/>by <a href='/portal/user/386733' title=''>zpovsic <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">720</span></a></li><li><a href=\"/portal/recipe/38641\">Quake  shearing 0.25</a><br/>by <a href='/portal/user/395791' title=''>JackWeaver <span class=\"schl schl-ev\">49</span> <span class=\"schl schl-so\">81</span></a></li><li><a href=\"/portal/recipe/40429\">Quake  shearing m</a><br/>by <a href='/portal/user/415872' title=''>ghost-white <span class=\"schl schl-ev\">109</span> <span class=\"schl schl-so\">71</span></a></li></ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Authors</div>\n  <div style=\"font-size: 9pt;\">\n\n  <ul> \n<li><a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a></li><li><a href='/portal/user/174969' title=''>Rav3n_pl <span class=\"schl schl-ev\">74</span> <span class=\"schl schl-so\">29</span></a></li>\n  </ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n\n\n</td></tr>\n</table>\n\n<!-- \n<div class=\"links\">&raquo; Array</div>-->\n\n\n</div>\n\n</div>\n</div>\n\n\n\n\t\t\t\t\t\t    </div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"footer\">\r\n\t\t\t\t\t\t  \t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t\r\n\t<!-- internet explorer requires this empty row to ensure 7 columns -->\r\n\t<tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-right\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td id=\"footer\" colspan=\"7\"/>\r\n\t</tr>\r\n</table>\r\n</center>\r\n\t\r\n<div id=\"supported-by\">\r\nSupported by:\r\n<a href=\"http://www.centerforgamescience.org/\">UW Center for Game Science</a>,\r\n<a href=\"http://www.cs.washington.edu/\">UW Department of Computer Science and Engineering</a>,\r\n<a href=\"http://www.bakerlab.org/\">UW Baker Lab</a>,\r\n<a href=\"http://www.darpa.mil/\">DARPA</a>,\r\n<a href=\"http://www.nsf.gov/\">NSF</a>,\r\n<a href=\"http://www.hhmi.org/\">HHMI</a>,\r\n<a href=\"http://www.microsoft.com/\">Microsoft</a>, and\r\n<a href=\"http://www.adobe.com/\">Adobe</a>\r\n</div>\r\n\r\n\r\n\r\n\r\n<!-- Closure -->\r\n<script type=\"text/javascript\" src=\"/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js\"></script>\r\n<script type=\"text/javascript\" src=\"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php\"></script><form action=\"/portal/recipe/34602\"  accept-charset=\"UTF-8\" method=\"post\" id=\"fbconnect-autoconnect-form\">\n<div><input type=\"hidden\" name=\"fbconnect\" id=\"edit-fbconnect\" value=\"\"  />\n<input type=\"hidden\" name=\"form_build_id\" id=\"form-a1584498dc0eeb72761ffdb05df9037b\" value=\"form-a1584498dc0eeb72761ffdb05df9037b\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-fbconnect-autoconnect-form\" value=\"fbconnect_autoconnect_form\"  />\n\n</div></form>\n<script type=\"text/javascript\" src=\"/portal/files/js/js_becb5617668c27f583a98523e374f2f2.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nfunction facebook_onlogin_ready() {$(\"#fbconnect-autoconnect-form\").submit();}\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nFB.Bootstrap.requireFeatures([\"Connect\",\"XFBML\"], function() {\n      FB.Facebook.init(\"700ac22cbb9093908fafa5fa20621f6c\", \"/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html\"); \n    });\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\ntry{var pageTracker = _gat._getTracker(\"UA-3696727-1\");pageTracker._trackPageview();} catch(err) {}\n//--><!]]>\n</script>\n<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->\r\n<!-- TODO (don't need facebook yet: <div id=\"FB_HiddenIFrameContainer\" style=\"display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;\"></div> -->\r\n\r\n</body>\r\n\r\n</html>\r\n", "parent"=>"<!doctype HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"  xmlns:fb=\"http://www.facebook.com/2008/fbml\">\r\n\r\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t<title>Rav3n_pl Quake Slice  v1.3 | Foldit</title>\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<link rel=\"shortcut icon\" href=\"/portal/files/favicon.ico\" type=\"image/x-icon\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/portal/files/css/css_597c4a2962db0903889164c0fb8e0024.css\" />\n\t<script type=\"text/javascript\" src=\"/portal/files/js/js_9de760852a52d14a92cbd21c500edde2.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings, { \"basePath\": \"/portal/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Rating: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Vote saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Vote removed.\" }, \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\": 1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip\" }, \"extra_voting_forms\": { \"only_one_vote\": 1, \"login_page\": \"portal/user/login\", \"base_path\": \"/portal/\" } });\n//--><!]]>\n</script>\n</head>\r\n\r\n<body>\r\n<center>\r\n<table id=\"main-table\">\r\n\t<tr>\r\n\t\t<td id=\"header\" colspan=\"7\">\r\n\r\n\t\t\t<!-- transparent link to the main page -->\r\n\t\t\t<a href=\"/portal/\"><div style=\"float: left; width: 235px; height: 100px; cursor: pointer;\"></div></a>\r\n\r\n\t\t\t<!-- <div style=\"float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">04:32:15 GMT</div> -->\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">04:32:15 GMT</span>\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\"></span>\r\n\r\n\t\t\t<table id=\"actions\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t<!-- Want to play? <a href=\"/portal/user/register\">Register</a> to get an account &mdash; it's free. -->\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\r\n\t\t\t<table id=\"navigation\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td colspan=1></td>\r\n\t\t\t\t\t<td><a href=\"/portal/puzzles\">Puzzles</a>&nbsp;<a href=\"/comm/puzzles_rss\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Puzzles Feed\" alt=\"Puzzles Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/groups\">Groups</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/players\">Players</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/\">Home</a></td> -->\r\n\t\t\t\t\t<!--<td><div class=\"nav-link-new\"><div class=\"nav-link-new-shadow\">NEW<div class=\"nav-link-new-label\">NEW</div></div>\r\n\t\t\t\t\t<a href=\"/portal/blog\">Blog</a></div></td>-->\r\n\t\t\t\t\t<td><a href=\"/portal/recipes\">Recipes</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/contest\">Contests</a></td>\r\n\t\t\t\t<tr>\r\n\t\t\t\t</tr>\r\n\t\t\t\t\t<td><a href=\"/portal/blog\">Blog</a>&nbsp;<a href=\"/portal/blog/feed\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Blog Feed\" alt=\"Blog Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/feedback\">Feedback</a>&nbsp;</td>\r\n\t\t\t\t\t<td><a href=\"/portal/forum/5\">Forum</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/info/videos\">Videos</a></td> -->\r\n\t\t\t\t\t<td>\r\n\t\t\t\t\t\t<a href=\"http://foldit.wikia.com/\">Wiki</a>\r\n\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\t\t\t<a href=\"/portal/info/faq\">FAQ</a>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td><a href=\"/portal/info/science\">About</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/about\">Credits</a></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t\r\n\t\t</td>\r\n\t</tr>\r\n\t\r\n\t <tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\r\n\t\t\t\t\t<td id=\"column-middle\" colspan=\"3\">\r\n\t\t\t\t\t\t<div id=\"main-content-area\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"page-name\"></div><div style=\"clear: both\"></div>\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"real_tabs\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div class=\"rp-page-content\">\r\n\t\t\t\t\t\t    <div class=\"content\">\r\n\t\t\t\t\t\t\t<style>\n.fivestar-widget { text-align: left; }\n#byline {color: grey; font-size: 9pt;}\n#description { font-size: 12pt; margin-left: 24pt;}\n#rating {font-size:10pt; margin-top: 0px; padding: 2px; width: 400px;}\n#rating label {font-weight: bold; display: none;}\n#rating { font-size: 9pt !important; line-height: 1.4;}\n.panel li { margin-bottom: 6px; }\n\n</style>\n<div class=\"view-content\">\n<div id=\"node-2000019705\" class=\"node clear-block\">\n<!-- <h2>Rav3n_pl Quake Slice  v1.3</h2> -->\n\n<div class=\"content\">\n<table class=\"macro-main\">\n<tr><td class=\"macro-left\">\n\n<table style=\"margin-top: 15px\">\n   <span><a href=\"/portal/recipes\">Back to Recipes Homepage</a></span>\n\n   <tr>\n   <td>\n   <img src=\"/portal/site_files/theme/recipe.png\" alt=\"recipe picture\"/>\n   </td>\n   <td>\n   <div style=\"margin-left: 5px; margin-top: 10px;  font-size:10pt;\">\n\n   <div class=\"node-name\">\n   Recipe: Rav3n_pl Quake Slice  v1.3   </div>\n   <div style=\"font-size:10pt; margin-top: 6px; padding-left: 2px;\">\n   <span style=\"font-weight: bold; color: #666;\">Created by </span>\n   <a href='/portal/user/174969' title=''>Rav3n_pl <span class=\"schl schl-ev\">74</span> <span class=\"schl schl-so\">29</span></a>   </div>\n   <div id=\"rating\">\n<div class=\"fivestar-static-form-item\"><div class=\"form-item\">\n <div class=\"fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clear-block\"><div class=\"star star-1 star-odd star-first\"><span class=\"on\">4.487395</span></div><div class=\"star star-2 star-even\"><span class=\"on\"></span></div><div class=\"star star-3 star-odd\"><span class=\"on\"></span></div><div class=\"star star-4 star-even\"><span class=\"on\"></span></div><div class=\"star star-5 star-odd star-last\"><span class=\"on\" style=\"width: 48.7395%\"></span></div></div>\n <div class=\"description\"><div class=\"fivestar-summary fivestar-summary-combo\"><span class=\"user-rating\">Your rating: <span>None</span></span> <span class=\"average-rating\">Average: <span>4.5</span></span> <span class=\"total-votes\">(<span>119</span> votes)</span></div></div>\n</div>\n</div>   </div>\n\n   </div>\n   </td>\n   </tr>\n</table>\n\n<h1>Profile</h1>\n\n   <table class=\"drupal-info\">\n   <tr>\n   <th>Name:</th>\n   <td>Rav3n_pl Quake Slice  v1.3</td>\n   </tr>\n   <tr>\n   <th>ID:</th>\n   <td>19705</td>\n   </tr>\n   <tr>\n   <th>Created on:</th>\n   <td>\nSat, 12/25/2010 - 03:08   </td>\n   </tr>\n   <tr>\n   <th>Updated on:</th>\n   <td>Sun, 06/19/2011 - 12:12</td>\n   </tr>\n   <tr>\n   <th>Description:</th>\n   <td><p>Quake by slice along the axes of the part of protein. Now 2 runs. 1.3 changed  Fuzes and output. Options at start.</p></td>\n   </tr>\n   </table>\n\n<!--\n<div id=\"byline\">\nID: 19705 | Updated on Sun, 06/19/2011 - 12:12 | Created on Sat, 12/25/2010 - 11:08</div>\n-->\n\n<!--\n<div id=\"description\">\n<p>Quake by slice along the axes of the part of protein. Now 2 runs. 1.3 changed  Fuzes and output. Options at start.</p></div>\n-->\n<pre>\n</pre>\n\n<h1>Best For</h1>\n<div class=\"best-for-list\"><table></table></div><br/>\n\n<h1>Comments</h1>\n<div id=\"forum-comments\">\n  <a id=\"comment-9850\"></a>\n\n    <div id=\"comment-9850\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Mon, 01/03/2011 - 23:04\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000019705#comment-9850\">#1</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/33153\" title=\"View user profile.\"><img src=\"http://fold.it:80/portal/files/pictures/picture-33153.jpg\" alt=\"marie_s&#039;s picture\" title=\"marie_s&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 4 hours 59 min ago.\" title=\"User offline. Last seen 4 hours 59 min ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 05/18/2008        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> None        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          options        </div>\n      \n      <div class=\"content\">\n        <p>You can put in variable \"un\", the segment from wich the slices are computed.<br />\nTake one segment in the outside of the protein.</p>\n<p>If you stop the recipe : recent best is in crtl3 or in recent best.</p>\n<p>This script is better in the beginning but can give some points near the ends with a high number of slices : 10 slices for exemple.</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000019705%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000019705%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x9850\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u9850\">\n            <input id=\"u9850\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d9850\">\n            <input id=\"d9850\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"9850\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F9850\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div>  </div>\n\n</td>\n<td class=\"macro-right\" style=\"\">\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-center\"> </div>\n  <div style=\"clear:both; text-align: center;\">\n  <div style=\"width: 120px; margin: auto; font-size: 9pt; font-weight: bold; margin-bottom: 10px;\">\n  Want to try?\n  </div>\n<div style=\"margin:auto; border: 1px solid grey; width: 120px; height: 32px; background-color: grey; text-align: center; font-weight:bold; line-height:32px; color: white;\">Add to Cookbook!</div>\n\n<div style=\"text-align: center; width: 120px; margin: auto; margin-top: 10px;\">\n  To download recipes to your cookbook, you need to have the game client running.\n    \n</div>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Parent</div>\n  <div style=\"font-size: 9pt;\">\n\n<ul<li><a href=\"/portal/recipe/19584\">Quake slice</a><br/>by <a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a></li></ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Children</div>\n  <div style=\"font-size: 9pt;\">\n\n<ul><li><a href=\"/portal/recipe/19794\">Quake slice  v1.1 2-20</a><br/>by <a href='/portal/user/174969' title=''>Rav3n_pl <span class=\"schl schl-ev\">74</span> <span class=\"schl schl-so\">29</span></a></li><li><a href=\"/portal/recipe/22939\">Quake slice  v1.2 inf</a><br/>by <a href='/portal/user/237510' title=''>oberburgermeister <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/24566\">Kim Quake slice  v1.2</a>, <a href=\"/portal/recipe/29851\">kim Quake slice  v1.2</a><br/>by <a href='/portal/user/230540' title=''>krulon <span class=\"schl schl-ev\">37</span> <span class=\"schl schl-so\">72</span></a></li><li><a href=\"/portal/recipe/24979\">Quake slice  v1.2a</a>, <a href=\"/portal/recipe/35703\">Quake slice  v1.2</a><br/>by <a href='/portal/user/192195' title=''>itskimo <span class=\"schl schl-ev\">20</span> <span class=\"schl schl-so\">136</span></a></li><li><a href=\"/portal/recipe/28975\">Quake slice  v1.2</a>, <a href=\"/portal/recipe/29442\">Quake slice  v1.2</a><br/>by <a href='/portal/user/115385' title=''>djag <span class=\"schl schl-ev\">108</span> <span class=\"schl schl-so\">123</span></a></li><li><a href=\"/portal/recipe/29987\">Rav3n_pl QSlice  Lcl</a><br/>by <a href='/portal/user/108474' title=''>Bletchley&nbsp;Park <span class=\"schl schl-ev\">6</span> <span class=\"schl schl-so\">3</span></a></li><li><a href=\"/portal/recipe/30018\">Rav3n_pl Quake Slice  v1.3</a><br/>by <a href='/portal/user/244239' title=''>wld333 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/30062\">Quake slice  v1.2</a>, <a href=\"/portal/recipe/30265\">Rav3n_pl Quake Slice v1.3</a><br/>by <a href='/portal/user/172510' title=''></a></li><li><a href=\"/portal/recipe/30280\">Rav3n_pl Quake Slice  v2</a><br/>by <a href='/portal/user/12518' title=''>TheGUmmer <span class=\"schl schl-ev\">60</span> <span class=\"schl schl-so\">32</span></a></li><li><a href=\"/portal/recipe/31141\">Rav3n_pl Quake Slice  v1.3m</a>, <a href=\"/portal/recipe/31142\">Rav3n_pl Quake Slice  v1.3</a><br/>by <a href='/portal/user/260446' title=''>markwm <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/32344\">Rav3n_pl Quake Slice  v1.3</a><br/>by <a href='/portal/user/320665' title=''>a&nbsp;bunny <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/32705\"> Cake Quake Slice  v1.3</a><br/>by <a href='/portal/user/314128' title=''>PocketElephant <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/34526\">10 Rav3n_pl Quake Slice  v1.3</a><br/>by <a href='/portal/user/252636' title=''>lolbaer <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></li><li><a href=\"/portal/recipe/34601\">Quake shearing</a>, <a href=\"/portal/recipe/34602\">Quake  shearing</a><br/>by <a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a></li><li><a href=\"/portal/recipe/35407\">Rav3n_pl Quake Slice  v1.3 l</a>, <a href=\"/portal/recipe/35602\">Rav3n_pl Quake Slice  v1.3 l</a><br/>by <a href='/portal/user/79145' title=''>SKSbell <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">109</span></a></li><li><a href=\"/portal/recipe/35856\">Rav3n_pl Quake Slice  v1.3 ranked</a><br/>by <a href='/portal/user/244735' title=''>svenmh <span class=\"schl schl-ev\">27</span> <span class=\"schl schl-so\">96</span></a></li><li><a href=\"/portal/recipe/36705\">(quake) rav Quake Slice  v1.3</a>, <a href=\"/portal/recipe/39117\">(quake) Quake Slice  v1.3</a>, <a href=\"/portal/recipe/39118\">(quake) Quake Slice  v1.3</a>, <a href=\"/portal/recipe/39119\">(quake) Quake Slice  v1.3</a><br/>by <a href='/portal/user/261726' title=''>mottiger <span class=\"schl schl-ev\">24</span> <span class=\"schl schl-so\">19</span></a></li><li><a href=\"/portal/recipe/37817\">Rav3n_pl Quake Slice  v1.3 -edit</a>, <a href=\"/portal/recipe/40282\">Rav3n_pl Quake Slice  v1.3 -edit</a><br/>by <a href='/portal/user/264656' title=''>meatexplosion <span class=\"schl schl-ev\">41</span> <span class=\"schl schl-so\">6</span></a></li><li><a href=\"/portal/recipe/38029\">Quake Slice  v1.3(many slice)</a><br/>by <a href='/portal/user/383159' title=''>Jobriq <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">147</span></a></li><li><a href=\"/portal/recipe/39362\">Rav3n_pl Quake Slice  v1.3 - 10</a><br/>by <a href='/portal/user/82314' title=''>BootsMcGraw <span class=\"schl schl-ev\">15</span> <span class=\"schl schl-so\">14</span></a></li><li><a href=\"/portal/recipe/39804\">mutate Quake Slice  v1.3</a><br/>by <a href='/portal/user/303499' title=''>karstenw <span class=\"schl schl-ev\">13</span> <span class=\"schl schl-so\">16</span></a></li></ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Authors</div>\n  <div style=\"font-size: 9pt;\">\n\n  <ul> \n<li><a href='/portal/user/174969' title=''>Rav3n_pl <span class=\"schl schl-ev\">74</span> <span class=\"schl schl-so\">29</span></a></li><li><a href='/portal/user/33153' title=''>marie_s <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">46</span></a></li>\n  </ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n\n\n</td></tr>\n</table>\n\n<!-- \n<div class=\"links\">&raquo; Array</div>-->\n\n\n</div>\n\n</div>\n</div>\n\n\n\n\t\t\t\t\t\t    </div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"footer\">\r\n\t\t\t\t\t\t  \t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t\r\n\t<!-- internet explorer requires this empty row to ensure 7 columns -->\r\n\t<tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-right\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td id=\"footer\" colspan=\"7\"/>\r\n\t</tr>\r\n</table>\r\n</center>\r\n\t\r\n<div id=\"supported-by\">\r\nSupported by:\r\n<a href=\"http://www.centerforgamescience.org/\">UW Center for Game Science</a>,\r\n<a href=\"http://www.cs.washington.edu/\">UW Department of Computer Science and Engineering</a>,\r\n<a href=\"http://www.bakerlab.org/\">UW Baker Lab</a>,\r\n<a href=\"http://www.darpa.mil/\">DARPA</a>,\r\n<a href=\"http://www.nsf.gov/\">NSF</a>,\r\n<a href=\"http://www.hhmi.org/\">HHMI</a>,\r\n<a href=\"http://www.microsoft.com/\">Microsoft</a>, and\r\n<a href=\"http://www.adobe.com/\">Adobe</a>\r\n</div>\r\n\r\n\r\n\r\n\r\n<!-- Closure -->\r\n<script type=\"text/javascript\" src=\"/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js\"></script>\r\n<script type=\"text/javascript\" src=\"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php\"></script><form action=\"/portal/recipe/19705\"  accept-charset=\"UTF-8\" method=\"post\" id=\"fbconnect-autoconnect-form\">\n<div><input type=\"hidden\" name=\"fbconnect\" id=\"edit-fbconnect\" value=\"\"  />\n<input type=\"hidden\" name=\"form_build_id\" id=\"form-387a1f73b6f399e06e365f477f76b3a0\" value=\"form-387a1f73b6f399e06e365f477f76b3a0\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-fbconnect-autoconnect-form\" value=\"fbconnect_autoconnect_form\"  />\n\n</div></form>\n<script type=\"text/javascript\" src=\"/portal/files/js/js_becb5617668c27f583a98523e374f2f2.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nfunction facebook_onlogin_ready() {$(\"#fbconnect-autoconnect-form\").submit();}\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nFB.Bootstrap.requireFeatures([\"Connect\",\"XFBML\"], function() {\n      FB.Facebook.init(\"700ac22cbb9093908fafa5fa20621f6c\", \"/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html\"); \n    });\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\ntry{var pageTracker = _gat._getTracker(\"UA-3696727-1\");pageTracker._trackPageview();} catch(err) {}\n//--><!]]>\n</script>\n<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->\r\n<!-- TODO (don't need facebook yet: <div id=\"FB_HiddenIFrameContainer\" style=\"display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;\"></div> -->\r\n\r\n</body>\r\n\r\n</html>\r\n", "user"=>"<!doctype HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"  xmlns:fb=\"http://www.facebook.com/2008/fbml\">\r\n\r\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t<title>marie_s | Foldit</title>\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<link rel=\"shortcut icon\" href=\"/portal/files/favicon.ico\" type=\"image/x-icon\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/portal/files/css/css_9b90107f7a794c8e711717e573d2c245.css\" />\n\t<script type=\"text/javascript\" src=\"/portal/files/js/js_9de760852a52d14a92cbd21c500edde2.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings, { \"basePath\": \"/portal/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Rating: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Vote saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Vote removed.\" }, \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\": 1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip\" }, \"extra_voting_forms\": { \"only_one_vote\": 1, \"login_page\": \"portal/user/login\", \"base_path\": \"/portal/\" } });\n//--><!]]>\n</script>\n</head>\r\n\r\n<body>\r\n<center>\r\n<table id=\"main-table\">\r\n\t<tr>\r\n\t\t<td id=\"header\" colspan=\"7\">\r\n\r\n\t\t\t<!-- transparent link to the main page -->\r\n\t\t\t<a href=\"/portal/\"><div style=\"float: left; width: 235px; height: 100px; cursor: pointer;\"></div></a>\r\n\r\n\t\t\t<!-- <div style=\"float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">04:46:24 GMT</div> -->\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">04:46:24 GMT</span>\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\"></span>\r\n\r\n\t\t\t<table id=\"actions\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t<!-- Want to play? <a href=\"/portal/user/register\">Register</a> to get an account &mdash; it's free. -->\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\r\n\t\t\t<table id=\"navigation\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td colspan=1></td>\r\n\t\t\t\t\t<td><a href=\"/portal/puzzles\">Puzzles</a>&nbsp;<a href=\"/comm/puzzles_rss\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Puzzles Feed\" alt=\"Puzzles Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/groups\">Groups</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/players\">Players</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/\">Home</a></td> -->\r\n\t\t\t\t\t<!--<td><div class=\"nav-link-new\"><div class=\"nav-link-new-shadow\">NEW<div class=\"nav-link-new-label\">NEW</div></div>\r\n\t\t\t\t\t<a href=\"/portal/blog\">Blog</a></div></td>-->\r\n\t\t\t\t\t<td><a href=\"/portal/recipes\">Recipes</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/contest\">Contests</a></td>\r\n\t\t\t\t<tr>\r\n\t\t\t\t</tr>\r\n\t\t\t\t\t<td><a href=\"/portal/blog\">Blog</a>&nbsp;<a href=\"/portal/blog/feed\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Blog Feed\" alt=\"Blog Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/feedback\">Feedback</a>&nbsp;</td>\r\n\t\t\t\t\t<td><a href=\"/portal/forum/5\">Forum</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/info/videos\">Videos</a></td> -->\r\n\t\t\t\t\t<td>\r\n\t\t\t\t\t\t<a href=\"http://foldit.wikia.com/\">Wiki</a>\r\n\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\t\t\t<a href=\"/portal/info/faq\">FAQ</a>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td><a href=\"/portal/info/science\">About</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/about\">Credits</a></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t\r\n\t\t</td>\r\n\t</tr>\r\n\t\r\n\t <tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\r\n\t\t\t\t\t<td id=\"column-left\">\r\n\t\t\t\t\t\t<div id=\"main-content-area\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='node'>\t<table style=\"margin-top: 15px\">\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t\t\t\t\t<td style=\"padding-right: 10px\">\r\n\t\t\t\t\t<img src=\"/portal/files/pictures/picture-33153.jpg\"/>\r\n\t\t\t\t</td>\r\n\t\t\t\r\n\t\t\t<td>\r\n\t\t\t\t<div class=\"node-name\">\r\n\t\t\t\t\tmarie_s\t\t\t\t</div>\r\n\t\t\t\t<div class=\"global-score-and-rank\">\r\n\t\t\t\t\tGlobal Soloist Rank:\r\n\t\t\t\t\t<b>\r\n\t\t\t\t\t#46\t\t\t\t\t</b>\r\n\t\t\t\t\t<br/>\r\n\t\t\t\t\tGlobal Soloist Score:\r\n\t\t\t\t\t<b>\r\n\t\t\t\t\t2164\t\t\t\t\t</b>\r\n\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t\t<!-- actions you can take -->\r\n\t\t\t\t<div style=\"font-size: 12;\">\r\n\t\t\t\t\t<a href=\"/portal/feedback/filter/all/author:33153 assigned:33153\">Cases</a><br />\t\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</table>\r\n\r\n\t<h1>Profile</h1>\r\n\r\n\t<table class=\"drupal-info\">\r\n\t\t<tr>\r\n\t\t\t<th>Name:</th>\r\n\t\t\t<td>marie_s</td>\r\n\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t<th>Location:</th>\r\n\t\t\t\t<td>france near paris</td>\r\n\t\t\t</tr>\r\n\t\t\t\t<tr>\r\n\t\t\t<th>Started Folding:</th>\r\n\t\t\t<td>05/18/08</td>\r\n\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t<th>My Homepage:</th>\r\n\t\t\t\t<td><a href=\"http://comptradio.blogspot.com/\">http://comptradio.blogspot.com/</a></td>\r\n\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\r\n\t\r\n\t<h1>Soloist Scores</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-scores-embedded'><div class='view-content view-content-my-scores-embedded'>\r\n\t<table>\r\n\t <thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Best&nbsp;Score</th><th class=\"view-cell-header view-field-node-data-field-score-3-field-score-3-value\">Points</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead>\r\n\t\r\n\t<tbody>\r\n\t<tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992778\">564: CASP10 Target T0680</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,281</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">04:46</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992772\">563: Server models for CASP10 T0668</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,038</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">04:46</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992747\">562: Quick Symmetric CASP10 T0680 Puzzle</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">97</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">13,625</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">20</td><td class=\"view-field view-field-node-changed\">04:46</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992721\">561: CASP10 Target T0678</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,013</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">05/26</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992698\">559: CASP10 Target T0673</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">6</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,989</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">90</td><td class=\"view-field view-field-node-changed\">05/25</td></tr>\t</tbody></table>\r\n\t\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/33153/show_scores\">Show all &gt;</a>\r\n\t\t</div>\r\n\t\t\t</div></div>\t\r\n\r\n\t</div>\r\n\t\r\n\t<h1>All-Hands Scores</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-scores-embedded'><div class='view-content view-content-my-scores-embedded'>\r\n\t<table>\r\n\t <thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Best&nbsp;Score</th><th class=\"view-cell-header view-field-node-data-field-score-3-field-score-3-value\">Points</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead>\r\n\t\r\n\t<tbody>\r\n\t<tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/991802\">Testing Puzzle</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">5</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,321</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">02/11</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/990177\">Freestyle Design 80</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,837</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">01/07</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988275\">GTPase Ras</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,314</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">11/27/11</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/989651\">SEAL MYOGLOBIN</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">6</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,879</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">08/15/11</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988311\">HIV protease</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">5</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,465</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">08/28/10</td></tr>\t</tbody></table>\r\n\t\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/33153/show_allhands_scores\">Show all &gt;</a>\r\n\t\t</div>\r\n\t\t\t</div></div>\t\r\n\r\n\t</div>\r\n<h1>Contests</h1><div class=\"usernode-enclosing-div\"><div class=\"view view-my-scores-embedded\"><div class=\"view-content view-content-my-scores-embedded\"><table><thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Contest</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead><tbody><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/\"></a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">7/135</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,968<td class=\"view-field view-field-node-changed\">05/09/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988217\">Script test III</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">5/5</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">7,540<td class=\"view-field view-field-node-changed\">08/26/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988274\">Let&#039;s Cure Cancer Finally</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">9/388</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,314<td class=\"view-field view-field-node-changed\">11/27/11</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988310\">HIV fight!</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">5/25</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,465<td class=\"view-field view-field-node-changed\">08/28/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988330\">One last CASP9 Target!</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">26/49</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,206<td class=\"view-field view-field-node-changed\">08/26/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/989650\">Ligand Folding Practice- Open to all</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">6/19</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,879<td class=\"view-field view-field-node-changed\">08/15/11</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/990176\">A Freestyle Design 80  Open to all</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">28/44</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,837<td class=\"view-field view-field-node-changed\">01/07</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/991801\">Test Puzzle to Fix Client</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">5/17</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,321<td class=\"view-field view-field-node-changed\">02/11</td></tr></tbody></table></div></div></div>\r\n\t<h1 id=\"ach\">Achievements</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-achievements-embedded'>\r\n\t<div class='view-content view-content-my-achievements-embedded'>\r\n\t\r\n<table class=\"drupal-table\"><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star3-16x16.png'></td><td style='text-align: left'>Junior Soloist<br /><em><div style='font-size: 10px'>Achieved Soloist rank 30 or better in at least 5 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star2-16x16.png'></td><td style='text-align: left'>Veteran Soloist<br /><em><div style='font-size: 10px'>Achieved Soloist rank 20 or better in at least 10 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star1-16x16.png'></td><td style='text-align: left'>Master Soloist<br /><em><div style='font-size: 10px'>Achieved Soloist rank 10 or better in at least 15 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star3-blue-16x16.png'></td><td style='text-align: left'>Junior Contributor<br /><em><div style='font-size: 10px'>Achieved Allhands rank 30 or better in at least 5 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/recipe-16x16.png'></td><td style='text-align: left'>Junior Cook<br /><em><div style='font-size: 10px'>Created 1 recipe obtaining 4 or more stars and 5 or more votes</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/recipe-16x16.png'></td><td style='text-align: left'>Veteran Cook<br /><em><div style='font-size: 10px'>Created 3 recipes obtaining 4 or more stars and 5 or more votes</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/debugger-16x16.png'></td><td style='text-align: left'>Junior Debugger<br /><em><div style='font-size: 10px'>Reported 1 bug that was fixed by the Foldit team</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/debugger-16x16.png'></td><td style='text-align: left'>Veteran Debugger<br /><em><div style='font-size: 10px'>Reported 3 bugs that were fixed by the Foldit team</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-16x16.png'></td><td style='text-align: left'>Baby Steps<br /><em><div style='font-size: 10px'>Complete ten moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-yellow-16x16.png'></td><td style='text-align: left'>Step Routine<br /><em><div style='font-size: 10px'>Complete one hundred moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-green-16x16.png'></td><td style='text-align: left'>Moving Up<br /><em><div style='font-size: 10px'>Complete one thousand moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-blue-16x16.png'></td><td style='text-align: left'>Professional Mover<br /><em><div style='font-size: 10px'>Complete ten thousand moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-purple-16x16.png'></td><td style='text-align: left'>Mover and Shaker<br /><em><div style='font-size: 10px'>Complete one hundred thousand moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-red-16x16.png'></td><td style='text-align: left'>Perpetual Motion Machine<br /><em><div style='font-size: 10px'>Complete one million moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/beaker-1-full-16x16.png'></td><td style='text-align: left'>Sidechains<br /><em><div style='font-size: 10px'>Finish all of the 'Sidechains' intro puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr><td style='text-align: left'><br />...</td><td style='text-align: left'><br />...</td><td>&nbsp;</td></tr></table><br />\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/33153/show_achievements\">Show details &gt;</a>\r\n\t\t</div>\r\n\t</div>\r\n\t</div>\r\n\t</div>\t\r\n<pre></pre></div><br/>\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"footer\">\r\n\t\t\t\t\t\t  \t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</td>\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\t\t\t<td id=\"column-right\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nGet Started: Download      </div>\n<center><table><tr><td>&nbsp;&nbsp;<a href=\"/portal/download/windows\"><img src=\"/portal/site_files/theme/dl_win.png\" alt=\"Windows\" /></a>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;<a href=\"/portal/download/osx\"><img src=\"/portal/site_files/theme/dl_osx.png\" alt=\"OSX\" /></a>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;<a href=\"/portal/download/linux\"><img src=\"/portal/site_files/theme/dl_lin.png\" alt=\"Linux\" /></a>&nbsp;&nbsp;</td></tr><tr><td><center>Windows<br>(XP/Vista/7)</center></td><td><center>OSX<br>(Intel 10.4 or later)</center></td><td><center>Linux<br>(64-bit)</center></td></tr></table></center>    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nRecommend Foldit      </div>\n<table cellspacing=\"5px\">\t<form action=\"/portal/invite\" accept-charset=\"UTF-8\" method=\"post\" id=\"invite-form\">\t<input type=\"hidden\" name=\"form_token\" id=\"edit-invite-form-form-token\" value=\"a5a80d902243f4cad20b01f5730dda3d\" />\t<input type=\"hidden\" name=\"op\" value=\"Send invite\" />\t<input type=\"hidden\" name=\"form_id\" value=\"invite_form\" />\t<tr>\t\t<td>\t\t\t<input type=\"text\" id=\"edit-email\" class=\"form-text required\" name=\"email\" size=\"18\">\t\t</td>\t\t<td>\t\t\t<input type=\"image\" name=\"op\" id=\"edit-submit\" alt=\"Send Invite\" title=\"Send Invite\" src=\"/portal/site_files/theme/send.png\">\t\t</td>\t</tr>\t</form></table>\t    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nUser login      </div>\n<form action=\"/portal/user/33153?destination=user%2F33153\"  accept-charset=\"UTF-8\" method=\"post\" id=\"user-login-form\">\n<div><div class=\"form-item\" id=\"edit-name-wrapper\">\n <label for=\"edit-name\">Username: <span class=\"form-required\" title=\"This field is required.\">*</span></label>\n <input type=\"text\" maxlength=\"60\" name=\"name\" id=\"edit-name\" size=\"15\" value=\"\" class=\"form-text required\" />\n</div>\n<div class=\"form-item\" id=\"edit-pass-wrapper\">\n <label for=\"edit-pass\">Password: <span class=\"form-required\" title=\"This field is required.\">*</span></label>\n <input type=\"password\" name=\"pass\" id=\"edit-pass\"  maxlength=\"60\"  size=\"15\"  class=\"form-text required\" />\n</div>\n<input type=\"submit\" name=\"op\" id=\"edit-submit\" value=\"Log in\"  class=\"form-submit\" />\n<div class=\"item-list\"><ul><li class=\"first\"><a href=\"/portal/user/register\" title=\"Create a new user account.\">Create new account</a></li>\n<li class=\"last\"><a href=\"/portal/user/password\" title=\"Request new password via e-mail.\">Request new password</a></li>\n</ul></div><input type=\"hidden\" name=\"form_build_id\" id=\"form-b4686aa58880192b68caec7929789860\" value=\"form-b4686aa58880192b68caec7929789860\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-user-login-block\" value=\"user_login_block\"  />\n<div class=\"item-list\"><ul><li class=\"fbconnect-button first last\">Sign in using Facebook <fb:login-button onlogin=\"facebook_onlogin_ready();\" size=\"medium\" background=\"dark\" length=\"long\">\n          </fb:login-button></li>\n</ul></div>\n</div></form>\n    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n\t\t\t\t\t\t\n<table class=\"panel\">\n  <tr>\n    <td id=\"game_pages_3t4\" class=\"ul\"/><td id=\"game_pages_3t5\" class=\"selected\"/><td id=\"game_pages_3t6\" class=\"ur\"/>\n    <td id=\"game_pages_4t4\" class=\"unselected-ul\"/><td id=\"game_pages_4t5\" class=\"unselected\"/><td id=\"game_pages_4t6\" class=\"unselected-ur\"/>\n    <td id=\"game_pages_5t4\" class=\"unselected-ul\"/><td id=\"game_pages_5t5\" class=\"unselected\"/><td id=\"game_pages_5t6\" class=\"unselected-ur\"/>\n    <td id=\"game_pages_8t4\" class=\"unselected-ul\"/><td id=\"game_pages_8t5\" class=\"unselected\"/><td id=\"game_pages_8t6\" class=\"unselected-ur\"/>\n  </tr>\n  <tr>\n    <td id=\"game_pages_3t1\"/> <td id=\"game_pages_3t2\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_3')\">Soloists</div></td> <td id=\"game_pages_3t3\"/>\n    <td id=\"game_pages_4t1\" class=\"unselected\"/> <td id=\"game_pages_4t2\" class=\"unselected\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_4')\">Evolvers</div></td> <td id=\"game_pages_4t3\" class=\"unselected\"/>\n    <td id=\"game_pages_5t1\" class=\"unselected\"/> <td id=\"game_pages_5t2\" class=\"unselected\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_5')\">Groups</div></td> <td id=\"game_pages_5t3\" class=\"unselected\"/>\n    <td id=\"game_pages_8t1\" class=\"unselected\"/> <td id=\"game_pages_8t2\" class=\"unselected\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_8')\">Topics</div></td> <td id=\"game_pages_8t3\" class=\"unselected\"/>\n  </tr>\n  <tr>\n    <td/>\n    <td colspan=\"10\" class=\"center\">\n    <div id=\"rp_tab_disp\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Player</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/236506' title='johnmitch'>johnmitch <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992784\" title=\"565: Server models for CASP10 T0673\">565:&nbsp;Server&nbsp;mod...673</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,841</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/108474' title='Bletchley Park'>Bletchley&nbsp;Park <span class=\"schl schl-ev\">6</span> <span class=\"schl schl-so\">3</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992772\" title=\"563: Server models for CASP10 T0668\">563:&nbsp;Server&nbsp;mod...668</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,121</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/198325' title='gmn'>gmn <span class=\"schl schl-ev\">16</span> <span class=\"schl schl-so\">1</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992778\" title=\"564: CASP10 Target T0680\">564:&nbsp;CASP10&nbsp;Tar...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,572</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/418308' title='torobi20'>torobi20 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">1348</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992586\" title=\"Beginner Puzzle (<150): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,916</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/424451' title='Olyndar'>Olyndar <span class=\"schl schl-ev\">103</span> <span class=\"schl schl-so\">164</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992585\" title=\"Beginner Puzzle (<15): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,054</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/278133' title='randomlil'>randomlil <span class=\"schl schl-ev\">53</span> <span class=\"schl schl-so\">33</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992584\" title=\"Beginner Puzzle: Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,093</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/264656' title='meatexplosion'>meatexplosion <span class=\"schl schl-ev\">41</span> <span class=\"schl schl-so\">6</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992721\" title=\"561: CASP10 Target T0678\">561:&nbsp;CASP10&nbsp;Tar...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,535</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/players/s_all\">full</a></div></div></div><!-- TODO -->\n<!-- <div class=\"block block-game_pages\" id=\"block-game_pages-3\"> -->\n</div>\n    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td colspan=\"10\"/><td class=\"lr\"/></tr>\n</table>\n    <div id=\"game_pages_3d\" style=\"display: none;\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Player</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/236506' title='johnmitch'>johnmitch <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992784\" title=\"565: Server models for CASP10 T0673\">565:&nbsp;Server&nbsp;mod...673</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,841</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/108474' title='Bletchley Park'>Bletchley&nbsp;Park <span class=\"schl schl-ev\">6</span> <span class=\"schl schl-so\">3</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992772\" title=\"563: Server models for CASP10 T0668\">563:&nbsp;Server&nbsp;mod...668</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,121</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/198325' title='gmn'>gmn <span class=\"schl schl-ev\">16</span> <span class=\"schl schl-so\">1</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992778\" title=\"564: CASP10 Target T0680\">564:&nbsp;CASP10&nbsp;Tar...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,572</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/418308' title='torobi20'>torobi20 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">1348</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992586\" title=\"Beginner Puzzle (<150): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,916</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/424451' title='Olyndar'>Olyndar <span class=\"schl schl-ev\">103</span> <span class=\"schl schl-so\">164</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992585\" title=\"Beginner Puzzle (<15): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,054</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/278133' title='randomlil'>randomlil <span class=\"schl schl-ev\">53</span> <span class=\"schl schl-so\">33</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992584\" title=\"Beginner Puzzle: Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,093</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/264656' title='meatexplosion'>meatexplosion <span class=\"schl schl-ev\">41</span> <span class=\"schl schl-so\">6</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992721\" title=\"561: CASP10 Target T0678\">561:&nbsp;CASP10&nbsp;Tar...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,535</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/players/s_all\">full</a></div></div></div></div>\n<script>rp_add_tab_key(\"game_pages_3\");</script>\n    <div id=\"game_pages_4d\" style=\"display: none;\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Player</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/275043' title='SimplySue'>SimplySue <span class=\"schl schl-ev\">30</span> <span class=\"schl schl-so\">86</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992772\" title=\"563: Server models for CASP10 T0668\">563:&nbsp;Server&nbsp;mod...668</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,115</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/360760' title='christioanchauvin'>christioanchauvin <span class=\"schl schl-ev\">52</span> <span class=\"schl schl-so\">20</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992778\" title=\"564: CASP10 Target T0680\">564:&nbsp;CASP10&nbsp;Tar...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,595</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/423389' title='skrystal94'>skrystal94 <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">5879</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992586\" title=\"Beginner Puzzle (<150): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,393</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/427416' title='Chriese'>Chriese <span class=\"schl schl-ev\">174</span> <span class=\"schl schl-so\">13605</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992585\" title=\"Beginner Puzzle (<15): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,172</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/415501' title='packer'>packer <span class=\"schl schl-ev\">40</span> <span class=\"schl schl-so\">245</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992584\" title=\"Beginner Puzzle: Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,176</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/71954' title='mimi'>mimi <span class=\"schl schl-ev\">4</span> <span class=\"schl schl-so\">12</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992721\" title=\"561: CASP10 Target T0678\">561:&nbsp;CASP10&nbsp;Tar...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,611</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/players/e_all\">full</a></div></div></div></div>\n<script>rp_add_tab_key(\"game_pages_4\");</script>\n    <div id=\"game_pages_5d\" style=\"display: none;\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Group</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/548027\" title=\"Void Crushers\">Void&nbsp;Crushers</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992784\" title=\"565: Server models for CASP10 T0673\">565:&nbsp;Server&nbsp;mod...673</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,765</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/985857\" title=\"Contenders\">Contenders</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992772\" title=\"563: Server models for CASP10 T0668\">563:&nbsp;Server&nbsp;mod...668</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,121</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/61909\" title=\"L'Alliance Francophone\">L'Alliance&nbsp;Fran...one</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992778\" title=\"564: CASP10 Target T0680\">564:&nbsp;CASP10&nbsp;Tar...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,595</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/988042\" title=\"Go Science\">Go&nbsp;Science</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992586\" title=\"Beginner Puzzle (<150): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,907</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/988042\" title=\"Go Science\">Go&nbsp;Science</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992585\" title=\"Beginner Puzzle (<15): Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,054</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/988042\" title=\"Go Science\">Go&nbsp;Science</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992584\" title=\"Beginner Puzzle: Anthrax Lethal Factor Protein\">Beginner&nbsp;Puzzle...ein</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,176</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/985857\" title=\"Contenders\">Contenders</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992721\" title=\"561: CASP10 Target T0678\">561:&nbsp;CASP10&nbsp;Tar...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,611</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/groups\">full</a></div></div></div></div>\n<script>rp_add_tab_key(\"game_pages_5\");</script>\n    <div id=\"game_pages_8d\" style=\"display: none;\"><div class=\"item-list\"><ul><li class=\"first\"><a href=\"/portal/node/991972\" title=\"1 comment\">Puzzle Schedule</a></li>\n<li><a href=\"/portal/node/992771\" title=\"10 comments\">How do you get to #1?</a></li>\n<li><a href=\"/portal/node/992775\" title=\"1 comment\">About SS predictions</a></li>\n<li><a href=\"/portal/node/992729\" title=\"2 comments\">Help the Foldit Team: Which Beginner Puzzles were most useful to new players?</a></li>\n<li class=\"last\"><a href=\"/portal/node/992696\" title=\"8 comments\">Beginner Help</a></li>\n</ul></div></div>\n<script>rp_add_tab_key(\"game_pages_8\");</script>\n\t\t\t\t\t\t<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nFacebook Fan Page      </div>\n<fb:fan profile_id=\"95793463004\" stream=\"0\" connections=\"0\" width=\"250\" height=\"62\" css=\"http://fold.it/portal/sites/all/themes/custom/adobe/facebook_fan_box.css?4\"></fb:fan>    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nTop New Users      </div>\n<ul><li><a href=\"/portal/user/426239\">gitwut</a></li><li><a href=\"/portal/user/425396\">tamirh</a></li><li><a href=\"/portal/user/424537\">zlacker</a></li><li><a href=\"/portal/user/424119\">dedfed</a></li><li><a href=\"/portal/user/420632\">AsDawnBreaks</a></li></ul>    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t\r\n\t<!-- internet explorer requires this empty row to ensure 7 columns -->\r\n\t<tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-right\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td id=\"footer\" colspan=\"7\"/>\r\n\t</tr>\r\n</table>\r\n</center>\r\n\t\r\n<div id=\"supported-by\">\r\nSupported by:\r\n<a href=\"http://www.centerforgamescience.org/\">UW Center for Game Science</a>,\r\n<a href=\"http://www.cs.washington.edu/\">UW Department of Computer Science and Engineering</a>,\r\n<a href=\"http://www.bakerlab.org/\">UW Baker Lab</a>,\r\n<a href=\"http://www.darpa.mil/\">DARPA</a>,\r\n<a href=\"http://www.nsf.gov/\">NSF</a>,\r\n<a href=\"http://www.hhmi.org/\">HHMI</a>,\r\n<a href=\"http://www.microsoft.com/\">Microsoft</a>, and\r\n<a href=\"http://www.adobe.com/\">Adobe</a>\r\n</div>\r\n\r\n\r\n\r\n\r\n<!-- Closure -->\r\n<script type=\"text/javascript\" src=\"/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js\"></script>\r\n<script type=\"text/javascript\" src=\"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php\"></script><form action=\"/portal/user/33153\"  accept-charset=\"UTF-8\" method=\"post\" id=\"fbconnect-autoconnect-form\">\n<div><input type=\"hidden\" name=\"fbconnect\" id=\"edit-fbconnect\" value=\"\"  />\n<input type=\"hidden\" name=\"form_build_id\" id=\"form-d2f059644d83ef83b28b438efb294928\" value=\"form-d2f059644d83ef83b28b438efb294928\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-fbconnect-autoconnect-form\" value=\"fbconnect_autoconnect_form\"  />\n\n</div></form>\n<script type=\"text/javascript\" src=\"/portal/files/js/js_becb5617668c27f583a98523e374f2f2.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nfunction facebook_onlogin_ready() {$(\"#fbconnect-autoconnect-form\").submit();}\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nFB.Bootstrap.requireFeatures([\"Connect\",\"XFBML\"], function() {\n      FB.Facebook.init(\"700ac22cbb9093908fafa5fa20621f6c\", \"/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html\"); \n    });\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\ntry{var pageTracker = _gat._getTracker(\"UA-3696727-1\");pageTracker._trackPageview();} catch(err) {}\n//--><!]]>\n</script>\n<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->\r\n<!-- TODO (don't need facebook yet: <div id=\"FB_HiddenIFrameContainer\" style=\"display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;\"></div> -->\r\n\r\n</body>\r\n\r\n</html>\r\n"}
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"  xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>QuakeR 2.51 | Foldit</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/portal/files/favicon.ico" type="image/x-icon" />
+	<link type="text/css" rel="stylesheet" media="all" href="/portal/files/css/css_7692e258b9c77d2051b39fb1ac5d0146.css" />
+	<script type="text/javascript" src="/portal/files/js/js_d93507ba594267fa00d7e9c53af35e8d.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/portal/", "fivestar": { "titleUser": "Your rating: ", "titleAverage": "Rating: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Vote saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Vote removed." }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "extra_voting_forms": { "only_one_vote": 1, "login_page": "portal/user/login", "base_path": "/portal/" } });
+//--><!]]>
+</script>
+</head>
+
+<body>
+<center>
+<table id="main-table">
+	<tr>
+		<td id="header" colspan="7">
+
+			<!-- transparent link to the main page -->
+			<a href="/portal/"><div style="float: left; width: 235px; height: 100px; cursor: pointer;"></div></a>
+
+			<!-- <div style="float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;" id="foldit_gmt_clock">09:01:51 GMT</div> -->
+			<span style="float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;" id="foldit_gmt_clock">09:01:51 GMT</span>
+			<span style="float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;" id="foldit_gmt_clock"></span>
+
+			<table id="actions">
+				<tr>
+											<td>
+							&nbsp;
+							<!-- Want to play? <a href="/portal/user/register">Register</a> to get an account &mdash; it's free. -->
+						</td>
+									</tr>
+			</table>
+
+			<table id="navigation">
+				<tr>
+					<td colspan=1></td>
+					<td><a href="/portal/puzzles">Puzzles</a>&nbsp;<a href="/comm/puzzles_rss"><img src="/portal/files/theme/feed-icon-09x09.png" title="Puzzles Feed" alt="Puzzles Feed"/></a></td>
+					<td><a href="/portal/groups">Groups</a></td>
+					<td><a href="/portal/players">Players</a></td>
+					<!-- <td><a href="/portal/">Home</a></td> -->
+					<!--<td><div class="nav-link-new"><div class="nav-link-new-shadow">NEW<div class="nav-link-new-label">NEW</div></div>
+					<a href="/portal/blog">Blog</a></div></td>-->
+					<td><a href="/portal/recipes">Recipes</a></td>
+					<td><a href="/portal/contest">Contests</a></td>
+				<tr>
+				</tr>
+					<td><a href="/portal/blog">Blog</a>&nbsp;<a href="/portal/blog/feed"><img src="/portal/files/theme/feed-icon-09x09.png" title="Blog Feed" alt="Blog Feed"/></a></td>
+					<td><a href="/portal/feedback">Feedback</a>&nbsp;</td>
+					<td><a href="/portal/forum/5">Forum</a></td>
+					<!-- <td><a href="/portal/info/videos">Videos</a></td> -->
+					<td>
+						<a href="http://foldit.wikia.com/">Wiki</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="/portal/info/faq">FAQ</a>
+					</td>
+					<td><a href="/portal/info/science">About</a></td>
+					<td><a href="/portal/about">Credits</a></td>
+				</tr>
+			</table>
+			
+		</td>
+	</tr>
+	
+	 <tr>
+		<td class="border-left"></td>
+
+		<td class="spacer"></td>
+
+		
+					<td id="column-middle" colspan="3">
+						<div id="main-content-area">
+							
+						<div id="page-name"></div><div style="clear: both"></div>						
+												<div class="real_tabs">
+													</div>
+						
+						<div class="rp-page-content">
+						    <div class="content">
+							<style>
+.fivestar-widget { text-align: left; }
+#byline {color: grey; font-size: 9pt;}
+#description { font-size: 12pt; margin-left: 24pt;}
+#rating {font-size:10pt; margin-top: 0px; padding: 2px; width: 400px;}
+#rating label {font-weight: bold; display: none;}
+#rating { font-size: 9pt !important; line-height: 1.4;}
+.panel li { margin-bottom: 6px; }
+
+</style>
+<div class="view-content">
+<div id="node-2000015698" class="node clear-block">
+<!-- <h2>QuakeR 2.51</h2> -->
+
+<div class="content">
+<table class="macro-main">
+<tr><td class="macro-left">
+
+<table style="margin-top: 15px">
+   <span><a href="/portal/recipes">Back to Recipes Homepage</a></span>
+
+   <tr>
+   <td>
+   <img src="/portal/site_files/theme/recipe.png" alt="recipe picture"/>
+   </td>
+   <td>
+   <div style="margin-left: 5px; margin-top: 10px;  font-size:10pt;">
+
+   <div class="node-name">
+   Recipe: QuakeR 2.51   </div>
+   <div style="font-size:10pt; margin-top: 6px; padding-left: 2px;">
+   <span style="font-weight: bold; color: #666;">Created by </span>
+   <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a>   </div>
+   <div id="rating">
+<div class="fivestar-static-form-item"><div class="form-item">
+ <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clear-block"><div class="star star-1 star-odd star-first"><span class="on">4.8</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on" style="width: 80%"></span></div></div>
+ <div class="description"><div class="fivestar-summary fivestar-summary-combo"><span class="user-rating">Your rating: <span>None</span></span> <span class="average-rating">Average: <span>4.8</span></span> <span class="total-votes">(<span>40</span> votes)</span></div></div>
+</div>
+</div>   </div>
+
+   </div>
+   </td>
+   </tr>
+</table>
+
+<h1>Profile</h1>
+
+   <table class="drupal-info">
+   <tr>
+   <th>Name:</th>
+   <td>QuakeR 2.51</td>
+   </tr>
+   <tr>
+   <th>ID:</th>
+   <td>15698</td>
+   </tr>
+   <tr>
+   <th>Created on:</th>
+   <td>
+Thu, 11/11/2010 - 03:16   </td>
+   </tr>
+   <tr>
+   <th>Updated on:</th>
+   <td>Sun, 03/13/2011 - 13:15</td>
+   </tr>
+   <tr>
+   <th>Description:</th>
+   <td><p>QuakeR - a randomized Quake.  Options at end.</p></td>
+   </tr>
+   </table>
+
+<!--
+<div id="byline">
+ID: 15698 | Updated on Sun, 03/13/2011 - 13:15 | Created on Thu, 11/11/2010 - 11:16</div>
+-->
+
+<!--
+<div id="description">
+<p>QuakeR - a randomized Quake.  Options at end.</p></div>
+-->
+<pre>
+</pre>
+
+<h1>Best For</h1>
+<div class="best-for-list"><table></table></div><br/>
+
+<h1>Comments</h1>
+<div id="forum-comments">
+  <a id="comment-9581"></a>
+
+    <div id="comment-9581" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Thu, 11/11/2010 - 11:20
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000015698#comment-9581">#1</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/174969" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-174969.jpg" alt="Rav3n_pl&#039;s picture" title="Rav3n_pl&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 10 hours 13 min ago." title="User offline. Last seen 10 hours 13 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 06/17/2010        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/987632">Anthropic Dreams</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          Changes        </div>
+      
+      <div class="content">
+        <p>- random seed is using fractions form score, so just wiggle sidechains if you totally stuck and want to start over<br />
+- after pulling is started qStab, then if score is close to best PinkFuze (quadriple fuze form CG303 GAB III) is started</p>
+<p>All options described at end of script.</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000015698%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000015698%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x9581">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u9581">
+            <input id="u9581" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d9581">
+            <input id="d9581" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="9581"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F9581" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div><a id="comment-9604"></a>
+
+    <div id="comment-9604" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Sun, 11/14/2010 - 20:54
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000015698#comment-9604">#2</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/174969" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-174969.jpg" alt="Rav3n_pl&#039;s picture" title="Rav3n_pl&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 10 hours 13 min ago." title="User offline. Last seen 10 hours 13 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 06/17/2010        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/987632">Anthropic Dreams</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          update        </div>
+      
+      <div class="content">
+        <p>- added save recent best (sometimes it misses fractions from last pulling)<br />
+- changed output (less)<br />
+- 50 iters by default</p>
+<p>If you stuck, b4 you start it again wiggle sidechains to randomize bands order.</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000015698%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000015698%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x9604">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u9604">
+            <input id="u9604" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d9604">
+            <input id="d9604" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="9604"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F9604" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div><a id="comment-9658"></a>
+
+    <div id="comment-9658" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Sun, 11/21/2010 - 10:33
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000015698#comment-9658">#3</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/174969" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-174969.jpg" alt="Rav3n_pl&#039;s picture" title="Rav3n_pl&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 10 hours 13 min ago." title="User offline. Last seen 10 hours 13 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 06/17/2010        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/987632">Anthropic Dreams</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          .1        </div>
+      
+      <div class="content">
+        <p>fixed score issue</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000015698%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000015698%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x9658">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u9658">
+            <input id="u9658" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d9658">
+            <input id="d9658" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="9658"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F9658" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div><a id="comment-9755"></a>
+
+    <div id="comment-9755" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Mon, 12/13/2010 - 18:08
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000015698#comment-9755">#4</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/174969" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-174969.jpg" alt="Rav3n_pl&#039;s picture" title="Rav3n_pl&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 10 hours 13 min ago." title="User offline. Last seen 10 hours 13 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 06/17/2010        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/987632">Anthropic Dreams</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          2.4        </div>
+      
+      <div class="content">
+        <p>- changed qStab to be more "qFuze"<br />
+- default pulling CI is 0.9 - less deformation, faster needed loss<br />
+- code is more readable in client editor ;] (removed X-es)</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000015698%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000015698%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x9755">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u9755">
+            <input id="u9755" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d9755">
+            <input id="d9755" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="9755"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F9755" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div><a id="comment-9905"></a>
+
+    <div id="comment-9905" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Sat, 01/15/2011 - 01:50
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000015698#comment-9905">#5</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/174969" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-174969.jpg" alt="Rav3n_pl&#039;s picture" title="Rav3n_pl&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 10 hours 13 min ago." title="User offline. Last seen 10 hours 13 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 06/17/2010        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/987632">Anthropic Dreams</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          2.5        </div>
+      
+      <div class="content">
+        <p>- added "remember" of last strength of bands to start with on next pull (first pull is always form 0.1)<br />
+- added optional max band strength<br />
+- cleaned code a little (mostly in math and random)<br />
+- wiggles are always (2) shake is (1)<br />
+- lower default doFuze (from 10 to 5) - fuze is started only if we 5pts or less close to best score</p>
+<p>It should be pretty faster now :)</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000015698%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000015698%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x9905">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u9905">
+            <input id="u9905" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d9905">
+            <input id="d9905" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="9905"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F9905" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div>  </div>
+
+</td>
+<td class="macro-right" style="">
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-center"> </div>
+  <div style="clear:both; text-align: center;">
+  <div style="width: 120px; margin: auto; font-size: 9pt; font-weight: bold; margin-bottom: 10px;">
+  Want to try?
+  </div>
+<div style="margin:auto; border: 1px solid grey; width: 120px; height: 32px; background-color: grey; text-align: center; font-weight:bold; line-height:32px; color: white;">Add to Cookbook!</div>
+
+<div style="text-align: center; width: 120px; margin: auto; margin-top: 10px;">
+  To download recipes to your cookbook, you need to have the game client running.
+    
+</div>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-title">Parent</div>
+  <div style="font-size: 9pt;">
+
+<ul<li><a href="/portal/recipe/6285">QuakeR 2.1</a><br/>by <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a></li></ul>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-title">Children</div>
+  <div style="font-size: 9pt;">
+
+<ul><li><a href="/portal/recipe/15795">QuakeR 2.2 -  350 maxloss2</a>, <a href="/portal/recipe/15829">QuakeR 2.2 -  350</a>, <a href="/portal/recipe/16198">QuakeR 2.3 - 400</a>, <a href="/portal/recipe/23185">QuakeR 2.5_350</a><br/>by <a href='/portal/user/217319' title=''>queentut <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/15978">QuakeR 2.2 350  nopasaran</a>, <a href="/portal/recipe/16585">QuakeR 2.3 Garnier 250-5-1-15</a>, <a href="/portal/recipe/16686">QuakeR 2.3  Garnier 400</a>, <a href="/portal/recipe/16722">QuakeR 2.3 400 Garnier</a>, <a href="/portal/recipe/17233">QuakeR 2.3.1 150-1.5 nopasaran</a>, <a href="/portal/recipe/17278">QuakeR 2.3.1-50-1.75 Garnier</a>, <a href="/portal/recipe/17301">QuakeR 2.3.1 50-1.5 Garnier</a>, <a href="/portal/recipe/17410">QuakeR 2.3.1-200-1.75  garnier</a>, <a href="/portal/recipe/17478">QuakeR 2.3.1 50-2 garnier</a>, <a href="/portal/recipe/17482">QuakeR 2.3.1 50-1.5-2 garnier</a>, <a href="/portal/recipe/18657">QuakeR 2.4 200-1.5 Garnier</a>, <a href="/portal/recipe/18878">QuakeR 2.4 150-1.75 Garnier</a>, <a href="/portal/recipe/21468">QuakeR 2.5-200-1 Garnier</a>, <a href="/portal/recipe/22399">QuakeR 2.5-50-1.5 Garnier</a>, <a href="/portal/recipe/22701">QuakeR 2.5 garnier 200 - 10</a><br/>by <a href='/portal/user/202811' title=''>Ch&nbsp;Garnier <span class="schl schl-ev">63</span> <span class="schl schl-so">35</span></a></li><li><a href="/portal/recipe/16046">QuakeR 2.2_150_5%</a>, <a href="/portal/recipe/16073">QuakeR 2.2_150_5%</a>, <a href="/portal/recipe/16274">QuakeR 2.3_150it_1.5</a>, <a href="/portal/recipe/19642">QuakeR 2.4_250_15%</a>, <a href="/portal/recipe/19731">QuakeR 2.3_250_15%</a>, <a href="/portal/recipe/20059">QuakeR 2.4_500_10%</a><br/>by <a href='/portal/user/182227' title=''>xbytewalker <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/16115">QuakeR 2.2  Custom</a><br/>by <img src="/portal/site_files/theme/staff_icon.png" style="border: 0; vertical-align: top"/>&nbsp;<a href='/portal/user/2958' title=''>davidla <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/16281">testQuakeR 2.3</a><br/>by <a href='/portal/user/102459' title=''>CharlieFortsCon... <span class="schl schl-ev">36</span> <span class="schl schl-so">69</span></a></li><li><a href="/portal/recipe/16387">QuakeR 2.2 -vx1</a>, <a href="/portal/recipe/17363">QuakeRSB 2.3.1-350-mod</a>, <a href="/portal/recipe/19214">SCB QuakeR 2.4-MUT</a>, <a href="/portal/recipe/19869">SCB QuakeR 2.4 Random loss</a>, <a href="/portal/recipe/20698">QuakeR 2.4 RND-CI</a>, <a href="/portal/recipe/22792">SCB QuakeR 2.5.c</a><br/>by <a href='/portal/user/207721' title=''>Steve001 <span class="schl schl-ev">174</span> <span class="schl schl-so">688</span></a></li><li><a href="/portal/recipe/16401">QuakeR 2.3</a><br/>by <a href='/portal/user/19090' title=''>lanmy <span class="schl schl-ev">177</span> <span class="schl schl-so">2899</span></a></li><li><a href="/portal/recipe/16425">QuakeR 2.3.1</a>, <a href="/portal/recipe/16484">QuakeR 2.3Long</a><br/>by <a href='/portal/user/176515' title=''>mkurcinski <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/16590">QuakeR 2.3high</a>, <a href="/portal/recipe/16591">QuakeR 2.3min</a><br/>by <a href='/portal/user/215070' title=''>purpletatoe <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/16736">testQuakeR 2.3</a>, <a href="/portal/recipe/16793">testQuakeR 2.3</a><br/>by <a href='/portal/user/169981' title=''>FoldPrefect <span class="schl schl-ev">177</span> <span class="schl schl-so">6419</span></a></li><li><a href="/portal/recipe/17023">QuakeR 2.3.1</a><br/>by <a href='/portal/user/206163' title=''>Kit&nbsp;Cosby <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/17172">QuakeR 2.3.1 f</a><br/>by <a href='/portal/user/190052' title=''>prot-bustr <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/17626">QuakeR 2.2_1000</a>, <a href="/portal/recipe/17706">QuakeR 2.3.1_1000</a>, <a href="/portal/recipe/18508">QuakeR 2.3.1_1000</a>, <a href="/portal/recipe/18518">QuakeR 2.3.1_1000</a>, <a href="/portal/recipe/18520">QuakeR 2.3.1_1000</a>, <a href="/portal/recipe/18525">QuakeR 2.3.1_1000</a>, <a href="/portal/recipe/18744">QuakeR 2.4_10000</a>, <a href="/portal/recipe/18841">QuakeR 2.4_10000</a>, <a href="/portal/recipe/21823">QuakeR 2.3.1_pull</a>, <a href="/portal/recipe/21824">QuakeR 2.3.1_mod</a><br/>by <a href='/portal/user/227014' title=''>FoxyLady <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/18713">FC QuakeR 2.4</a>, <a href="/portal/recipe/18727">FC QuakeR 2.4</a>, <a href="/portal/recipe/22374">_FC QuakeR 2.5</a><br/>by <a href='/portal/user/181294' title=''>fishercat <span class="schl schl-ev">177</span> <span class="schl schl-so">106</span></a></li><li><a href="/portal/recipe/19408">QuakeR 2.4 mod</a>, <a href="/portal/recipe/22629">QuakeR 2.5 5000</a>, <a href="/portal/recipe/22634">QuakeR 2.4 5000</a>, <a href="/portal/recipe/22919">QuakeR 2.4 5000</a>, <a href="/portal/recipe/27693">QuakeR 2.4 exp5r</a>, <a href="/portal/recipe/27698">QuakeR 2.4 EXP NEW</a><br/>by <a href='/portal/user/221888' title=''>rsosborne <span class="schl schl-ev">177</span> <span class="schl schl-so">29</span></a></li><li><a href="/portal/recipe/19628">QuakeR 2.4 - forever</a><br/>by <a href='/portal/user/188827' title=''>scottyler89 <span class="schl schl-ev">177</span> <span class="schl schl-so">130</span></a></li><li><a href="/portal/recipe/19909">QuakeR 2.4</a><br/>by <a href='/portal/user/186255' title=''>DC1600 <span class="schl schl-ev">98</span> <span class="schl schl-so">1607</span></a></li><li><a href="/portal/recipe/19982">QuakeR 2.4 long</a><br/>by <a href='/portal/user/212936' title=''>bareego <span class="schl schl-ev">99</span> <span class="schl schl-so">173</span></a></li><li><a href="/portal/recipe/20011">QuakeR 2.4 1000 0.5%</a>, <a href="/portal/recipe/20231">QuakeR 2.4 1000</a>, <a href="/portal/recipe/20567">QuakeR 2.4 1000 0.25%</a>, <a href="/portal/recipe/22532">QuakeR 2.5 1000 0.5%</a>, <a href="/portal/recipe/22537">QuakeR 2.5 1000</a>, <a href="/portal/recipe/22538">QuakeR 2.5 1000</a>, <a href="/portal/recipe/22587">QuakeR 2.5 1000 0.25%</a>, <a href="/portal/recipe/22647">QuakeR 2.5 1000 0.1%</a>, <a href="/portal/recipe/22650">QuakeR 2.5 1000 0.1%</a>, <a href="/portal/recipe/28092">QuakeR 2.5 10000</a>, <a href="/portal/recipe/30332">QuakeR 2.2 10000 2</a><br/>by <a href='/portal/user/13594' title=''>Ignacio <span class="schl schl-ev">177</span> <span class="schl schl-so">62</span></a></li><li><a href="/portal/recipe/20087">QuakeR 2.4 semi-infinite</a><br/>by <a href='/portal/user/235452' title=''>Fjoelsvider <span class="schl schl-ev">177</span> <span class="schl schl-so">4794</span></a></li><li><a href="/portal/recipe/20536">QuakeR 2.4x</a>, <a href="/portal/recipe/20921">QuakeR 2.4x</a>, <a href="/portal/recipe/21943">QuakeR 2.4a1</a>, <a href="/portal/recipe/25068">QuakeR 2.51  a</a>, <a href="/portal/recipe/25386">QuakeR 2.51 a</a><br/>by <a href='/portal/user/236506' title=''>johnmitch <span class="schl schl-ev">177</span> <span class="schl schl-so">13</span></a></li><li><a href="/portal/recipe/21402">QuakeR 2.5</a><br/>by <a href='/portal/user/200415' title=''>Darkknight900 <span class="schl schl-ev">177</span> <span class="schl schl-so">1533</span></a></li><li><a href="/portal/recipe/21649">QuakeR 2.4X 5000</a><br/>by <a href='/portal/user/236923' title=''>Popijon <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/22010">QuakeR 2.5 infi mut</a>, <a href="/portal/recipe/22666">QuakeR 2.5 inf</a><br/>by <a href='/portal/user/237510' title=''>oberburgermeister <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/22582">QuakeR 2.4 am</a><br/>by <a href='/portal/user/197104' title=''>Miedzix <span class="schl schl-ev">113</span> <span class="schl schl-so">257</span></a></li><li><a href="/portal/recipe/22964">kim QuakeR 2.5</a>, <a href="/portal/recipe/24164">Kim QuakeR 2.5</a>, <a href="/portal/recipe/26134">kim QuakeR 2.51</a>, <a href="/portal/recipe/26136">kim QuakeR 2.51</a>, <a href="/portal/recipe/27468">kim QuakeR 2.51</a><br/>by <a href='/portal/user/230540' title=''>krulon <span class="schl schl-ev">35</span> <span class="schl schl-so">67</span></a></li><li><a href="/portal/recipe/23263">QuakeR 2.3 x</a>, <a href="/portal/recipe/31735">QuakeR 2.51p</a><br/>by <a href='/portal/user/79145' title=''>SKSbell <span class="schl schl-ev">177</span> <span class="schl schl-so">115</span></a></li><li><a href="/portal/recipe/24043">QuakeR 2.51</a>, <a href="/portal/recipe/24705">QuakeR 2.52</a>, <a href="/portal/recipe/25918">QuakeR 2.51</a><br/>by <a href='/portal/user/85197' title=''>phi16 <span class="schl schl-ev">12</span> <span class="schl schl-so">78</span></a></li><li><a href="/portal/recipe/24803">QuakeR 2.5 1000</a>, <a href="/portal/recipe/24824">QuakeR 2.5 OO</a><br/>by <a href='/portal/user/176780' title=''>Dj-P <span class="schl schl-ev">119</span> <span class="schl schl-so">286</span></a></li><li><a href="/portal/recipe/26376">QuakeR 2.51 - S</a><br/>by <a href='/portal/user/178179' title=''>sotk <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/26535">QuakeR  v3.0</a><br/>by <a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a></li><li><a href="/portal/recipe/26584">QuakeR 2.51.1</a>, <a href="/portal/recipe/26634">QuakeR 2.51.wld333</a>, <a href="/portal/recipe/27034">QuakeR 2.51.2</a>, <a href="/portal/recipe/27103">QuakeR 2.51.5</a>, <a href="/portal/recipe/29205">QuakeR 2.51 lite for 425</a>, <a href="/portal/recipe/29346">QuakeR 2.51 5000</a>, <a href="/portal/recipe/29656">QuakeR 2.51 thresh 5</a>, <a href="/portal/recipe/29664">QuakeR 2.51</a>, <a href="/portal/recipe/29861">QuakeR 2.51 thresh 5</a>, <a href="/portal/recipe/30933">QuakeR 2.51 thresh 1</a><br/>by <a href='/portal/user/244239' title=''>wld333 <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/26630">QuakeR  Exploration puzzle</a><br/>by <a href='/portal/user/172510' title=''></a></li><li><a href="/portal/recipe/27474">QuakeR 2.4</a><br/>by <a href='/portal/user/190318' title=''>BitSpawn <span class="schl schl-ev">25</span> <span class="schl schl-so">5</span></a></li><li><a href="/portal/recipe/27520">QuakeR 2.4 A</a><br/>by <a href='/portal/user/200887' title=''>SabineA <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/28154">QuakeR 2.51 test</a><br/>by <a href='/portal/user/193074' title=''>glaciall <span class="schl schl-ev">123</span> <span class="schl schl-so">118</span></a></li><li><a href="/portal/recipe/29940">QuakeR 2.3.1-expl</a><br/>by <a href='/portal/user/219004' title=''>foldithl1 <span class="schl schl-ev">177</span> <span class="schl schl-so">777</span></a></li><li><a href="/portal/recipe/30638">QuakeR 2.51a</a><br/>by <a href='/portal/user/62955' title=''>colsmeghead <span class="schl schl-ev">177</span> <span class="schl schl-so">8836</span></a></li><li><a href="/portal/recipe/32011">QuakeR 2.51my</a>, <a href="/portal/recipe/32014">QuakeR 2.51s</a><br/>by <a href='/portal/user/271350' title=''>kot <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/32381">QuakeR 2.51</a>, <a href="/portal/recipe/32431">QuakeR 2.51 999</a><br/>by <a href='/portal/user/320665' title=''>a&nbsp;bunny <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/32412">QuakeR 2.51 fuze</a><br/>by <a href='/portal/user/320902' title=''>cynthb <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/32528">QuakeR 2.51 - Inc</a><br/>by <a href='/portal/user/290793' title=''>Incongruous <span class="schl schl-ev">177</span> <span class="schl schl-so">53</span></a></li><li><a href="/portal/recipe/32983">QuakeR 2.51</a><br/>by <a href='/portal/user/321282' title=''>FlapjackFury <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/33114">QuakeR 2.51 (modified)</a>, <a href="/portal/recipe/33116">QuakeR 2.51 maxBS=0.7</a>, <a href="/portal/recipe/33117">QuakeR 2.51 (modified)</a><br/>by <a href='/portal/user/305224' title=''>doug.ehlert <span class="schl schl-ev">177</span> <span class="schl schl-so">18</span></a></li><li><a href="/portal/recipe/33160">my quaker</a><br/>by <a href='/portal/user/269484' title=''>brow42 <span class="schl schl-ev">144</span> <span class="schl schl-so">54</span></a></li><li><a href="/portal/recipe/33413">QuakeR 2.51 - 2</a><br/>by <a href='/portal/user/319042' title=''>tarriel <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/33429">QuakeR 2.51 pull hard</a><br/>by <a href='/portal/user/266444' title=''>pfirth <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/33629">QuakeR 2.51 - 2</a><br/>by <a href='/portal/user/320279' title=''>Gold128 <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/34036">QuakeR 2.51!</a><br/>by <a href='/portal/user/177670' title=''>Azolo <span class="schl schl-ev">177</span> <span class="schl schl-so">726</span></a></li><li><a href="/portal/recipe/34679">QuakeR 2.51 edmod</a><br/>by <a href='/portal/user/321872' title=''>Phillip&nbsp;J&nbsp;Fold <span class="schl schl-ev">177</span> <span class="schl schl-so">6419</span></a></li><li><a href="/portal/recipe/34961">QuakeR 2.51x</a><br/>by <a href='/portal/user/70250' title=''>ourtown <span class="schl schl-ev">177</span> <span class="schl schl-so">321</span></a></li><li><a href="/portal/recipe/35342">QuakeR 2.51 -myopts</a><br/>by <a href='/portal/user/363184' title=''>Unleashd <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/35952">QuakeR 2.51 - edit</a><br/>by <a href='/portal/user/370468' title=''>tokens <span class="schl schl-ev">78</span> <span class="schl schl-so">12</span></a></li><li><a href="/portal/recipe/36292">QuakeR 2.51</a><br/>by <a href='/portal/user/334675' title=''>malthreSC <span class="schl schl-ev">177</span> <span class="schl schl-so">57</span></a></li><li><a href="/portal/recipe/36802">QuakeR 2.51</a>, <a href="/portal/recipe/38769">QuakeR 2.51 - 10</a><br/>by <a href='/portal/user/361238' title=''>Close&nbsp;At&nbsp;Hand <span class="schl schl-ev">177</span> <span class="schl schl-so">64</span></a></li><li><a href="/portal/recipe/37991">QuakeR 2.51 - 500</a><br/>by <a href='/portal/user/390825' title=''>Lemon&nbsp;Friend <span class="schl schl-ev">153</span> <span class="schl schl-so">94</span></a></li><li><a href="/portal/recipe/38531">QuakeR 2.51 - 200 Loops</a><br/>by <a href='/portal/user/395791' title=''>JackWeaver <span class="schl schl-ev">48</span> <span class="schl schl-so">79</span></a></li><li><a href="/portal/recipe/38559">03 - QuakeR 2.51</a><br/>by <a href='/portal/user/37703' title=''>kitek314_pl <span class="schl schl-ev">177</span> <span class="schl schl-so">401</span></a></li><li><a href="/portal/recipe/38876">QuakeR 2.51.1</a><br/>by <a href='/portal/user/404521' title=''>Unseen98 <span class="schl schl-ev">177</span> <span class="schl schl-so">560</span></a></li><li><a href="/portal/recipe/39137">QuakeR 2.51 - harder</a>, <a href="/portal/recipe/39139">QuakeR 2.51 - more fuze</a>, <a href="/portal/recipe/39724">QuakeR 2.51 0.75</a>, <a href="/portal/recipe/40996">QuakeR 2.51 More</a><br/>by <a href='/portal/user/398030' title=''>Mark&nbsp;A <span class="schl schl-ev">177</span> <span class="schl schl-so">86</span></a></li><li><a href="/portal/recipe/40325">QuakeR 2.52</a><br/>by <a href='/portal/user/126702' title=''>OmniDude <span class="schl schl-ev">176</span> <span class="schl schl-so">233</span></a></li><li><a href="/portal/recipe/41483">QuakeR 2.51 - edit</a><br/>by <a href='/portal/user/274662' title=''>m9710797 <span class="schl schl-ev">177</span> <span class="schl schl-so">462</span></a></li></ul>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-title">Authors</div>
+  <div style="font-size: 9pt;">
+
+  <ul> 
+<li><a href='/portal/user/174969' title=''>Rav3n_pl <span class="schl schl-ev">75</span> <span class="schl schl-so">26</span></a></li>
+  </ul>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+
+
+</td></tr>
+</table>
+
+<!-- 
+<div class="links">&raquo; Array</div>-->
+
+
+</div>
+
+</div>
+</div>
+
+
+
+						    </div>
+						</div>
+						
+						<div id="footer">
+						  						</div>
+
+						</div>
+				
+		
+		<td class="spacer"></td>
+
+		<td class="border-right"></td>
+	</tr>
+	
+	<!-- internet explorer requires this empty row to ensure 7 columns -->
+	<tr>
+		<td class="border-left"></td>
+		<td class="spacer"></td>
+		<td id="column-left"></td>
+		<td class="spacer"></td>
+		<td id="column-right"></td>
+		<td class="spacer"></td>
+		<td class="border-right"></td>
+	</tr>
+	<tr>
+		<td id="footer" colspan="7"/>
+	</tr>
+</table>
+</center>
+	
+<div id="supported-by">
+Supported by:
+<a href="http://www.centerforgamescience.org/">UW Center for Game Science</a>,
+<a href="http://www.cs.washington.edu/">UW Department of Computer Science and Engineering</a>,
+<a href="http://www.bakerlab.org/">UW Baker Lab</a>,
+<a href="http://www.darpa.mil/">DARPA</a>,
+<a href="http://www.nsf.gov/">NSF</a>,
+<a href="http://www.hhmi.org/">HHMI</a>,
+<a href="http://www.microsoft.com/">Microsoft</a>, and
+<a href="http://www.adobe.com/">Adobe</a>
+</div>
+
+
+
+
+<!-- Closure -->
+<script type="text/javascript" src="/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js"></script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php"></script><form action="/portal/recipe/15698"  accept-charset="UTF-8" method="post" id="fbconnect-autoconnect-form">
+<div><input type="hidden" name="fbconnect" id="edit-fbconnect" value=""  />
+<input type="hidden" name="form_build_id" id="form-11fcbaa97c8167d6e4f756cbb1d22b8b" value="form-11fcbaa97c8167d6e4f756cbb1d22b8b"  />
+<input type="hidden" name="form_id" id="edit-fbconnect-autoconnect-form" value="fbconnect_autoconnect_form"  />
+
+</div></form>
+<script type="text/javascript" src="/portal/files/js/js_59eb52f981e7bac7d94789b8c8fadde3.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function facebook_onlogin_ready() {$("#fbconnect-autoconnect-form").submit();}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+FB.Bootstrap.requireFeatures(["Connect","XFBML"], function() {
+      FB.Facebook.init("700ac22cbb9093908fafa5fa20621f6c", "/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html"); 
+    });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-3696727-1");pageTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->
+<!-- TODO (don't need facebook yet: <div id="FB_HiddenIFrameContainer" style="display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;"></div> -->
+
+</body>
+
+</html>
