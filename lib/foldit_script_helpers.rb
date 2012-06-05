@@ -52,22 +52,13 @@ def checks_score(code)
   total_number_matches(code, score_rgx())
 end
 def checks_state(code)
-  r = foldit_check_state().select { |c|
-     code.downcase.include?(c.downcase)
-  }
-  (r.empty?) ? "-1" : r.size
+  total_number_matches(code, Regexp.new(foldit_check_state().join('|'), Regexp::IGNORECASE))
 end
 def checks_protein(code)
-  r = foldit_check_protein().select { |c|
-    code.downcase.include?(c.downcase)
-  }
-  (r.empty?) ? "-1" : r.size
+  total_number_matches(code, Regexp.new(foldit_check_protein().join('|'), Regexp::IGNORECASE))
 end
 def reverts_progress(code)
-  r = foldit_check_revert().select { |c|
-    code.downcase.include?(c.downcase)
-}
-  (r.empty?) ? "-1" : r.size
+  total_number_matches(code, Regexp.new(foldit_check_revert().join('|'), Regexp::IGNORECASE))
 end
 def profile_builtins(code)
   d = {}
