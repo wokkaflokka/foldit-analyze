@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'lib/foldit_script_helpers'
+require "#{Dir.getwd}/lib/foldit_script_helpers"
 
 def process_script_file(code)
   FolditScript.new(
