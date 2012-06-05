@@ -31,11 +31,15 @@ end
 def glob_rating_data(html)
   data = {}
   search_with_scope(html, '#rating') do |context|
-    if context.inner_text.match(/Used (\d+) times with an average impact of (-?)(\d+) points/i)
-      data['usage']  = $0
-      data['points'] = ($1 =~ /-/) ? "-#{$2}" : $2
+    if context.inner_text.match(/Used (\d+) times/i)
+      data['usage']  = $1
     else
-      data['usage'] = data['points'] = -1
+      data['usage'] = data['points'] = "-1"
+    end
+    if context.inner_text.match(/average impact of (-?)(\d+?) points/i)
+      data['points'] = ($1 =~ /-/) ? "-#{$2}" : $1
+    else
+      data['points'] = "NODATA"
     end
     {'avg' => '.average-rating','votes' => '.total-votes' }.each do |key, elem|
       search_with_scope(context, elem) do |subcontext|
@@ -87,9 +91,18 @@ def glob_human_data(html)
   data
 end
 
+def scrape_recipe_name(html)
+  name = ''
+  search_with_scope(html,'.macro-left') do |context|
+    name = context.search('.node-name').first.inner_text.strip
+  end
+  name
+end
+
 def log_processing_results(data)
   File.open(data[:out],'a') do |f|
     f.write("------------------------------------------------\n")
+    f.write("Recipe: #{data[:name].inspect}\n")
     f.write("Rating: #{data[:rating].inspect}\n")
     f.write("Context: #{data[:aux].inspect}\n")
     f.write("Expressed: #{data[:human].inspect}\n")
@@ -97,7 +110,7 @@ def log_processing_results(data)
   end
 end
 
-FILES_DIR  = ARGV[0]
+FILES_DIR  = ARGV[0] 
 OUTPUT_LOG = ARGV[1] || './recipe-scan-log.log'
 exit(-1) unless File.exist?(FILES_DIR) and File.directory?(FILES_DIR)
 files = Dir.entries(FILES_DIR).map {|n| "#{FILES_DIR}/#{n}"}.reject {|f| File.directory?(f) }
@@ -105,6 +118,7 @@ files = Dir.entries(FILES_DIR).map {|n| "#{FILES_DIR}/#{n}"}.reject {|f| File.di
 
 process_html_files(files) do |html|
   log_processing_results({
+      :name   => scrape_recipe_name(html),
       :rating => glob_rating_data(html),
       :human  => glob_human_data(html),
       :aux    => glob_auxiliary_data(html),
