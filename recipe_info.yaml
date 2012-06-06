@@ -8,6 +8,156 @@
     'nid'   : '31590'
     'pid'   : '235191'
 
+'Multi-tool V9.71':
+    'parent': '0'
+    'nid'   : '2157'
+    'pid'   : '119022'
+
+'Genetic Fuse V1.7':
+    'parent': '0'
+    'nid'   : '12106'
+    'pid'   : '119022'
+
+'Structure Detector 2':
+    'parent': '0'
+    'nid'   : '2232'
+    'pid'   : '133553'
+
+'tlaloc Shakeout 3.00':
+    'parent': '0'
+    'nid'   : '8074'
+    'pid'   : '57765'
+
+'Overnight_Script':
+    'parent': '0'
+    'nid'   : '2014'
+    'pid'   : '40708'
+
+'Sheet Straightener v 0.1 - Brow42':
+    'parent': '35977'
+    'nid'   : '35990'
+    'pid'   : '269484'
+
+'Enzymatic 1.3 Protein Enhancer':
+    'parent': '0'
+    'nid'   : '2141'
+    'pid'   : '133553'
+
+'Void crusher 1.0':
+    'parent': '28726'
+    'nid'   : '37290'
+    'pid'   : '308854'
+
+'QuickMutate V4.53 Ligand':
+    'parent': '0'
+    'nid'   : '10685'
+    'pid'   : '119022'
+
+'tlaloc Gyre 4.09':
+    'parent': '0'
+    'nid'   : '41032'
+    'pid'   : '57765'
+
+'278: MC19 - SS Prediction by SAM server':
+    'parent': '2238'
+    'nid'   : '2264'
+    'pid'   : '123154'
+
+'Sidechain flipper 1.0':
+    'parent': '0'
+    'nid'   : '2509'
+    'pid'   : '3010'
+
+'Dez2Bin':
+    'parent': '0'
+    'nid'   : '9840'
+    'pid'   : '119022'
+
+'gary Bandy About v0.2':
+    'parent': '17032'
+    'nid'   : '17219'
+    'pid'   : '184419'
+
+'Tvdl Interactive void treater 1.0':
+    'parent': '0'
+    'nid'   : '37966'
+    'pid'   : '308854'
+
+'Mut&Wigg SCRIPT':
+    'parent': '0'
+    'nid'   : '1914'
+    'pid'   : '98451'
+
+'Rigid region maker':
+    'parent': '0'
+    'nid'   : '36318'
+    'pid'   : '308854'
+
+'StraightenRange V1.1':
+    'parent': '7275'
+    'nid'   : '7276'
+    'pid'   : '119022'
+
+'Fine Hard Wood Tables (free) v1.1':
+    'parent': '20143'
+    'nid'   : '21216'
+    'pid'   : '174969'
+
+'CG303 Structure Finder V2.0':
+    'parent': '0'
+    'nid'   : '13081'
+    'pid'   : '119022'
+
+'SnapShake V3.50  (modified).':
+    'parent': '2637'
+    'nid'   : '2654'
+    'pid'   : '65535'
+
+'rav3n`s stabilize 1.22':
+    'parent': '2943'
+    'nid'   : '2944'
+    'pid'   : '174969'
+
+'Scaffolding sheets V1.1':
+    'parent': '0'
+    'nid'   : '9448'
+    'pid'   : '119022'
+
+'Rav3n_pl  Hydro Puller v1':
+    'parent': '0'
+    'nid'   : '35385'
+    'pid'   : '174969'
+
+'Gary  Slowly MutateAll v0.4':
+    'parent': '12935'
+    'nid'   : '13813'
+    'pid'   : '184419'
+
+'ST - mutate':
+    'parent': '0'
+    'nid'   : '28498'
+    'pid'   : '199249'
+
+'Rav3n_pl AAB v1':
+    'parent': '0'
+    'nid'   : '14563'
+    'pid'   : '174969'
+
+'Loop rebuild 1.1':
+    'parent': '2408'
+    'nid'   : '2635'
+    'pid'   : '3010'
+
+'GAB-III V2.11':
+    'parent': '0'
+    'nid'   : '11841'
+    'pid'   : '119022'
+
+'Rav3n_pl DRW v2.5  Xploration':
+    'parent': '19637'
+    'nid'   : '26544'
+    'pid'   : '174969'
+
 'Rav3n_pl GAB v2.0.5':
     'parent': '0'
     'nid'   : '41091'
@@ -92,6 +242,21 @@
     'parent': '13923'
     'nid'   : '14267'
     'pid'   : '174969'
+
+'Brute Force Shake 0.1':
+    'parent': '0'
+    'nid'   : '28530'
+    'pid'   : '249659'
+
+'GAB-III V1.81':
+    'parent': '0'
+    'nid'   : '10814'
+    'pid'   : '119022'
+
+'Blue Fuse v1.1 - profiler':
+    'parent': '2052'
+    'nid'   : '42063'
+    'pid'   : '428255'
 
 'Rav Compress 2.2.1 for Symmetry -- Brow42':
     'parent': '41614'
