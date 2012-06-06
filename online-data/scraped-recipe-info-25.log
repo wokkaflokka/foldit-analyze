@@ -1,2 +1,808 @@
 Scaffolding sheets V1.1 =>
-{"parent"=>"", "self"=>"<!doctype HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"  xmlns:fb=\"http://www.facebook.com/2008/fbml\">\r\n\r\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t<title>Scaffolding sheets V1.1 | Foldit</title>\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<link rel=\"shortcut icon\" href=\"/portal/files/favicon.ico\" type=\"image/x-icon\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/portal/files/css/css_7860c5b7343b6d2655b1c32539a219ff.css\" />\n\t<script type=\"text/javascript\" src=\"/portal/files/js/js_eb16a6c6181cfcac4651015e8683f43d.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings, { \"basePath\": \"/portal/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Rating: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Vote saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Vote removed.\" }, \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\": 1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip\" }, \"extra_voting_forms\": { \"only_one_vote\": 1, \"login_page\": \"portal/user/login\", \"base_path\": \"/portal/\" } });\n//--><!]]>\n</script>\n</head>\r\n\r\n<body>\r\n<center>\r\n<table id=\"main-table\">\r\n\t<tr>\r\n\t\t<td id=\"header\" colspan=\"7\">\r\n\r\n\t\t\t<!-- transparent link to the main page -->\r\n\t\t\t<a href=\"/portal/\"><div style=\"float: left; width: 235px; height: 100px; cursor: pointer;\"></div></a>\r\n\r\n\t\t\t<!-- <div style=\"float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">01:41:05 GMT</div> -->\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">01:41:05 GMT</span>\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\"></span>\r\n\r\n\t\t\t<table id=\"actions\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t<!-- Want to play? <a href=\"/portal/user/register\">Register</a> to get an account &mdash; it's free. -->\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\r\n\t\t\t<table id=\"navigation\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td colspan=1></td>\r\n\t\t\t\t\t<td><a href=\"/portal/puzzles\">Puzzles</a>&nbsp;<a href=\"/comm/puzzles_rss\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Puzzles Feed\" alt=\"Puzzles Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/groups\">Groups</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/players\">Players</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/\">Home</a></td> -->\r\n\t\t\t\t\t<!--<td><div class=\"nav-link-new\"><div class=\"nav-link-new-shadow\">NEW<div class=\"nav-link-new-label\">NEW</div></div>\r\n\t\t\t\t\t<a href=\"/portal/blog\">Blog</a></div></td>-->\r\n\t\t\t\t\t<td><a href=\"/portal/recipes\">Recipes</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/contest\">Contests</a></td>\r\n\t\t\t\t<tr>\r\n\t\t\t\t</tr>\r\n\t\t\t\t\t<td><a href=\"/portal/blog\">Blog</a>&nbsp;<a href=\"/portal/blog/feed\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Blog Feed\" alt=\"Blog Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/feedback\">Feedback</a>&nbsp;</td>\r\n\t\t\t\t\t<td><a href=\"/portal/forum/5\">Forum</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/info/videos\">Videos</a></td> -->\r\n\t\t\t\t\t<td>\r\n\t\t\t\t\t\t<a href=\"http://foldit.wikia.com/\">Wiki</a>\r\n\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\t\t\t<a href=\"/portal/info/faq\">FAQ</a>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td><a href=\"/portal/info/science\">About</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/about\">Credits</a></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t\r\n\t\t</td>\r\n\t</tr>\r\n\t\r\n\t <tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\r\n\t\t\t\t\t<td id=\"column-middle\" colspan=\"3\">\r\n\t\t\t\t\t\t<div id=\"main-content-area\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"page-name\"></div><div style=\"clear: both\"></div>\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"real_tabs\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div class=\"rp-page-content\">\r\n\t\t\t\t\t\t    <div class=\"content\">\r\n\t\t\t\t\t\t\t<style>\n.fivestar-widget { text-align: left; }\n#byline {color: grey; font-size: 9pt;}\n#description { font-size: 12pt; margin-left: 24pt;}\n#rating {font-size:10pt; margin-top: 0px; padding: 2px; width: 400px;}\n#rating label {font-weight: bold; display: none;}\n#rating { font-size: 9pt !important; line-height: 1.4;}\n.panel li { margin-bottom: 6px; }\n\n</style>\n<div class=\"view-content\">\n<div id=\"node-2000009448\" class=\"node clear-block\">\n<!-- <h2>Scaffolding sheets V1.1</h2> -->\n\n<div class=\"content\">\n<table class=\"macro-main\">\n<tr><td class=\"macro-left\">\n\n<table style=\"margin-top: 15px\">\n   <span><a href=\"/portal/recipes\">Back to Recipes Homepage</a></span>\n\n   <tr>\n   <td>\n   <img src=\"/portal/site_files/theme/recipe.png\" alt=\"recipe picture\"/>\n   </td>\n   <td>\n   <div style=\"margin-left: 5px; margin-top: 10px;  font-size:10pt;\">\n\n   <div class=\"node-name\">\n   Recipe: Scaffolding sheets V1.1   </div>\n   <div style=\"font-size:10pt; margin-top: 6px; padding-left: 2px;\">\n   <span style=\"font-weight: bold; color: #666;\">Created by </span>\n   <a href='/portal/user/119022' title=''>Crashguard303 <span class=\"schl schl-ev\">166</span> <span class=\"schl schl-so\">532</span></a>   </div>\n   <div id=\"rating\">\n<div class=\"fivestar-static-form-item\"><div class=\"form-item\">\n <div class=\"fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clear-block\"><div class=\"star star-1 star-odd star-first\"><span class=\"on\">4.255815</span></div><div class=\"star star-2 star-even\"><span class=\"on\"></span></div><div class=\"star star-3 star-odd\"><span class=\"on\"></span></div><div class=\"star star-4 star-even\"><span class=\"on\"></span></div><div class=\"star star-5 star-odd star-last\"><span class=\"on\" style=\"width: 25.5815%\"></span></div></div>\n <div class=\"description\"><div class=\"fivestar-summary fivestar-summary-combo\"><span class=\"user-rating\">Your rating: <span>None</span></span> <span class=\"average-rating\">Average: <span>4.3</span></span> <span class=\"total-votes\">(<span>43</span> votes)</span></div></div>\n</div>\n</div>Used 653 times with an average impact of -8546 points.   </div>\n\n   </div>\n   </td>\n   </tr>\n</table>\n\n<h1>Profile</h1>\n\n   <table class=\"drupal-info\">\n   <tr>\n   <th>Name:</th>\n   <td>Scaffolding sheets V1.1</td>\n   </tr>\n   <tr>\n   <th>ID:</th>\n   <td>9448</td>\n   </tr>\n   <tr>\n   <th>Created on:</th>\n   <td>\nFri, 08/27/2010 - 07:52   </td>\n   </tr>\n   <tr>\n   <th>Updated on:</th>\n   <td>Fri, 08/27/2010 - 14:52</td>\n   </tr>\n   <tr>\n   <th>Description:</th>\n   <td><p>Now with distance scaling.\nSee script for details.</p></td>\n   </tr>\n   </table>\n\n<!--\n<div id=\"byline\">\nID: 9448 | Updated on Fri, 08/27/2010 - 14:52 | Created on Fri, 8/27/2010 - 14:52</div>\n-->\n\n<!--\n<div id=\"description\">\n<p>Now with distance scaling.\nSee script for details.</p></div>\n-->\n<pre>\n</pre>\n\n<h1>Best For</h1>\n<div class=\"best-for-list\"><table></table></div><br/>\n\n<h1>Comments</h1>\n<div id=\"forum-comments\">\n  <a id=\"comment-8601\"></a>\n\n    <div id=\"comment-8601\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Fri, 08/27/2010 - 14:53\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000009448#comment-8601\">#1</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/119022' title=''>Crashguard303 <span class=\"schl schl-ev\">166</span> <span class=\"schl schl-so\">532</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/119022\" title=\"View user profile.\"><img src=\"http://fold.it:80/portal/files/pictures/picture-119022.png\" alt=\"Crashguard303&#039;s picture\" title=\"Crashguard303&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-online.png\" alt=\"User is online\" title=\"User is online\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Online</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 09/18/2009        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> <a href=\"/portal/node/364685\">SETI.Germany</a>        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          That&#039;s how the code does look like        </div>\n      \n      <div class=\"content\">\n        <p>-- Scaffolding by Crashguard303<br />\n-- Script request by Mat747<br />\n-- Included faster band removing, submitted by rav3n_pl</p>\n<p>-- Applies bands between segments,<br />\n-- if their SPATIAL and INDEX distance is inbetween an user-specified range,<br />\n-- resulting a relative position lock of these segments (scaffolding).</p>\n<p>-- NOTE:<br />\n-- At the moment, FoldIt doesn't allow us to set band lengths greater than 20.<br />\n-- We can't apply bands between adjacent segments, so these are skipped</p>\n<p>function YesNo(Bool)<br />\n local Bool=Bool<br />\n local OS<br />\n if Bool==true then<br />\n   OS=\"yes\"<br />\n  else<br />\n   OS=\"no\"<br />\n end -- if<br />\n return OS<br />\nend -- function</p>\n<p>function ss_check(SegA,SegB)</p>\n<p> local SegAss=get_ss(SegA)<br />\n local SegBss=get_ss(SegB)<br />\n local ss_flag=false</p>\n<p> if SegAss~=SegBss then -- if secondary structure is unequal<br />\n   if BandMixed==true then -- And connecting mixed ss is okay<br />\n    ss_flag=true<br />\n   end -- if BandMixeed<br />\n  else -- so if ss is equal<br />\n   if SegAss==\"L\" then -- loops found<br />\n     if BandLoops==true then<br />\n      ss_flag=true<br />\n     end -- if BandLoops<br />\n    elseif SegAss==\"H\" then -- helices found<br />\n     if BandHelices==true then<br />\n      ss_flag=true<br />\n     end -- if BandHelices<br />\n    else -- No loops and helices, so it must be sheets<br />\n     if BandSheets==true then<br />\n      ss_flag=true<br />\n     end -- if BandSheets<br />\n   end -- if SegAss is letter<br />\n end -- if SegAss unequal<br />\n return ss_flag<br />\nend -- function</p>\n<p>function DistanceCheck(k,l)<br />\n local k=k<br />\n local l=l<br />\n local Distance<br />\n local DistanceFlag=false<br />\n Distance=get_segment_distance(k,l) -- get distance<br />\n  if Distance*DistFactor&lt;=20 then<br />\n  -- The game doesn't allow bands longer than 20, so check resulting band length=distance*factor<br />\n    if Distance&gt;=MinSdist then -- above or equal minimum?<br />\n     if Distance&lt;=MaxSdist then -- below or equal maximum?<br />\n      DistanceFlag=true<br />\n     end -- if Distance<br />\n    end -- if Distance<br />\n  if InvertFlag==true then DistanceFlag=not(DistanceFlag) end -- Invert result, if desired<br />\n end -- if Distance&lt;=20<br />\n return Distance,DistanceFlag<br />\nend -- function</p>\n<p>function Scaffolding()</p>\n<p> if MinIdist&gt;MaxIdist then MinIdist,MaxIdist=MaxIdist,MinIdist end<br />\n -- If Min&gt;Max, swap them because it wouldn't make sense<br />\n if MinIdist&lt;1 then MinIdist=1 end -- if value is smaller than 1, set it to 1</p>\n<p> if MinSdist&gt;MaxSdist then MinSdist,MaxSdist=MaxSdist,MinSdist end<br />\n -- If Min&gt;Max, swap them because it wouldn't make sense<br />\n if MinSdist&lt;1 then MinSdist=1 end -- if value is smaller than 1, set it to 1</p>\n<p> if DeleteAllBands then<br />\n  local BandsToDelete=get_band_count()<br />\n  if BandsToDelete&gt;0 then<br />\n   print(\"Removing \",BandsToDelete,\" bands...\")<br />\n   for k=1,BandsToDelete do<br />\n    print(k)<br />\n    band_delete(1)<br />\n   end -- k loop<br />\n  end -- if BandsToDelete&gt;0<br />\n  print()<br />\n end -- if DeleteAllBands</p>\n<p> print(\"Connecting segments with strength: \",Strength)<br />\n print()<br />\n local OS<br />\n if InvertFlag==false then<br />\n   OS=\"\"<br />\n  else<br />\n   OS=\"out of \"<br />\n end -- if<br />\n print(\"Distance range spatial: \",OS,MinSdist,\" to \",MaxSdist)<br />\n print(\"Distance factor: \",DistFactor)<br />\n print(\"Distance range index: \",MinIdist,\" to \",MaxIdist)<br />\n print()<br />\n print(\"Connect:\")<br />\n print(\"Mixed: \",YesNo(BandMixed))<br />\n print(\"Loops: \",YesNo(BandLoops))<br />\n print(\"Helices: \",YesNo(BandHelices))<br />\n print(\"Sheets: \",YesNo(BandSheets))<br />\n print()</p>\n<p> local kFinish=NumSegs-MinIdist<br />\n local k</p>\n<p> for k=1,kFinish do -- k=first segment index to check<br />\n  local lStart=k+MinIdist<br />\n  local lFinish=k+MaxIdist<br />\n  if lFinish&gt;NumSegs then lFinish=NumSegs end<br />\n  local l</p>\n<p>  for l=lStart, lFinish do -- l=second segment index to check<br />\n   Distance,DistanceFlag=DistanceCheck(k,l) -- Get distance and distance flag<br />\n   if DistanceFlag then -- Does distance match?<br />\n    if ss_check(k,l) then -- Do secondary structures match?<br />\n     print(\"Connected \",k,\":\",l,\" distance:\",Distance) -- Show<br />\n     band_add_segment_segment(k,l) -- Connect<br />\n     local TempBandCount=get_band_count() -- Get new band amount<br />\n     Distance=Distance*DistFactor -- Change distance value by applying Factor<br />\n     band_set_length(TempBandCount,Distance) -- Change length of last band<br />\n     band_set_strength(TempBandCount,Strength) -- Change strength of last band<br />\n    end -- if ss_check<br />\n   end -- if DistanceFlag<br />\n  end -- l loop<br />\n end -- k loop<br />\nend -- function</p>\n<p>-- CHANGE PARAMETERS HERE:<br />\nNumSegs=get_segment_count() -- Get amount of segments</p>\n<p>DeleteAllBands=true -- delete all bands before script start, boolean value<br />\n                      -- If true, all existing bands are deleted before script is executed.<br />\n                      -- If false, previous bands are kept, however.</p>\n<p>MinIdist=5          -- Minimum INDEX segment distance to band, INTEGER value<br />\n                      -- Minimum value:2,<br />\n                      -- because the game doesn't connect bands if the segments are too close<br />\nMaxIdist=NumSegs-1    -- Maximum INDEX segment distance to band, INTEGER value<br />\nMinSdist=4       -- Minimum SPATIAL segment distance to band, FLOAT value<br />\nMaxSdist=6          -- Maximum SPATIAL segment distance to band, FLOAT value<br />\nDistFactor=1        -- Factor, which changes the band length according to its spatial distance, float value, &gt;=0<br />\n                               -- values&lt;1 pull segments together,<br />\n                               -- values keep them in postion,<br />\n                               -- values&gt;1 push them apart<br />\n                               -- Examples:<br />\n                                -- If a segment distance is 4, and factor is 2, the band length will be 8.<br />\n                                -- If a segment distance is 4, and factor is .5, the band length will be 2.<br />\nInvertFlag=false    -- Distance inverting, boolean value<br />\n                      -- Set this to true if you want to invert spatial distance banding<br />\n                      -- Be careful with this option, it can create many bands if MinSdist and MaxSdist are close!</p>\n<p>Strength=1 -- Band strength of the scaffold, float value</p>\n<p>BandMixed=false    -- Boolean value. If true, banding mixed secondary structures is allowed<br />\nBandLoops=false   -- Boolean value. If true, banding loop to loop is allowed<br />\nBandHelices=false -- Boolean value. If true, banding helix to helix is allowed<br />\nBandSheets=true   -- Boolean value. If true, banding sheet to sheet is allowed<br />\n   -- Note: If you change BandMixed,BandLoops,BandHelices AND BandSheets to false<br />\n   -- NO band will be applied. You will just waste some of your precious time.</p>\n<p>Scaffolding() -- Call script with these parameters</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000009448%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000009448%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x8601\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u8601\">\n            <input id=\"u8601\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d8601\">\n            <input id=\"d8601\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"8601\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F8601\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div><a id=\"comment-8625\"></a>\n\n    <div id=\"comment-8625\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Sat, 08/28/2010 - 12:58\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000009448#comment-8625\">#2</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/119022' title=''>Crashguard303 <span class=\"schl schl-ev\">166</span> <span class=\"schl schl-so\">532</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/119022\" title=\"View user profile.\"><img src=\"http://fold.it:80/portal/files/pictures/picture-119022.png\" alt=\"Crashguard303&#039;s picture\" title=\"Crashguard303&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-online.png\" alt=\"User is online\" title=\"User is online\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Online</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 09/18/2009        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> <a href=\"/portal/node/364685\">SETI.Germany</a>        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          More...        </div>\n      \n      <div class=\"content\">\n        <p>This script is most useful after alignment, to keep the puzzle from \"exploding\", which means parts flying apart when wiggle is performed.</p>\n<p>Using it, I recommend \"Strength\" values equal or below 1, to allow the segments some movement.</p>\n<p>Do your alignment, apply scaffolding, then do wiggle, and when wiggling, slowly remove some bands.</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000009448%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000009448%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x8625\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u8625\">\n            <input id=\"u8625\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d8625\">\n            <input id=\"d8625\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"8625\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F8625\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div><a id=\"comment-9495\"></a>\n\n    <div id=\"comment-9495\" class=\"forum-post  clear-block\">\n\n  <div class=\"post-info clear-block\">\n    <div class=\"posted-on\">\n      Mon, 11/01/2010 - 20:00\n          </div>\n\n          <span class=\"post-num\"><a href=\"/portal/node/2000009448#comment-9495\">#3</a> </span>\n      </div>\n\n  <div class=\"forum-post-wrapper\">\n\n    <div class=\"forum-post-panel-sub\">\n      \n<div class=\"author-pane\">\n <div class=\"author-pane-inner\">\n    <div class=\"author-pane-name-status author-pane-section\">\n      <div class=\"author-pane-line author-name\"> <a href='/portal/user/199249' title=''>Seagat2011 <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a> </div>\n\n      \n              <div class=\"picture\">\n  <a href=\"/portal/user/199249\" title=\"View user profile.\"><img src=\"http://fold.it:80/portal/files/pictures/picture-199249.gif\" alt=\"Seagat2011&#039;s picture\" title=\"Seagat2011&#039;s picture\"  /></a></div>\n      \n      <div class=\"author-pane-line author-pane-online\">\n        <span class=\"author-pane-online-icon\"><img src=\"/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png\" alt=\"User offline. Last seen 25 weeks 1 day ago.\" title=\"User offline. Last seen 25 weeks 1 day ago.\" width=\"16\" height=\"16\" /></span>\n        <span class=\"author-pane-online-status\">Offline</span>\n      </div>\n\n            \n      \n          </div>\n\n    <div class=\"author-pane-stats author-pane-section\">\n              <div class=\"author-pane-line author-joined\">\n          <span class=\"author-pane-label\">Joined:</span> 08/24/2010        </div>\n      \n      \n      \n              <div class=\"author-pane-line author-groups\">\n          <span class=\"author-pane-label\">Groups:</span> <a href=\"/portal/node/987632\">Anthropic Dreams</a>        </div>\n          </div>\n\n    <div class=\"author-pane-admin author-pane-section\">\n      \n      \n              \n    </div>\n\n    <div class=\"author-pane-contact author-pane-section\">\n      \n      \n      \n            \n          </div>\n  </div>\n</div>\n    </div>\n\n    <div class=\"forum-post-panel-main clear-block\">\n              <div class=\"post-title\">\n          Very powerful        </div>\n      \n      <div class=\"content\">\n        <p>Very useful when using sidechain, or rebuild recipes. They prevent the protein from ripping apart.</p>\n      </div>\n\n          </div>\n  </div>\n\n  <div class=\"forum-post-footer clear-block\">\n    <div class=\"forum-jump-links\">\n      <a href=\"#top\" title=\"Jump to top of page\">Top</a>\n    </div>\n\n          <div class=\"forum-post-links\">\n        <ul class=\"links forum-links\"><li class=\"first comment_forbidden\"><span class=\"comment_forbidden\"><a href=\"/portal/user/login?destination=node%2F2000009448%23comment-form\">Login</a> or <a href=\"/portal/user/register?destination=node%2F2000009448%23comment-form\">register</a> to post comments</span></li>\n<li class=\"last extra_voting_forms\"><span class=\"extra_voting_forms\">\n    <div class=\"extra_voting_forms karma_3_small\">\n    <form action=\"/portal/extra_voting_forms/handle\" method=\"post\" class=\"karma_form\" id=\"x9495\">\n      <div>\n        \n        <span class=\"karma_score\">0</span>\n        <span class=\"karma_buttons\">\n          <label class=\"karma_up_not_clicked_not_clickable\" for=\"u9495\">\n            <input id=\"u9495\" type=\"radio\" name=\"karma_vote\" value=\"1\"/>\n            <span>Up</span>\n          </label>\n          <label class=\"karma_down_not_clicked_not_clickable\" for=\"d9495\">\n            <input id=\"d9495\" type=\"radio\" name=\"karma_vote\" value=\"-1\"/>\n            <span>Down</span>\n          </label>\n          <input type=\"hidden\" name=\"oid\" value=\"9495\"/>\n          <input type=\"hidden\" name=\"otype\" value=\"c\"/>\n          <input type=\"hidden\" name=\"form_style\" value=\"3\"/>\n          <input type=\"hidden\" name=\"form_type\" value=\"form\"/>\n          <input type=\"submit\" name=\"submit\" value=\"Vote\"  disabled=\"disabled\" />\n          <input type=\"hidden\" name=\"js_destination\" value=\"node%2F9495\" />\n        </span>\n      </div>\n    </form></div></span></li>\n</ul>      </div>\n      </div>\n</div>  </div>\n\n</td>\n<td class=\"macro-right\" style=\"\">\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-center\"> </div>\n  <div style=\"clear:both; text-align: center;\">\n  <div style=\"width: 120px; margin: auto; font-size: 9pt; font-weight: bold; margin-bottom: 10px;\">\n  Want to try?\n  </div>\n<div style=\"margin:auto; border: 1px solid grey; width: 120px; height: 32px; background-color: grey; text-align: center; font-weight:bold; line-height:32px; color: white;\">Add to Cookbook!</div>\n\n<div style=\"text-align: center; width: 120px; margin: auto; margin-top: 10px;\">\n  To download recipes to your cookbook, you need to have the game client running.\n    \n</div>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Parent</div>\n  <div style=\"font-size: 9pt;\">\n\n<p style=\"margin-left: 20px;\">none<p>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Children</div>\n  <div style=\"font-size: 9pt;\">\n\n<ul><li><a href=\"/portal/recipe/15095\">Scaffolding sheets V1.1 - Seagat2011</a><br/>by <a href='/portal/user/199249' title=''>Seagat2011 <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a></li><li><a href=\"/portal/recipe/24971\">Scaffolding sheets V1.1a</a><br/>by <a href='/portal/user/192195' title=''>itskimo <span class=\"schl schl-ev\">21</span> <span class=\"schl schl-so\">137</span></a></li><li><a href=\"/portal/recipe/26969\">Scaffolding helices v1.1</a>, <a href=\"/portal/recipe/28835\">Scaff sheets V1.1 keep prev</a>, <a href=\"/portal/recipe/29748\">Straighten sheets v0.1</a>, <a href=\"/portal/recipe/30129\">Scaffolding sheets V1.1</a><br/>by <a href='/portal/user/244239' title=''>wld333 <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a></li><li><a href=\"/portal/recipe/31836\">BB - Scaffolding sheets V1.1</a><br/>by <a href='/portal/user/253801' title=''>bendbob <span class=\"schl schl-ev\">52</span> <span class=\"schl schl-so\">47</span></a></li><li><a href=\"/portal/recipe/37597\">Scaffolding sheets V1.1 BEN</a><br/>by <a href='/portal/user/253218' title=''>benjy33 <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">905</span></a></li></ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" />\n  <td class=\"center\">\n  <div class=\"panel-title\">Authors</div>\n  <div style=\"font-size: 9pt;\">\n\n  <ul> \n<li><a href='/portal/user/119022' title=''>Crashguard303 <span class=\"schl schl-ev\">166</span> <span class=\"schl schl-so\">532</span></a></li>\n  </ul>\n  </div>\n  </td><td class=\"ur\"/>\n  </tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n  <tr><td class=\"ul\" /><td/><td class=\"ur\"/></tr>\n</table>\n\n\n\n</td></tr>\n</table>\n\n<!-- \n<div class=\"links\">&raquo; Array</div>-->\n\n\n</div>\n\n</div>\n</div>\n\n\n\n\t\t\t\t\t\t    </div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"footer\">\r\n\t\t\t\t\t\t  \t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t\r\n\t<!-- internet explorer requires this empty row to ensure 7 columns -->\r\n\t<tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-right\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td id=\"footer\" colspan=\"7\"/>\r\n\t</tr>\r\n</table>\r\n</center>\r\n\t\r\n<div id=\"supported-by\">\r\nSupported by:\r\n<a href=\"http://www.centerforgamescience.org/\">UW Center for Game Science</a>,\r\n<a href=\"http://www.cs.washington.edu/\">UW Department of Computer Science and Engineering</a>,\r\n<a href=\"http://www.bakerlab.org/\">UW Baker Lab</a>,\r\n<a href=\"http://www.darpa.mil/\">DARPA</a>,\r\n<a href=\"http://www.nsf.gov/\">NSF</a>,\r\n<a href=\"http://www.hhmi.org/\">HHMI</a>,\r\n<a href=\"http://www.microsoft.com/\">Microsoft</a>, and\r\n<a href=\"http://www.adobe.com/\">Adobe</a>\r\n</div>\r\n\r\n\r\n\r\n\r\n<!-- Closure -->\r\n<script type=\"text/javascript\" src=\"/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js\"></script>\r\n<script type=\"text/javascript\" src=\"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php\"></script><form action=\"/portal/recipe/9448\"  accept-charset=\"UTF-8\" method=\"post\" id=\"fbconnect-autoconnect-form\">\n<div><input type=\"hidden\" name=\"fbconnect\" id=\"edit-fbconnect\" value=\"\"  />\n<input type=\"hidden\" name=\"form_build_id\" id=\"form-06ef8951d9376525eaaabd957374d642\" value=\"form-06ef8951d9376525eaaabd957374d642\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-fbconnect-autoconnect-form\" value=\"fbconnect_autoconnect_form\"  />\n\n</div></form>\n<script type=\"text/javascript\" src=\"/portal/files/js/js_43b90317614662e03797a4e9513d72c4.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nfunction facebook_onlogin_ready() {$(\"#fbconnect-autoconnect-form\").submit();}\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nFB.Bootstrap.requireFeatures([\"Connect\",\"XFBML\"], function() {\n      FB.Facebook.init(\"700ac22cbb9093908fafa5fa20621f6c\", \"/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html\"); \n    });\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\ntry{var pageTracker = _gat._getTracker(\"UA-3696727-1\");pageTracker._trackPageview();} catch(err) {}\n//--><!]]>\n</script>\n<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->\r\n<!-- TODO (don't need facebook yet: <div id=\"FB_HiddenIFrameContainer\" style=\"display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;\"></div> -->\r\n\r\n</body>\r\n\r\n</html>\r\n", "user"=>"<!doctype HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"  xmlns:fb=\"http://www.facebook.com/2008/fbml\">\r\n\r\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t<title>Crashguard303 | Foldit</title>\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<link rel=\"shortcut icon\" href=\"/portal/files/favicon.ico\" type=\"image/x-icon\" />\n\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/portal/files/css/css_2e3e479e0811d8ae87e0465808cdc1fd.css\" />\n\t<script type=\"text/javascript\" src=\"/portal/files/js/js_eb16a6c6181cfcac4651015e8683f43d.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings, { \"basePath\": \"/portal/\", \"fivestar\": { \"titleUser\": \"Your rating: \", \"titleAverage\": \"Rating: \", \"feedbackSavingVote\": \"Saving your vote...\", \"feedbackVoteSaved\": \"Vote saved.\", \"feedbackDeletingVote\": \"Deleting your vote...\", \"feedbackVoteDeleted\": \"Vote removed.\" }, \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\": 1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip\" }, \"extra_voting_forms\": { \"only_one_vote\": 1, \"login_page\": \"portal/user/login\", \"base_path\": \"/portal/\" } });\n//--><!]]>\n</script>\n</head>\r\n\r\n<body>\r\n<center>\r\n<table id=\"main-table\">\r\n\t<tr>\r\n\t\t<td id=\"header\" colspan=\"7\">\r\n\r\n\t\t\t<!-- transparent link to the main page -->\r\n\t\t\t<a href=\"/portal/\"><div style=\"float: left; width: 235px; height: 100px; cursor: pointer;\"></div></a>\r\n\r\n\t\t\t<!-- <div style=\"float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">01:40:12 GMT</div> -->\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\">01:40:12 GMT</span>\r\n\t\t\t<span style=\"float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;\" id=\"foldit_gmt_clock\"></span>\r\n\r\n\t\t\t<table id=\"actions\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t<!-- Want to play? <a href=\"/portal/user/register\">Register</a> to get an account &mdash; it's free. -->\r\n\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\r\n\t\t\t<table id=\"navigation\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td colspan=1></td>\r\n\t\t\t\t\t<td><a href=\"/portal/puzzles\">Puzzles</a>&nbsp;<a href=\"/comm/puzzles_rss\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Puzzles Feed\" alt=\"Puzzles Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/groups\">Groups</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/players\">Players</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/\">Home</a></td> -->\r\n\t\t\t\t\t<!--<td><div class=\"nav-link-new\"><div class=\"nav-link-new-shadow\">NEW<div class=\"nav-link-new-label\">NEW</div></div>\r\n\t\t\t\t\t<a href=\"/portal/blog\">Blog</a></div></td>-->\r\n\t\t\t\t\t<td><a href=\"/portal/recipes\">Recipes</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/contest\">Contests</a></td>\r\n\t\t\t\t<tr>\r\n\t\t\t\t</tr>\r\n\t\t\t\t\t<td><a href=\"/portal/blog\">Blog</a>&nbsp;<a href=\"/portal/blog/feed\"><img src=\"/portal/files/theme/feed-icon-09x09.png\" title=\"Blog Feed\" alt=\"Blog Feed\"/></a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/feedback\">Feedback</a>&nbsp;</td>\r\n\t\t\t\t\t<td><a href=\"/portal/forum/5\">Forum</a></td>\r\n\t\t\t\t\t<!-- <td><a href=\"/portal/info/videos\">Videos</a></td> -->\r\n\t\t\t\t\t<td>\r\n\t\t\t\t\t\t<a href=\"http://foldit.wikia.com/\">Wiki</a>\r\n\t\t\t\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\t\t\t<a href=\"/portal/info/faq\">FAQ</a>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td><a href=\"/portal/info/science\">About</a></td>\r\n\t\t\t\t\t<td><a href=\"/portal/about\">Credits</a></td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t\r\n\t\t</td>\r\n\t</tr>\r\n\t\r\n\t <tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\r\n\t\t\t\t\t<td id=\"column-left\">\r\n\t\t\t\t\t\t<div id=\"main-content-area\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='node'>\t<table style=\"margin-top: 15px\">\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t\t\t\t\t<td style=\"padding-right: 10px\">\r\n\t\t\t\t\t<img src=\"/portal/files/pictures/picture-119022.png\"/>\r\n\t\t\t\t</td>\r\n\t\t\t\r\n\t\t\t<td>\r\n\t\t\t\t<div class=\"node-name\">\r\n\t\t\t\t\tCrashguard303\t\t\t\t</div>\r\n\t\t\t\t<div class=\"global-score-and-rank\">\r\n\t\t\t\t\tGlobal Soloist Rank:\r\n\t\t\t\t\t<b>\r\n\t\t\t\t\t#532\t\t\t\t\t</b>\r\n\t\t\t\t\t<br/>\r\n\t\t\t\t\tGlobal Soloist Score:\r\n\t\t\t\t\t<b>\r\n\t\t\t\t\t148\t\t\t\t\t</b>\r\n\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t\t<!-- actions you can take -->\r\n\t\t\t\t<div style=\"font-size: 12;\">\r\n\t\t\t\t\t<a href=\"/portal/feedback/filter/all/author:119022 assigned:119022\">Cases</a><br />\t\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</table>\r\n\r\n\t<h1>Profile</h1>\r\n\r\n\t<table class=\"drupal-info\">\r\n\t\t<tr>\r\n\t\t\t<th>Name:</th>\r\n\t\t\t<td>Crashguard303</td>\r\n\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t<th>Location:</th>\r\n\t\t\t\t<td>M\xC3\xB6nchengladbach, NRW</td>\r\n\t\t\t</tr>\r\n\t\t\t\t<tr>\r\n\t\t\t<th>Started Folding:</th>\r\n\t\t\t<td>09/18/09</td>\r\n\t\t</tr>\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t<th>My Homepage:</th>\r\n\t\t\t\t<td><a href=\"http://www.facebook.com/profile.php?id=100001252664132\">http://www.facebook.com/profile.php?id=100001252664132</a></td>\r\n\t\t\t</tr>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t<th>About me:</th>\r\n\t\t\t\t<td>\r\n\t\t\t\t\t<p>Hi, my name is Alex, and I was craftsman for industrial electronic devices, but I will have a job (re)training for software development soon.</p>\n<p>As a long-time participant of BOINC (I started with seti@home, when BOINC wasn\xC2\xB4t even \"born\") and also Rosetta, I\xC2\xB4ve discovered this interesting piece of software.<br />\nIt is good to know that our kind of \"playing\" could help developing new medicines to fight AIDS or cancer (I've got a (benign) tumor in my head and am just recovering from Morbus Hodgkin) and prevent or minimize animal testing and development costs.</p>\n<p>Programming is a hobby of me, I started on a Commodore 64 with BASIC (and a very little bit Assembler) in the end of the 80s. Later, on different PCs it was QBASIC, some C and Tracker software like FT2.<br />\nNow it is rather VBASIC/VBA, and because of Fold.it I learned Lua by myself.</p>\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t<th>Hobbies:</th>\r\n\t\t\t\t<td>\r\n\t\t\t\t\tInternet-surfing (Wikipedia), Reiki (1st degree), Qi-Gong, listening to music (Ambient, Electronic, Gothic, 80s), reading books (SciFi, Fantasy, Eso)\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t<th>Group:</th>\r\n\t\t\t\t<td>\r\n\t\t\t\t\t<a href=\"/portal/node/364685\">\r\n\t\t\t\t\t\tSETI.Germany\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\r\n\t\r\n\t<h1>Soloist Scores</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-scores-embedded'><div class='view-content view-content-my-scores-embedded'>\r\n\t<table>\r\n\t <thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Best&nbsp;Score</th><th class=\"view-cell-header view-field-node-data-field-score-3-field-score-3-value\">Points</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead>\r\n\t\r\n\t<tbody>\r\n\t<tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992797\">566: CASP10 Target T0691</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">369</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">01:40</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992838\">568 (<150): Beginner CASP10 Refinement Puzzle: TR644</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,998</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">01:40</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992837\">568 (<15): Beginner CASP10 Refinement Puzzle: TR644</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,778</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">Yesterday</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992585\">Beginner Puzzle (<15): Anthrax Lethal Factor Protein</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">12</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,649</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">95</td><td class=\"view-field view-field-node-changed\">06/02</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992772\">563: Server models for CASP10 T0668</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">255</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">7,504</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">1</td><td class=\"view-field view-field-node-changed\">05/30</td></tr>\t</tbody></table>\r\n\t\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/119022/show_scores\">Show all &gt;</a>\r\n\t\t</div>\r\n\t\t\t</div></div>\t\r\n\r\n\t</div>\r\n\t\r\n\t<h1>Evolver Scores</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-scores-embedded'><div class='view-content view-content-my-scores-embedded'>\r\n\t<table>\r\n\t <thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Best&nbsp;Score</th><th class=\"view-cell-header view-field-node-data-field-score-3-field-score-3-value\">Points</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead>\r\n\t\r\n\t<tbody>\r\n\t<tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992718\">560: Quick CASP10 T0660 Puzzle</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">32</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,474</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">43</td><td class=\"view-field view-field-node-changed\">05/23</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/989265\">Beginner Puzzle: Headpiece Domain of Chicken Villin</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">34</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,519</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">69</td><td class=\"view-field view-field-node-changed\">02/28/11</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988503\">361: CASP9 Puzzle 14 Revisited</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">37</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,182</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">34</td><td class=\"view-field view-field-node-changed\">09/21/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988382\">357: Quest to the Native CASP9 Puzzle 2</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">26</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,373</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">44</td><td class=\"view-field view-field-node-changed\">09/05/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988353\">356: Quest to the Native CASP9 Puzzle 1</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">23</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,432</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">47</td><td class=\"view-field view-field-node-changed\">09/01/10</td></tr>\t</tbody></table>\r\n\t\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/119022/show_improver_scores\">Show all &gt;</a>\r\n\t\t</div>\r\n\t\t\t</div></div>\t\r\n\r\n\t</div>\r\n\t\r\n\t<h1>All-Hands Scores</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-scores-embedded'><div class='view-content view-content-my-scores-embedded'>\r\n\t<table>\r\n\t <thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Best&nbsp;Score</th><th class=\"view-cell-header view-field-node-data-field-score-3-field-score-3-value\">Points</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead>\r\n\t\r\n\t<tbody>\r\n\t<tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/989306\">Freestyle Design 20</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">3</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,523</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">02/28/11</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988539\">Freestyle Design 40</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">1</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,068</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">10/26/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988718\">SEAL MYOGLOBIN</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">4</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,322</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">10/21/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988218\">Freestyle Design 20</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">2</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,624</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">10/12/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988267\">Freestyle Design 500</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">-</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">3,240</td><td class=\"view-field view-field-node-data-field-score-3-field-score-3-value\">-</td><td class=\"view-field view-field-node-changed\">09/27/10</td></tr>\t</tbody></table>\r\n\t\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/119022/show_allhands_scores\">Show all &gt;</a>\r\n\t\t</div>\r\n\t\t\t</div></div>\t\r\n\r\n\t</div>\r\n\t\r\n\t<h1>Duels</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-duels-embedded'><div class='view-content view-content-my-duels-embedded'>\r\n\t<table>\r\n\t <thead><tr><th class=\"view-cell-header view-field-duel-opponent\">Opponent</th><th class=\"view-cell-header view-field-duel-puzzle\">Puzzle</th><th class=\"view-cell-header view-field-duel-state\">Result</th><th class=\"view-cell-header view-field-duel-time\">Time</th> </tr></thead>\r\n\t\r\n\t<tbody>\r\n\t<tr class=\"odd\"><td class=\"view-field view-field-duel-opponent-value\"><a href='/portal/user/117335' title=''>mat747&nbsp;too <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/421694\">Duel Puzzle 3: Metallothionein</td><td class=\"view-field view-field-node-data-field-state\">Win</td><td class=\"view-field view-field-node-data-field-time\">01/27/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-duel-opponent-value\"><a href='/portal/user/65535' title=''>mat747 <span class=\"schl schl-ev\">72</span> <span class=\"schl schl-so\">36</span></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/421696\">Duel Puzzle 5: Potassium Channel Inhibitor</td><td class=\"view-field view-field-node-data-field-state\">&mdash;</td><td class=\"view-field view-field-node-data-field-time\">01/27/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-duel-opponent-value\"><a href='/portal/user/57913' title=''>aendgraend <span class=\"schl schl-ev\">61</span> <span class=\"schl schl-so\">199</span></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/421694\">Duel Puzzle 3: Metallothionein</td><td class=\"view-field view-field-node-data-field-state\">Draw</td><td class=\"view-field view-field-node-data-field-time\">01/21/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-duel-opponent-value\"><a href='/portal/user/129894' title=''>Fupperuppel <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/421694\">Duel Puzzle 3: Metallothionein</td><td class=\"view-field view-field-node-data-field-state\">Draw</td><td class=\"view-field view-field-node-data-field-time\">01/20/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-duel-opponent-value\"><a href='/portal/user/68981' title=''>Susanne <span class=\"schl schl-ev\">60</span> <span class=\"schl schl-so\">117</span></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/421696\">Duel Puzzle 5: Potassium Channel Inhibitor</td><td class=\"view-field view-field-node-data-field-state\">Win</td><td class=\"view-field view-field-node-data-field-time\">11/17/09</td></tr>\t</tbody></table>\r\n\t\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/119022/show_duels\">Show all &gt;</a>\r\n\t\t</div>\r\n\t\t\t</div></div>\t\r\n\r\n\t</div>\r\n<h1>Contests</h1><div class=\"usernode-enclosing-div\"><div class=\"view view-my-scores-embedded\"><div class=\"view-content view-content-my-scores-embedded\"><table><thead><tr><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Contest</th><th class=\"view-cell-header view-field-node-data-field-rank-field-rank-value\">Rank</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th><th sort=\"desc\" class=\"view-cell-header view-field-node-changed\">Last&nbsp;Played</th> </tr></thead><tbody><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/\"></a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">37/59</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,873<td class=\"view-field view-field-node-changed\">07/13/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/\"></a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">65/135</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,212<td class=\"view-field view-field-node-changed\">05/10/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/987819\">Crashguard303 Script test</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">3/3</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,384<td class=\"view-field view-field-node-changed\">06/08/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/987872\">New small test</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">4/4</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,478<td class=\"view-field view-field-node-changed\">06/26/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988217\">Script test III</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">2/5</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,624<td class=\"view-field view-field-node-changed\">10/12/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988266\">ygkas</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">2/2</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">3,240<td class=\"view-field view-field-node-changed\">09/27/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988310\">HIV fight!</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">18/25</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,961<td class=\"view-field view-field-node-changed\">08/27/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988330\">One last CASP9 Target!</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">43/49</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">0<td class=\"view-field view-field-node-changed\">08/26/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988538\">Script Test IV</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">1/1</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,068<td class=\"view-field view-field-node-changed\">10/26/10</td></tr><tr class=\"even\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/988717\">Script test ligand</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">4/4</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,322<td class=\"view-field view-field-node-changed\">10/21/10</td></tr><tr class=\"odd\"><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/989305\">2011-11 small Freestyle</a></td><td class=\"view-field view-field-node-data-field-rank-field-rank-value\">3/3</td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">8,523<td class=\"view-field view-field-node-changed\">02/28/11</td></tr></tbody></table></div></div></div>\r\n\t<h1 id=\"ach\">Achievements</h1>\r\n\t\r\n\t<div class=\"usernode-enclosing-div\">\r\n\t<div class='view view-my-achievements-embedded'>\r\n\t<div class='view-content view-content-my-achievements-embedded'>\r\n\t\r\n<table class=\"drupal-table\"><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star3-green-16x16.png'></td><td style='text-align: left'>Junior Evolver<br /><em><div style='font-size: 10px'>Achieved Evolver rank 30 or better in at least 5 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star2-green-16x16.png'></td><td style='text-align: left'>Veteran Evolver<br /><em><div style='font-size: 10px'>Achieved Evolver rank 20 or better in at least 10 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/star3-blue-16x16.png'></td><td style='text-align: left'>Junior Contributor<br /><em><div style='font-size: 10px'>Achieved Allhands rank 30 or better in at least 5 puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/recipe-16x16.png'></td><td style='text-align: left'>Junior Cook<br /><em><div style='font-size: 10px'>Created 1 recipe obtaining 4 or more stars and 5 or more votes</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/recipe-16x16.png'></td><td style='text-align: left'>Veteran Cook<br /><em><div style='font-size: 10px'>Created 3 recipes obtaining 4 or more stars and 5 or more votes</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/recipe-16x16.png'></td><td style='text-align: left'>Master Cook<br /><em><div style='font-size: 10px'>Created 8 recipes obtaining 4 or more stars and 5 or more votes</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/debugger-16x16.png'></td><td style='text-align: left'>Junior Debugger<br /><em><div style='font-size: 10px'>Reported 1 bug that was fixed by the Foldit team</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/consultant3-16x16.png'></td><td style='text-align: left'>Junior Consultant<br /><em><div style='font-size: 10px'>Provided 1 feature/suggestion feedback that was implemented by the Foldit team</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-16x16.png'></td><td style='text-align: left'>Baby Steps<br /><em><div style='font-size: 10px'>Complete ten moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-yellow-16x16.png'></td><td style='text-align: left'>Step Routine<br /><em><div style='font-size: 10px'>Complete one hundred moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-green-16x16.png'></td><td style='text-align: left'>Moving Up<br /><em><div style='font-size: 10px'>Complete one thousand moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-blue-16x16.png'></td><td style='text-align: left'>Professional Mover<br /><em><div style='font-size: 10px'>Complete ten thousand moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-purple-16x16.png'></td><td style='text-align: left'>Mover and Shaker<br /><em><div style='font-size: 10px'>Complete one hundred thousand moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='even'><td align='left' width=32><img src='/portal/site_files/theme/achievements/input-gaming-plus-red-16x16.png'></td><td style='text-align: left'>Perpetual Motion Machine<br /><em><div style='font-size: 10px'>Complete one million moves</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr class='odd'><td align='left' width=32><img src='/portal/site_files/theme/achievements/beaker-1-full-16x16.png'></td><td style='text-align: left'>Sidechains<br /><em><div style='font-size: 10px'>Finish all of the 'Sidechains' intro puzzles</div></em></td><td style='text-align: right'>&nbsp;</td></tr><tr><td style='text-align: left'><br />...</td><td style='text-align: left'><br />...</td><td>&nbsp;</td></tr></table><br />\t\t<div class=\"show-all\">\r\n\t\t\t<a href=\"/portal/user/119022/show_achievements\">Show details &gt;</a>\r\n\t\t</div>\r\n\t</div>\r\n\t</div>\r\n\t</div>\t\r\n<pre></pre></div><br/>\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div id=\"footer\">\r\n\t\t\t\t\t\t  \t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</td>\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t\t\t\t<td id=\"column-right\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nGet Started: Download      </div>\n<center><table><tr><td>&nbsp;&nbsp;<a href=\"/portal/download/windows\"><img src=\"/portal/site_files/theme/dl_win.png\" alt=\"Windows\" /></a>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;<a href=\"/portal/download/osx\"><img src=\"/portal/site_files/theme/dl_osx.png\" alt=\"OSX\" /></a>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;<a href=\"/portal/download/linux\"><img src=\"/portal/site_files/theme/dl_lin.png\" alt=\"Linux\" /></a>&nbsp;&nbsp;</td></tr><tr><td><center>Windows<br>(XP/Vista/7)</center></td><td><center>OSX<br>(Intel 10.4 or later)</center></td><td><center>Linux<br>(64-bit)</center></td></tr></table></center>    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nRecommend Foldit      </div>\n<table cellspacing=\"5px\">\t<form action=\"/portal/invite\" accept-charset=\"UTF-8\" method=\"post\" id=\"invite-form\">\t<input type=\"hidden\" name=\"form_token\" id=\"edit-invite-form-form-token\" value=\"0c394399b7d7547585bbecbd321eaf3f\" />\t<input type=\"hidden\" name=\"op\" value=\"Send invite\" />\t<input type=\"hidden\" name=\"form_id\" value=\"invite_form\" />\t<tr>\t\t<td>\t\t\t<input type=\"text\" id=\"edit-email\" class=\"form-text required\" name=\"email\" size=\"18\">\t\t</td>\t\t<td>\t\t\t<input type=\"image\" name=\"op\" id=\"edit-submit\" alt=\"Send Invite\" title=\"Send Invite\" src=\"/portal/site_files/theme/send.png\">\t\t</td>\t</tr>\t</form></table>\t    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nUser login      </div>\n<form action=\"/portal/user/119022?destination=user%2F119022\"  accept-charset=\"UTF-8\" method=\"post\" id=\"user-login-form\">\n<div><div class=\"form-item\" id=\"edit-name-wrapper\">\n <label for=\"edit-name\">Username: <span class=\"form-required\" title=\"This field is required.\">*</span></label>\n <input type=\"text\" maxlength=\"60\" name=\"name\" id=\"edit-name\" size=\"15\" value=\"\" class=\"form-text required\" />\n</div>\n<div class=\"form-item\" id=\"edit-pass-wrapper\">\n <label for=\"edit-pass\">Password: <span class=\"form-required\" title=\"This field is required.\">*</span></label>\n <input type=\"password\" name=\"pass\" id=\"edit-pass\"  maxlength=\"60\"  size=\"15\"  class=\"form-text required\" />\n</div>\n<input type=\"submit\" name=\"op\" id=\"edit-submit\" value=\"Log in\"  class=\"form-submit\" />\n<div class=\"item-list\"><ul><li class=\"first\"><a href=\"/portal/user/register\" title=\"Create a new user account.\">Create new account</a></li>\n<li class=\"last\"><a href=\"/portal/user/password\" title=\"Request new password via e-mail.\">Request new password</a></li>\n</ul></div><input type=\"hidden\" name=\"form_build_id\" id=\"form-edb5f6e0b6a5489ccdddf596d8fefafe\" value=\"form-edb5f6e0b6a5489ccdddf596d8fefafe\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-user-login-block\" value=\"user_login_block\"  />\n<div class=\"item-list\"><ul><li class=\"fbconnect-button first last\">Sign in using Facebook <fb:login-button onlogin=\"facebook_onlogin_ready();\" size=\"medium\" background=\"dark\" length=\"long\">\n          </fb:login-button></li>\n</ul></div>\n</div></form>\n    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n\t\t\t\t\t\t\n<table class=\"panel\">\n  <tr>\n    <td id=\"game_pages_3t4\" class=\"ul\"/><td id=\"game_pages_3t5\" class=\"selected\"/><td id=\"game_pages_3t6\" class=\"ur\"/>\n    <td id=\"game_pages_4t4\" class=\"unselected-ul\"/><td id=\"game_pages_4t5\" class=\"unselected\"/><td id=\"game_pages_4t6\" class=\"unselected-ur\"/>\n    <td id=\"game_pages_5t4\" class=\"unselected-ul\"/><td id=\"game_pages_5t5\" class=\"unselected\"/><td id=\"game_pages_5t6\" class=\"unselected-ur\"/>\n    <td id=\"game_pages_8t4\" class=\"unselected-ul\"/><td id=\"game_pages_8t5\" class=\"unselected\"/><td id=\"game_pages_8t6\" class=\"unselected-ur\"/>\n  </tr>\n  <tr>\n    <td id=\"game_pages_3t1\"/> <td id=\"game_pages_3t2\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_3')\">Soloists</div></td> <td id=\"game_pages_3t3\"/>\n    <td id=\"game_pages_4t1\" class=\"unselected\"/> <td id=\"game_pages_4t2\" class=\"unselected\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_4')\">Evolvers</div></td> <td id=\"game_pages_4t3\" class=\"unselected\"/>\n    <td id=\"game_pages_5t1\" class=\"unselected\"/> <td id=\"game_pages_5t2\" class=\"unselected\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_5')\">Groups</div></td> <td id=\"game_pages_5t3\" class=\"unselected\"/>\n    <td id=\"game_pages_8t1\" class=\"unselected\"/> <td id=\"game_pages_8t2\" class=\"unselected\"><div class=\"panel-title\" onClick=\"rp_tab_activate('game_pages_8')\">Topics</div></td> <td id=\"game_pages_8t3\" class=\"unselected\"/>\n  </tr>\n  <tr>\n    <td/>\n    <td colspan=\"10\" class=\"center\">\n    <div id=\"rp_tab_disp\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Player</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/294275' title='Jajaboman'>Jajaboman <span class=\"schl schl-ev\">101</span> <span class=\"schl schl-so\">153</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992868\" title=\"570: CASP10 Target T0700\">570:&nbsp;CASP10&nbsp;Tar...700</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,707</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/71954' title='mimi'>mimi <span class=\"schl schl-ev\">3</span> <span class=\"schl schl-so\">11</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992848\" title=\"569: Server models for T0680\">569:&nbsp;Server&nbsp;mod...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,786</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/288912' title='frood66'>frood66 <span class=\"schl schl-ev\">94</span> <span class=\"schl schl-so\">39</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992836\" title=\"568: Beginner CASP10 Refinement Puzzle: TR644\">568:&nbsp;Beginner&nbsp;C...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,696</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/267374' title='smilingone'>smilingone <span class=\"schl schl-ev\">4</span> <span class=\"schl schl-so\">9</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992810\" title=\"567: Server models for T0678\">567:&nbsp;Server&nbsp;mod...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,938</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/40708' title='Steven Pletsch'>Steven&nbsp;Pletsch <span class=\"schl schl-ev\">165</span> <span class=\"schl schl-so\">119</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992797\" title=\"566: CASP10 Target T0691\">566:&nbsp;CASP10&nbsp;Tar...691</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,658</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/429393' title='heebus'>heebus <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992837\" title=\"568 (<15): Beginner CASP10 Refinement Puzzle: TR644\">568&nbsp;(<15):&nbsp;Begi...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,369</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/142870' title='SuperNova185'>SuperNova185 <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">721</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992838\" title=\"568 (<150): Beginner CASP10 Refinement Puzzle: TR644\">568&nbsp;(<150):&nbsp;Beg...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,624</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/players/s_all\">full</a></div></div></div><!-- TODO -->\n<!-- <div class=\"block block-game_pages\" id=\"block-game_pages-3\"> -->\n</div>\n    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td colspan=\"10\"/><td class=\"lr\"/></tr>\n</table>\n    <div id=\"game_pages_3d\" style=\"display: none;\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Player</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/294275' title='Jajaboman'>Jajaboman <span class=\"schl schl-ev\">101</span> <span class=\"schl schl-so\">153</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992868\" title=\"570: CASP10 Target T0700\">570:&nbsp;CASP10&nbsp;Tar...700</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,707</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/71954' title='mimi'>mimi <span class=\"schl schl-ev\">3</span> <span class=\"schl schl-so\">11</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992848\" title=\"569: Server models for T0680\">569:&nbsp;Server&nbsp;mod...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,786</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/288912' title='frood66'>frood66 <span class=\"schl schl-ev\">94</span> <span class=\"schl schl-so\">39</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992836\" title=\"568: Beginner CASP10 Refinement Puzzle: TR644\">568:&nbsp;Beginner&nbsp;C...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,696</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/267374' title='smilingone'>smilingone <span class=\"schl schl-ev\">4</span> <span class=\"schl schl-so\">9</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992810\" title=\"567: Server models for T0678\">567:&nbsp;Server&nbsp;mod...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,938</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/40708' title='Steven Pletsch'>Steven&nbsp;Pletsch <span class=\"schl schl-ev\">165</span> <span class=\"schl schl-so\">119</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992797\" title=\"566: CASP10 Target T0691\">566:&nbsp;CASP10&nbsp;Tar...691</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,658</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/429393' title='heebus'>heebus <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">14619</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992837\" title=\"568 (<15): Beginner CASP10 Refinement Puzzle: TR644\">568&nbsp;(<15):&nbsp;Begi...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,369</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/142870' title='SuperNova185'>SuperNova185 <span class=\"schl schl-ev\">177</span> <span class=\"schl schl-so\">721</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992838\" title=\"568 (<150): Beginner CASP10 Refinement Puzzle: TR644\">568&nbsp;(<150):&nbsp;Beg...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,624</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/players/s_all\">full</a></div></div></div></div>\n<script>rp_add_tab_key(\"game_pages_3\");</script>\n    <div id=\"game_pages_4d\" style=\"display: none;\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Player</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/278133' title=''>randomlil <span class=\"schl schl-ev\">53</span> <span class=\"schl schl-so\">33</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992848\" title=\"569: Server models for T0680\">569:&nbsp;Server&nbsp;mod...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,778</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/351679' title='ErichVonSterich'>ErichVonSterich <span class=\"schl schl-ev\">16</span> <span class=\"schl schl-so\">129</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992836\" title=\"568: Beginner CASP10 Refinement Puzzle: TR644\">568:&nbsp;Beginner&nbsp;C...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,706</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/215720' title='pauldunn'>pauldunn <span class=\"schl schl-ev\">10</span> <span class=\"schl schl-so\">2</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992810\" title=\"567: Server models for T0678\">567:&nbsp;Server&nbsp;mod...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,939</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href='/portal/user/351679' title='ErichVonSterich'>ErichVonSterich <span class=\"schl schl-ev\">16</span> <span class=\"schl schl-so\">129</span></a></a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992797\" title=\"566: CASP10 Target T0691\">566:&nbsp;CASP10&nbsp;Tar...691</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,568</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/players/e_all\">full</a></div></div></div></div>\n<script>rp_add_tab_key(\"game_pages_4\");</script>\n    <div id=\"game_pages_5d\" style=\"display: none;\"><div class=\"view view-top-players-active\">  <div class=\"view-content view-content-top-players-active\">  <table>  <thead><tr><th class=\"view-cell-header view-field-users-name\">Group</th><th class=\"view-cell-header view-field-node-data-field-puzzle-field-puzzle-nid\">Puzzle</th><th class=\"view-cell-header view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">Score</th></tr></thead>  <tbody>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/168077\" title=\"FoldIt@Netherlands\">FoldIt@Netherlands</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992868\" title=\"570: CASP10 Target T0700\">570:&nbsp;CASP10&nbsp;Tar...700</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">9,707</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/985857\" title=\"Contenders\">Contenders</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992848\" title=\"569: Server models for T0680\">569:&nbsp;Server&nbsp;mod...680</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">10,786</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/987632\" title=\"Anthropic Dreams\">Anthropic&nbsp;Dreams</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992836\" title=\"568: Beginner CASP10 Refinement Puzzle: TR644\">568:&nbsp;Beginner&nbsp;C...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,706</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/988042\" title=\"Go Science\">Go&nbsp;Science</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992810\" title=\"567: Server models for T0678\">567:&nbsp;Server&nbsp;mod...678</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,939</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/257965\" title=\"Another Hour Another Point\">Another&nbsp;Hour&nbsp;An...int</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992797\" title=\"566: CASP10 Target T0691\">566:&nbsp;CASP10&nbsp;Tar...691</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,658</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/992842\" title=\"7Monkeys\">7Monkeys</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992837\" title=\"568 (<15): Beginner CASP10 Refinement Puzzle: TR644\">568&nbsp;(<15):&nbsp;Begi...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,030</td></tr>  <tr class=\"odd\"><td class=\"view-field view-field-users-name\"><a href=\"/portal/node/989279\" title=\"NessunDorma\">NessunDorma</a></td><td class=\"view-field view-field-node-data-field-puzzle-field-puzzle-nid\"><a href=\"/portal/node/992838\" title=\"568 (<150): Beginner CASP10 Refinement Puzzle: TR644\">568&nbsp;(<150):&nbsp;Beg...644</a></td><td class=\"view-field view-field-node-data-field-user-best-score-0-field-user-best-score-0-value\">11,624</td></tr>  </tbody>  </table>  </div>  <div class=\"view-footer view-footer-top-players-active\"><div style=\"text-align: right;\"><a href=\"/portal/groups\">full</a></div></div></div></div>\n<script>rp_add_tab_key(\"game_pages_5\");</script>\n    <div id=\"game_pages_8d\" style=\"display: none;\"><div class=\"item-list\"><ul><li class=\"first\"><a href=\"/portal/node/992862\" title=\"2 comments\">Why do I love the Feedback section of the Foldit site?</a></li>\n<li><a href=\"/portal/node/992792\" title=\"5 comments\">Foldit Ownership Policy</a></li>\n<li><a href=\"/portal/node/991972\" title=\"1 comment\">Puzzle Schedule</a></li>\n<li><a href=\"/portal/node/987933\" title=\"11 comments\">CASP9 scoreboards and puzzle list</a></li>\n<li class=\"last\"><a href=\"/portal/node/992823\" title=\"1 comment\">Future non-CASP puzzles posted in devprev</a></li>\n</ul></div></div>\n<script>rp_add_tab_key(\"game_pages_8\");</script>\n\t\t\t\t\t\t<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nFacebook Fan Page      </div>\n<fb:fan profile_id=\"95793463004\" stream=\"0\" connections=\"0\" width=\"250\" height=\"62\" css=\"http://fold.it/portal/sites/all/themes/custom/adobe/facebook_fan_box.css?4\"></fb:fan>    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n<table class=\"panel\">\n  <tr><td class=\"ul\"/><td/><td class=\"ur\"/></tr>\n  <tr>\n    <td/>\n    <td class=\"center\">\n      <div class=\"panel-title\">\nTop New Users      </div>\n<ul><li><a href=\"/portal/user/429220\">hansvandenhof</a></li><li><a href=\"/portal/user/426239\">gitwut</a></li><li><a href=\"/portal/user/425396\">tamirh</a></li><li><a href=\"/portal/user/420632\">AsDawnBreaks</a></li><li><a href=\"/portal/user/408540\">Coyotee</a></li></ul>    </td>\n    <td/>\n  </tr>\n  <tr><td class=\"ll\"/><td/><td class=\"lr\"/></tr>\n</table>\n\n\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\r\n\t\t<td class=\"spacer\"></td>\r\n\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t\r\n\t<!-- internet explorer requires this empty row to ensure 7 columns -->\r\n\t<tr>\r\n\t\t<td class=\"border-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-left\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td id=\"column-right\"></td>\r\n\t\t<td class=\"spacer\"></td>\r\n\t\t<td class=\"border-right\"></td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td id=\"footer\" colspan=\"7\"/>\r\n\t</tr>\r\n</table>\r\n</center>\r\n\t\r\n<div id=\"supported-by\">\r\nSupported by:\r\n<a href=\"http://www.centerforgamescience.org/\">UW Center for Game Science</a>,\r\n<a href=\"http://www.cs.washington.edu/\">UW Department of Computer Science and Engineering</a>,\r\n<a href=\"http://www.bakerlab.org/\">UW Baker Lab</a>,\r\n<a href=\"http://www.darpa.mil/\">DARPA</a>,\r\n<a href=\"http://www.nsf.gov/\">NSF</a>,\r\n<a href=\"http://www.hhmi.org/\">HHMI</a>,\r\n<a href=\"http://www.microsoft.com/\">Microsoft</a>, and\r\n<a href=\"http://www.adobe.com/\">Adobe</a>\r\n</div>\r\n\r\n\r\n\r\n\r\n<!-- Closure -->\r\n<script type=\"text/javascript\" src=\"/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js\"></script>\r\n<script type=\"text/javascript\" src=\"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php\"></script><form action=\"/portal/user/119022\"  accept-charset=\"UTF-8\" method=\"post\" id=\"fbconnect-autoconnect-form\">\n<div><input type=\"hidden\" name=\"fbconnect\" id=\"edit-fbconnect\" value=\"\"  />\n<input type=\"hidden\" name=\"form_build_id\" id=\"form-eefe1a4b9c467b9ba13d1580ce2088b6\" value=\"form-eefe1a4b9c467b9ba13d1580ce2088b6\"  />\n<input type=\"hidden\" name=\"form_id\" id=\"edit-fbconnect-autoconnect-form\" value=\"fbconnect_autoconnect_form\"  />\n\n</div></form>\n<script type=\"text/javascript\" src=\"/portal/files/js/js_43b90317614662e03797a4e9513d72c4.js\"></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nfunction facebook_onlogin_ready() {$(\"#fbconnect-autoconnect-form\").submit();}\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nFB.Bootstrap.requireFeatures([\"Connect\",\"XFBML\"], function() {\n      FB.Facebook.init(\"700ac22cbb9093908fafa5fa20621f6c\", \"/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html\"); \n    });\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n//--><!]]>\n</script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\ntry{var pageTracker = _gat._getTracker(\"UA-3696727-1\");pageTracker._trackPageview();} catch(err) {}\n//--><!]]>\n</script>\n<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->\r\n<!-- TODO (don't need facebook yet: <div id=\"FB_HiddenIFrameContainer\" style=\"display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;\"></div> -->\r\n\r\n</body>\r\n\r\n</html>\r\n"}
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"  xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Scaffolding sheets V1.1 | Foldit</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/portal/files/favicon.ico" type="image/x-icon" />
+	<link type="text/css" rel="stylesheet" media="all" href="/portal/files/css/css_7860c5b7343b6d2655b1c32539a219ff.css" />
+	<script type="text/javascript" src="/portal/files/js/js_eb16a6c6181cfcac4651015e8683f43d.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/portal/", "fivestar": { "titleUser": "Your rating: ", "titleAverage": "Rating: ", "feedbackSavingVote": "Saving your vote...", "feedbackVoteSaved": "Vote saved.", "feedbackDeletingVote": "Deleting your vote...", "feedbackVoteDeleted": "Vote removed." }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "extra_voting_forms": { "only_one_vote": 1, "login_page": "portal/user/login", "base_path": "/portal/" } });
+//--><!]]>
+</script>
+</head>
+
+<body>
+<center>
+<table id="main-table">
+	<tr>
+		<td id="header" colspan="7">
+
+			<!-- transparent link to the main page -->
+			<a href="/portal/"><div style="float: left; width: 235px; height: 100px; cursor: pointer;"></div></a>
+
+			<!-- <div style="float: left; left: 280px; top: 20px; font-weight: bold; font-size: 9pt;" id="foldit_gmt_clock">02:39:38 GMT</div> -->
+			<span style="float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;" id="foldit_gmt_clock">02:39:38 GMT</span>
+			<span style="float: left; margin-top: 10px; font-weight: bold; font-size: 9pt;" id="foldit_gmt_clock"></span>
+
+			<table id="actions">
+				<tr>
+											<td>
+							&nbsp;
+							<!-- Want to play? <a href="/portal/user/register">Register</a> to get an account &mdash; it's free. -->
+						</td>
+									</tr>
+			</table>
+
+			<table id="navigation">
+				<tr>
+					<td colspan=1></td>
+					<td><a href="/portal/puzzles">Puzzles</a>&nbsp;<a href="/comm/puzzles_rss"><img src="/portal/files/theme/feed-icon-09x09.png" title="Puzzles Feed" alt="Puzzles Feed"/></a></td>
+					<td><a href="/portal/groups">Groups</a></td>
+					<td><a href="/portal/players">Players</a></td>
+					<!-- <td><a href="/portal/">Home</a></td> -->
+					<!--<td><div class="nav-link-new"><div class="nav-link-new-shadow">NEW<div class="nav-link-new-label">NEW</div></div>
+					<a href="/portal/blog">Blog</a></div></td>-->
+					<td><a href="/portal/recipes">Recipes</a></td>
+					<td><a href="/portal/contest">Contests</a></td>
+				<tr>
+				</tr>
+					<td><a href="/portal/blog">Blog</a>&nbsp;<a href="/portal/blog/feed"><img src="/portal/files/theme/feed-icon-09x09.png" title="Blog Feed" alt="Blog Feed"/></a></td>
+					<td><a href="/portal/feedback">Feedback</a>&nbsp;</td>
+					<td><a href="/portal/forum/5">Forum</a></td>
+					<!-- <td><a href="/portal/info/videos">Videos</a></td> -->
+					<td>
+						<a href="http://foldit.wikia.com/">Wiki</a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="/portal/info/faq">FAQ</a>
+					</td>
+					<td><a href="/portal/info/science">About</a></td>
+					<td><a href="/portal/about">Credits</a></td>
+				</tr>
+			</table>
+			
+		</td>
+	</tr>
+	
+	 <tr>
+		<td class="border-left"></td>
+
+		<td class="spacer"></td>
+
+		
+					<td id="column-middle" colspan="3">
+						<div id="main-content-area">
+							
+						<div id="page-name"></div><div style="clear: both"></div>						
+												<div class="real_tabs">
+													</div>
+						
+						<div class="rp-page-content">
+						    <div class="content">
+							<style>
+.fivestar-widget { text-align: left; }
+#byline {color: grey; font-size: 9pt;}
+#description { font-size: 12pt; margin-left: 24pt;}
+#rating {font-size:10pt; margin-top: 0px; padding: 2px; width: 400px;}
+#rating label {font-weight: bold; display: none;}
+#rating { font-size: 9pt !important; line-height: 1.4;}
+.panel li { margin-bottom: 6px; }
+
+</style>
+<div class="view-content">
+<div id="node-2000009448" class="node clear-block">
+<!-- <h2>Scaffolding sheets V1.1</h2> -->
+
+<div class="content">
+<table class="macro-main">
+<tr><td class="macro-left">
+
+<table style="margin-top: 15px">
+   <span><a href="/portal/recipes">Back to Recipes Homepage</a></span>
+
+   <tr>
+   <td>
+   <img src="/portal/site_files/theme/recipe.png" alt="recipe picture"/>
+   </td>
+   <td>
+   <div style="margin-left: 5px; margin-top: 10px;  font-size:10pt;">
+
+   <div class="node-name">
+   Recipe: Scaffolding sheets V1.1   </div>
+   <div style="font-size:10pt; margin-top: 6px; padding-left: 2px;">
+   <span style="font-weight: bold; color: #666;">Created by </span>
+   <a href='/portal/user/119022' title=''>Crashguard303 <span class="schl schl-ev">166</span> <span class="schl schl-so">532</span></a>   </div>
+   <div id="rating">
+<div class="fivestar-static-form-item"><div class="form-item">
+ <div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clear-block"><div class="star star-1 star-odd star-first"><span class="on">4.255815</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on" style="width: 25.5815%"></span></div></div>
+ <div class="description"><div class="fivestar-summary fivestar-summary-combo"><span class="user-rating">Your rating: <span>None</span></span> <span class="average-rating">Average: <span>4.3</span></span> <span class="total-votes">(<span>43</span> votes)</span></div></div>
+</div>
+</div>Used 653 times with an average impact of -8546 points.   </div>
+
+   </div>
+   </td>
+   </tr>
+</table>
+
+<h1>Profile</h1>
+
+   <table class="drupal-info">
+   <tr>
+   <th>Name:</th>
+   <td>Scaffolding sheets V1.1</td>
+   </tr>
+   <tr>
+   <th>ID:</th>
+   <td>9448</td>
+   </tr>
+   <tr>
+   <th>Created on:</th>
+   <td>
+Fri, 08/27/2010 - 07:52   </td>
+   </tr>
+   <tr>
+   <th>Updated on:</th>
+   <td>Fri, 08/27/2010 - 14:52</td>
+   </tr>
+   <tr>
+   <th>Description:</th>
+   <td><p>Now with distance scaling.
+See script for details.</p></td>
+   </tr>
+   </table>
+
+<!--
+<div id="byline">
+ID: 9448 | Updated on Fri, 08/27/2010 - 14:52 | Created on Fri, 8/27/2010 - 14:52</div>
+-->
+
+<!--
+<div id="description">
+<p>Now with distance scaling.
+See script for details.</p></div>
+-->
+<pre>
+</pre>
+
+<h1>Best For</h1>
+<div class="best-for-list"><table></table></div><br/>
+
+<h1>Comments</h1>
+<div id="forum-comments">
+  <a id="comment-8601"></a>
+
+    <div id="comment-8601" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Fri, 08/27/2010 - 14:53
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000009448#comment-8601">#1</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/119022' title=''>Crashguard303 <span class="schl schl-ev">166</span> <span class="schl schl-so">532</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/119022" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-119022.png" alt="Crashguard303&#039;s picture" title="Crashguard303&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 1 hour 1 min ago." title="User offline. Last seen 1 hour 1 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 09/18/2009        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/364685">SETI.Germany</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          That&#039;s how the code does look like        </div>
+      
+      <div class="content">
+        <p>-- Scaffolding by Crashguard303<br />
+-- Script request by Mat747<br />
+-- Included faster band removing, submitted by rav3n_pl</p>
+<p>-- Applies bands between segments,<br />
+-- if their SPATIAL and INDEX distance is inbetween an user-specified range,<br />
+-- resulting a relative position lock of these segments (scaffolding).</p>
+<p>-- NOTE:<br />
+-- At the moment, FoldIt doesn't allow us to set band lengths greater than 20.<br />
+-- We can't apply bands between adjacent segments, so these are skipped</p>
+<p>function YesNo(Bool)<br />
+ local Bool=Bool<br />
+ local OS<br />
+ if Bool==true then<br />
+   OS="yes"<br />
+  else<br />
+   OS="no"<br />
+ end -- if<br />
+ return OS<br />
+end -- function</p>
+<p>function ss_check(SegA,SegB)</p>
+<p> local SegAss=get_ss(SegA)<br />
+ local SegBss=get_ss(SegB)<br />
+ local ss_flag=false</p>
+<p> if SegAss~=SegBss then -- if secondary structure is unequal<br />
+   if BandMixed==true then -- And connecting mixed ss is okay<br />
+    ss_flag=true<br />
+   end -- if BandMixeed<br />
+  else -- so if ss is equal<br />
+   if SegAss=="L" then -- loops found<br />
+     if BandLoops==true then<br />
+      ss_flag=true<br />
+     end -- if BandLoops<br />
+    elseif SegAss=="H" then -- helices found<br />
+     if BandHelices==true then<br />
+      ss_flag=true<br />
+     end -- if BandHelices<br />
+    else -- No loops and helices, so it must be sheets<br />
+     if BandSheets==true then<br />
+      ss_flag=true<br />
+     end -- if BandSheets<br />
+   end -- if SegAss is letter<br />
+ end -- if SegAss unequal<br />
+ return ss_flag<br />
+end -- function</p>
+<p>function DistanceCheck(k,l)<br />
+ local k=k<br />
+ local l=l<br />
+ local Distance<br />
+ local DistanceFlag=false<br />
+ Distance=get_segment_distance(k,l) -- get distance<br />
+  if Distance*DistFactor&lt;=20 then<br />
+  -- The game doesn't allow bands longer than 20, so check resulting band length=distance*factor<br />
+    if Distance&gt;=MinSdist then -- above or equal minimum?<br />
+     if Distance&lt;=MaxSdist then -- below or equal maximum?<br />
+      DistanceFlag=true<br />
+     end -- if Distance<br />
+    end -- if Distance<br />
+  if InvertFlag==true then DistanceFlag=not(DistanceFlag) end -- Invert result, if desired<br />
+ end -- if Distance&lt;=20<br />
+ return Distance,DistanceFlag<br />
+end -- function</p>
+<p>function Scaffolding()</p>
+<p> if MinIdist&gt;MaxIdist then MinIdist,MaxIdist=MaxIdist,MinIdist end<br />
+ -- If Min&gt;Max, swap them because it wouldn't make sense<br />
+ if MinIdist&lt;1 then MinIdist=1 end -- if value is smaller than 1, set it to 1</p>
+<p> if MinSdist&gt;MaxSdist then MinSdist,MaxSdist=MaxSdist,MinSdist end<br />
+ -- If Min&gt;Max, swap them because it wouldn't make sense<br />
+ if MinSdist&lt;1 then MinSdist=1 end -- if value is smaller than 1, set it to 1</p>
+<p> if DeleteAllBands then<br />
+  local BandsToDelete=get_band_count()<br />
+  if BandsToDelete&gt;0 then<br />
+   print("Removing ",BandsToDelete," bands...")<br />
+   for k=1,BandsToDelete do<br />
+    print(k)<br />
+    band_delete(1)<br />
+   end -- k loop<br />
+  end -- if BandsToDelete&gt;0<br />
+  print()<br />
+ end -- if DeleteAllBands</p>
+<p> print("Connecting segments with strength: ",Strength)<br />
+ print()<br />
+ local OS<br />
+ if InvertFlag==false then<br />
+   OS=""<br />
+  else<br />
+   OS="out of "<br />
+ end -- if<br />
+ print("Distance range spatial: ",OS,MinSdist," to ",MaxSdist)<br />
+ print("Distance factor: ",DistFactor)<br />
+ print("Distance range index: ",MinIdist," to ",MaxIdist)<br />
+ print()<br />
+ print("Connect:")<br />
+ print("Mixed: ",YesNo(BandMixed))<br />
+ print("Loops: ",YesNo(BandLoops))<br />
+ print("Helices: ",YesNo(BandHelices))<br />
+ print("Sheets: ",YesNo(BandSheets))<br />
+ print()</p>
+<p> local kFinish=NumSegs-MinIdist<br />
+ local k</p>
+<p> for k=1,kFinish do -- k=first segment index to check<br />
+  local lStart=k+MinIdist<br />
+  local lFinish=k+MaxIdist<br />
+  if lFinish&gt;NumSegs then lFinish=NumSegs end<br />
+  local l</p>
+<p>  for l=lStart, lFinish do -- l=second segment index to check<br />
+   Distance,DistanceFlag=DistanceCheck(k,l) -- Get distance and distance flag<br />
+   if DistanceFlag then -- Does distance match?<br />
+    if ss_check(k,l) then -- Do secondary structures match?<br />
+     print("Connected ",k,":",l," distance:",Distance) -- Show<br />
+     band_add_segment_segment(k,l) -- Connect<br />
+     local TempBandCount=get_band_count() -- Get new band amount<br />
+     Distance=Distance*DistFactor -- Change distance value by applying Factor<br />
+     band_set_length(TempBandCount,Distance) -- Change length of last band<br />
+     band_set_strength(TempBandCount,Strength) -- Change strength of last band<br />
+    end -- if ss_check<br />
+   end -- if DistanceFlag<br />
+  end -- l loop<br />
+ end -- k loop<br />
+end -- function</p>
+<p>-- CHANGE PARAMETERS HERE:<br />
+NumSegs=get_segment_count() -- Get amount of segments</p>
+<p>DeleteAllBands=true -- delete all bands before script start, boolean value<br />
+                      -- If true, all existing bands are deleted before script is executed.<br />
+                      -- If false, previous bands are kept, however.</p>
+<p>MinIdist=5          -- Minimum INDEX segment distance to band, INTEGER value<br />
+                      -- Minimum value:2,<br />
+                      -- because the game doesn't connect bands if the segments are too close<br />
+MaxIdist=NumSegs-1    -- Maximum INDEX segment distance to band, INTEGER value<br />
+MinSdist=4       -- Minimum SPATIAL segment distance to band, FLOAT value<br />
+MaxSdist=6          -- Maximum SPATIAL segment distance to band, FLOAT value<br />
+DistFactor=1        -- Factor, which changes the band length according to its spatial distance, float value, &gt;=0<br />
+                               -- values&lt;1 pull segments together,<br />
+                               -- values keep them in postion,<br />
+                               -- values&gt;1 push them apart<br />
+                               -- Examples:<br />
+                                -- If a segment distance is 4, and factor is 2, the band length will be 8.<br />
+                                -- If a segment distance is 4, and factor is .5, the band length will be 2.<br />
+InvertFlag=false    -- Distance inverting, boolean value<br />
+                      -- Set this to true if you want to invert spatial distance banding<br />
+                      -- Be careful with this option, it can create many bands if MinSdist and MaxSdist are close!</p>
+<p>Strength=1 -- Band strength of the scaffold, float value</p>
+<p>BandMixed=false    -- Boolean value. If true, banding mixed secondary structures is allowed<br />
+BandLoops=false   -- Boolean value. If true, banding loop to loop is allowed<br />
+BandHelices=false -- Boolean value. If true, banding helix to helix is allowed<br />
+BandSheets=true   -- Boolean value. If true, banding sheet to sheet is allowed<br />
+   -- Note: If you change BandMixed,BandLoops,BandHelices AND BandSheets to false<br />
+   -- NO band will be applied. You will just waste some of your precious time.</p>
+<p>Scaffolding() -- Call script with these parameters</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000009448%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000009448%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x8601">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u8601">
+            <input id="u8601" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d8601">
+            <input id="d8601" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="8601"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F8601" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div><a id="comment-8625"></a>
+
+    <div id="comment-8625" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Sat, 08/28/2010 - 12:58
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000009448#comment-8625">#2</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/119022' title=''>Crashguard303 <span class="schl schl-ev">166</span> <span class="schl schl-so">532</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/119022" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-119022.png" alt="Crashguard303&#039;s picture" title="Crashguard303&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 1 hour 1 min ago." title="User offline. Last seen 1 hour 1 min ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 09/18/2009        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/364685">SETI.Germany</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          More...        </div>
+      
+      <div class="content">
+        <p>This script is most useful after alignment, to keep the puzzle from "exploding", which means parts flying apart when wiggle is performed.</p>
+<p>Using it, I recommend "Strength" values equal or below 1, to allow the segments some movement.</p>
+<p>Do your alignment, apply scaffolding, then do wiggle, and when wiggling, slowly remove some bands.</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000009448%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000009448%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x8625">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u8625">
+            <input id="u8625" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d8625">
+            <input id="d8625" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="8625"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F8625" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div><a id="comment-9495"></a>
+
+    <div id="comment-9495" class="forum-post  clear-block">
+
+  <div class="post-info clear-block">
+    <div class="posted-on">
+      Mon, 11/01/2010 - 20:00
+          </div>
+
+          <span class="post-num"><a href="/portal/node/2000009448#comment-9495">#3</a> </span>
+      </div>
+
+  <div class="forum-post-wrapper">
+
+    <div class="forum-post-panel-sub">
+      
+<div class="author-pane">
+ <div class="author-pane-inner">
+    <div class="author-pane-name-status author-pane-section">
+      <div class="author-pane-line author-name"> <a href='/portal/user/199249' title=''>Seagat2011 <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a> </div>
+
+      
+              <div class="picture">
+  <a href="/portal/user/199249" title="View user profile."><img src="http://fold.it:80/portal/files/pictures/picture-199249.gif" alt="Seagat2011&#039;s picture" title="Seagat2011&#039;s picture"  /></a></div>
+      
+      <div class="author-pane-line author-pane-online">
+        <span class="author-pane-online-icon"><img src="/portal/sites/all/modules/contrib/advanced_forum/styles/naked/images/user-offline.png" alt="User offline. Last seen 25 weeks 1 day ago." title="User offline. Last seen 25 weeks 1 day ago." width="16" height="16" /></span>
+        <span class="author-pane-online-status">Offline</span>
+      </div>
+
+            
+      
+          </div>
+
+    <div class="author-pane-stats author-pane-section">
+              <div class="author-pane-line author-joined">
+          <span class="author-pane-label">Joined:</span> 08/24/2010        </div>
+      
+      
+      
+              <div class="author-pane-line author-groups">
+          <span class="author-pane-label">Groups:</span> <a href="/portal/node/987632">Anthropic Dreams</a>        </div>
+          </div>
+
+    <div class="author-pane-admin author-pane-section">
+      
+      
+              
+    </div>
+
+    <div class="author-pane-contact author-pane-section">
+      
+      
+      
+            
+          </div>
+  </div>
+</div>
+    </div>
+
+    <div class="forum-post-panel-main clear-block">
+              <div class="post-title">
+          Very powerful        </div>
+      
+      <div class="content">
+        <p>Very useful when using sidechain, or rebuild recipes. They prevent the protein from ripping apart.</p>
+      </div>
+
+          </div>
+  </div>
+
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#top" title="Jump to top of page">Top</a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links forum-links"><li class="first comment_forbidden"><span class="comment_forbidden"><a href="/portal/user/login?destination=node%2F2000009448%23comment-form">Login</a> or <a href="/portal/user/register?destination=node%2F2000009448%23comment-form">register</a> to post comments</span></li>
+<li class="last extra_voting_forms"><span class="extra_voting_forms">
+    <div class="extra_voting_forms karma_3_small">
+    <form action="/portal/extra_voting_forms/handle" method="post" class="karma_form" id="x9495">
+      <div>
+        
+        <span class="karma_score">0</span>
+        <span class="karma_buttons">
+          <label class="karma_up_not_clicked_not_clickable" for="u9495">
+            <input id="u9495" type="radio" name="karma_vote" value="1"/>
+            <span>Up</span>
+          </label>
+          <label class="karma_down_not_clicked_not_clickable" for="d9495">
+            <input id="d9495" type="radio" name="karma_vote" value="-1"/>
+            <span>Down</span>
+          </label>
+          <input type="hidden" name="oid" value="9495"/>
+          <input type="hidden" name="otype" value="c"/>
+          <input type="hidden" name="form_style" value="3"/>
+          <input type="hidden" name="form_type" value="form"/>
+          <input type="submit" name="submit" value="Vote"  disabled="disabled" />
+          <input type="hidden" name="js_destination" value="node%2F9495" />
+        </span>
+      </div>
+    </form></div></span></li>
+</ul>      </div>
+      </div>
+</div>  </div>
+
+</td>
+<td class="macro-right" style="">
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-center"> </div>
+  <div style="clear:both; text-align: center;">
+  <div style="width: 120px; margin: auto; font-size: 9pt; font-weight: bold; margin-bottom: 10px;">
+  Want to try?
+  </div>
+<div style="margin:auto; border: 1px solid grey; width: 120px; height: 32px; background-color: grey; text-align: center; font-weight:bold; line-height:32px; color: white;">Add to Cookbook!</div>
+
+<div style="text-align: center; width: 120px; margin: auto; margin-top: 10px;">
+  To download recipes to your cookbook, you need to have the game client running.
+    
+</div>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-title">Parent</div>
+  <div style="font-size: 9pt;">
+
+<p style="margin-left: 20px;">none<p>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-title">Children</div>
+  <div style="font-size: 9pt;">
+
+<ul><li><a href="/portal/recipe/15095">Scaffolding sheets V1.1 - Seagat2011</a><br/>by <a href='/portal/user/199249' title=''>Seagat2011 <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/24971">Scaffolding sheets V1.1a</a><br/>by <a href='/portal/user/192195' title=''>itskimo <span class="schl schl-ev">21</span> <span class="schl schl-so">137</span></a></li><li><a href="/portal/recipe/26969">Scaffolding helices v1.1</a>, <a href="/portal/recipe/28835">Scaff sheets V1.1 keep prev</a>, <a href="/portal/recipe/29748">Straighten sheets v0.1</a>, <a href="/portal/recipe/30129">Scaffolding sheets V1.1</a><br/>by <a href='/portal/user/244239' title=''>wld333 <span class="schl schl-ev">177</span> <span class="schl schl-so">14619</span></a></li><li><a href="/portal/recipe/31836">BB - Scaffolding sheets V1.1</a><br/>by <a href='/portal/user/253801' title=''>bendbob <span class="schl schl-ev">52</span> <span class="schl schl-so">47</span></a></li><li><a href="/portal/recipe/37597">Scaffolding sheets V1.1 BEN</a><br/>by <a href='/portal/user/253218' title=''>benjy33 <span class="schl schl-ev">177</span> <span class="schl schl-so">905</span></a></li></ul>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+<table class="panel">
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" />
+  <td class="center">
+  <div class="panel-title">Authors</div>
+  <div style="font-size: 9pt;">
+
+  <ul> 
+<li><a href='/portal/user/119022' title=''>Crashguard303 <span class="schl schl-ev">166</span> <span class="schl schl-so">532</span></a></li>
+  </ul>
+  </div>
+  </td><td class="ur"/>
+  </tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+  <tr><td class="ul" /><td/><td class="ur"/></tr>
+</table>
+
+
+
+</td></tr>
+</table>
+
+<!-- 
+<div class="links">&raquo; Array</div>-->
+
+
+</div>
+
+</div>
+</div>
+
+
+
+						    </div>
+						</div>
+						
+						<div id="footer">
+						  						</div>
+
+						</div>
+				
+		
+		<td class="spacer"></td>
+
+		<td class="border-right"></td>
+	</tr>
+	
+	<!-- internet explorer requires this empty row to ensure 7 columns -->
+	<tr>
+		<td class="border-left"></td>
+		<td class="spacer"></td>
+		<td id="column-left"></td>
+		<td class="spacer"></td>
+		<td id="column-right"></td>
+		<td class="spacer"></td>
+		<td class="border-right"></td>
+	</tr>
+	<tr>
+		<td id="footer" colspan="7"/>
+	</tr>
+</table>
+</center>
+	
+<div id="supported-by">
+Supported by:
+<a href="http://www.centerforgamescience.org/">UW Center for Game Science</a>,
+<a href="http://www.cs.washington.edu/">UW Department of Computer Science and Engineering</a>,
+<a href="http://www.bakerlab.org/">UW Baker Lab</a>,
+<a href="http://www.darpa.mil/">DARPA</a>,
+<a href="http://www.nsf.gov/">NSF</a>,
+<a href="http://www.hhmi.org/">HHMI</a>,
+<a href="http://www.microsoft.com/">Microsoft</a>, and
+<a href="http://www.adobe.com/">Adobe</a>
+</div>
+
+
+
+
+<!-- Closure -->
+<script type="text/javascript" src="/portal/sites/all/modules/drupal-contrib/imce/imce_set_fck.js"></script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php"></script><form action="/portal/recipe/9448"  accept-charset="UTF-8" method="post" id="fbconnect-autoconnect-form">
+<div><input type="hidden" name="fbconnect" id="edit-fbconnect" value=""  />
+<input type="hidden" name="form_build_id" id="form-3b31128ae0e1b1d2d165bc25452d3619" value="form-3b31128ae0e1b1d2d165bc25452d3619"  />
+<input type="hidden" name="form_id" id="edit-fbconnect-autoconnect-form" value="fbconnect_autoconnect_form"  />
+
+</div></form>
+<script type="text/javascript" src="/portal/files/js/js_43b90317614662e03797a4e9513d72c4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function facebook_onlogin_ready() {$("#fbconnect-autoconnect-form").submit();}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+FB.Bootstrap.requireFeatures(["Connect","XFBML"], function() {
+      FB.Facebook.init("700ac22cbb9093908fafa5fa20621f6c", "/portal/sites/all/modules/contrib/fbconnect/xd_receiver.html"); 
+    });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-3696727-1");pageTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+<!-- http://wiki.developers.facebook.com/index.php/JavaScript_Client_Library -->
+<!-- TODO (don't need facebook yet: <div id="FB_HiddenIFrameContainer" style="display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;"></div> -->
+
+</body>
+
+</html>

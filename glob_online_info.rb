@@ -47,7 +47,7 @@ recipes.each do |k,v|
   u = get(player(v['pid']))
   puts "Recipe returned status: #{s.status}"
   puts "User returned status: #{u.status}"
-  analysis[k]['self'] = s.body
+  analysis[k]['recipe'] = s.body
   analysis[k]['user'] = u.body
 end
 
@@ -57,7 +57,7 @@ i = 0
 analysis.each do |k,v|
   File.open("#{INFO_STORE}/scraped-recipe-info-#{i+=1}.log", "w") do |f|
     f.puts("#{k} =>")
-    f.puts("#{v.inspect}")
+    f.puts("#{analysis[k]['recipe']}")
   end
 end
 exit(0)
